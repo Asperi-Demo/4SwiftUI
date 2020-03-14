@@ -2,14 +2,27 @@
 
 import SwiftUI
 
-struct HostingWindowEnvironment: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct HostingWindowKey: EnvironmentKey {
+
+#if canImport(UIKit)
+    typealias WrappedValue = UIWindow
+#elseif canImport(AppKit)
+    typealias WrappedValue = NSWindow
+#else
+    #error("Unsupported platform")
+#endif
+
+    typealias Value = () -> WrappedValue?
+    static let defaultValue: Self.Value = { nil }
 }
 
-struct HostingWindowEnvironment_Previews: PreviewProvider {
-    static var previews: some View {
-        HostingWindowEnvironment()
+extension EnvironmentValues {
+    var hostingWindow: HostingWindowKey.Value {
+        get {
+            return self[HostingWindowKey.self]
+        }
+        set {
+            self[HostingWindowKey.self] = newValue
+        }
     }
 }
