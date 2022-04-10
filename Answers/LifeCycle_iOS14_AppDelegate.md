@@ -6,9 +6,9 @@ ATTENTION: By using this you agree do not repost any part of this code
            on StackOverflow site. Thanks, Asperi.
 ```
 
-A: SwiftUI app life cycle iOS14 where to put AppDelegate code? (by M1X)
+Q: SwiftUI app life cycle iOS14 where to put AppDelegate code? (by M1X)
 
-Q: Here is a solution for SwiftUI life-cycle. Tested with Xcode 12b / iOS 14
+A: Here is a solution for SwiftUI life-cycle. Tested with Xcode 12b / iOS 14
 
 ```
 import SwiftUI
