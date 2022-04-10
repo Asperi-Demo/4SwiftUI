@@ -7,9 +7,9 @@ ATTENTION: By using this you agree do not repost any part of this code
            on StackOverflow site. Thanks, Asperi.
 ```
 
-A: SwiftUI HStack with wrap and dynamic height (by Ludyem)
+Q: SwiftUI HStack with wrap and dynamic height (by Ludyem)
 
-Q: Ok, here is a bit more generic & improved variant (for the solution initially introduced in [SwiftUI HStack with Wrap](https://stackoverflow.com/a/58876712/12299030))
+A: Ok, here is a bit more generic & improved variant (for the solution initially introduced in [SwiftUI HStack with Wrap](https://stackoverflow.com/a/58876712/12299030))
 
 Tested with Xcode 11.4 / iOS 13.4
 
