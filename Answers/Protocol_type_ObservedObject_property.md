@@ -6,9 +6,9 @@ ATTENTION: By using this you agree do not repost any part of this code
            on StackOverflow site. Thanks, Asperi.
 ```
 
-A: How to define a protocol as a type for a @ObservedObject property? (by M.Serag)
+Q: How to define a protocol as a type for a @ObservedObject property? (by M.Serag)
 
-Q: Wrappers and stored properties are not allowed in swift protocols and extensions, at least for now. So I would go with the following approach mixing protocols, generics and classes... (all compilable and tested with Xcode 11.2 / iOS 13.2)
+A: Wrappers and stored properties are not allowed in swift protocols and extensions, at least for now. So I would go with the following approach mixing protocols, generics and classes... (all compilable and tested with Xcode 11.2 / iOS 13.2)
 
 
     // base model protocol
