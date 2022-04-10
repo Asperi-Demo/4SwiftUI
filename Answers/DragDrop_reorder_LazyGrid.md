@@ -6,9 +6,9 @@ ATTENTION: By using this you agree do not repost any part of this code
            on StackOverflow site. Thanks, Asperi.
 ```
 
-A: SwiftUI | Using onDrag and onDrop to reorder Items within one single LazyGrid? (by Mofawaw)
+Q: SwiftUI | Using onDrag and onDrop to reorder Items within one single LazyGrid? (by Mofawaw)
 
-Q: 
+A: 
 **SwiftUI 2.0**
 
 Here is completed simple demo of possible approach (did not tune it much, `cause code growing fast as for demo). 
