@@ -6,9 +6,9 @@ ATTENTION: By using this you agree do not repost any part of this code
            on StackOverflow site. Thanks, Asperi.
 ```
 
-A: MacOS swiftUI Textfield field with Activation indicator (by Paul)
+Q: MacOS swiftUI Textfield field with Activation indicator (by Paul)
 
-Q: Find below a simple demo of possible approach - just plain styled `TextField`
+A: Find below a simple demo of possible approach - just plain styled `TextField`
 with everything else have been set up in background. The activation is tracked
 by using `FocusState` and animation of just inserted shape as indicator.
 
