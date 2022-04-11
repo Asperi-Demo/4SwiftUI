@@ -13,6 +13,8 @@ some changes in `View`.
 
 Tested with Xcode 13.3 / iOS 15.4
 
+![ezgif com-gif-maker-37](https://user-images.githubusercontent.com/62171579/162736026-68ed19db-5929-4668-a0c0-d20701d9182f.gif)
+
 ```
 struct View1: View {
 	@State private var height = CGFloat.zero     // << here !!
