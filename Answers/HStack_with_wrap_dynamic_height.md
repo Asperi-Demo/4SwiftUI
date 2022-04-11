@@ -9,7 +9,7 @@ ATTENTION: By using this you agree do not repost any part of this code
 
 Q: SwiftUI HStack with wrap and dynamic height (by Ludyem)
 
-A: Ok, here is a bit more generic & improved variant (for the solution initially introduced in [SwiftUI HStack with Wrap](https://stackoverflow.com/a/58876712/12299030))
+A: Ok, here is a bit more generic & improved variant (for the solution initially introduced in [SwiftUI HStack with Wrap](HStack_with_Wrap.md))
 
 Tested with Xcode 11.4 / iOS 13.4
 
