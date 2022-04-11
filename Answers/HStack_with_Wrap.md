@@ -10,7 +10,7 @@ Q: SwiftUI HStack with Wrap (by Flolle)
 
 A: Here is some approach of how this could be done using alignmentGuide(s). It is simplified to avoid many code post, but hope it is useful.
 
-**Update:** There is also updated & improved variant of below solution in my answer for [SwiftUI HStack with wrap and dynamic height](https://stackoverflow.com/a/62103264/12299030)
+**Update:** There is also updated & improved variant of below solution in my answer for [SwiftUI HStack with wrap and dynamic height](HStack_with_wrap_dynamic_height.md)
 
 This is the result:
 
