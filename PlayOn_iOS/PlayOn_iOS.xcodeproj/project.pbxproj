@@ -15,6 +15,7 @@
 		DE5F3697280173040030FE37 /* PlayOn_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F3696280173040030FE37 /* PlayOn_iOSUITests.swift */; };
 		DE5F3699280173040030FE37 /* PlayOn_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F3698280173040030FE37 /* PlayOn_iOSUITestsLaunchTests.swift */; };
 		DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */; };
+		DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		DE5F3696280173040030FE37 /* PlayOn_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_iOSUITests.swift; sourceTree = "<group>"; };
 		DE5F3698280173040030FE37 /* PlayOn_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlignWithCertainVStack.swift; sourceTree = "<group>"; };
+		DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRotatingLineAndLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
+				DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */,
 			);
 			path = Findings;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */,
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
