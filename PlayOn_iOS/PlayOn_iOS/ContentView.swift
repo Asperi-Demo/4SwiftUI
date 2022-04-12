@@ -8,8 +8,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Just Demo!")
-            .padding()
+        EmptyView()        // << replace with test module to run !!
     }
 }
 
