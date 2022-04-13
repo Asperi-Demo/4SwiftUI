@@ -8,7 +8,10 @@ ATTENTION: By using this you agree do not repost any part of this code
 
 Q: Multiple sheet(isPresented:) doesn't work in SwiftUI (by )
 
-A: You're case can be solved by the following (tested with Xcode 11.2)
+A: It can be only one `sheet` modifier in view hierarchy, but inside one view body it is possible
+to attach `sheet` modifier to different views. 
+
+The case in question can be solved by the following (tested with Xcode 11.2)
 
     var body: some View {
     
