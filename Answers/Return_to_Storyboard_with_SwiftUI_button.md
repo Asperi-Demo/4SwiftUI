@@ -47,7 +47,7 @@ class ChildHostingController: UIHostingController<SecondView> {
 		super.init(coder: coder, rootView: SecondView(vm: viewModel))
 		viewModel.unwind = { [weak self] in
 		   // call unwind segue created in storyboard
-			self?.performSegue(withIdentifier: "unwind_segue_identifier", sender: self)
+		   self?.performSegue(withIdentifier: "unwind_segue_identifier", sender: self)
 		}
 	}
 
