@@ -18,6 +18,7 @@
 		DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */; };
 		DE5F379C280545170030FE37 /* TestViewModelTaskBlocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */; };
 		DE76E20428073164006EDA5A /* TestUnwindFromSwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */; };
+		DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRotatingLineAndLabel.swift; sourceTree = "<group>"; };
 		DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModelTaskBlocking.swift; sourceTree = "<group>"; };
 		DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUnwindFromSwiftUIButton.swift; sourceTree = "<group>"; };
+		DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPersistentOpaqueNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */,
 				DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */,
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
+				DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */,
 			);
 			path = Findings;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
+				DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
