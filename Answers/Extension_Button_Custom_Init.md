@@ -15,19 +15,19 @@ explicitly as show below.
 
 ```
 extension Button {
-	init(_ title: LocalizedStringKey, systemImage: String, action: @escaping () -> Void) where Label == SwiftUI.Label<Text, Image> {
-		self.init(action: action, label: {
-			SwiftUI.Label(title, systemImage: systemImage)
-		})
-	}
+  init(_ title: LocalizedStringKey, systemImage: String, action: @escaping () -> Void) where Label == SwiftUI.Label<Text, Image> {
+    self.init(action: action, label: {
+      SwiftUI.Label(title, systemImage: systemImage)
+    })
+  }
 }
 ```
 
 and the usage then
 
-		Button("Button", systemImage: "person") {
-			print("pressed")
-		}
+    Button("Button", systemImage: "person") {
+      print("pressed")
+    }
 
 Tested with XCode 13.3 / iOS 15.4
 
