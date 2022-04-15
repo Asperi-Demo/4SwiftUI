@@ -8,6 +8,17 @@ ATTENTION: By using this you agree do not repost any part of this code
 
 Q: SwiftUI View not updating based on @ObservedObject (by Anton)
 
+    @ObservedObject var numberLine = NumberLine()
+
+    var body: some View {
+        VStack {
+            HStack {
+                ForEach(0 ..< numberLine.visible.count) { number in
+                    if self.numberLine.visible[number] {
+                        Text(String(number)).font(.title).padding(5)
+                    }
+                }
+
 A: With `@ObservedObject` everything's fine... let's analyse...
 
 **Iteration 1:**
