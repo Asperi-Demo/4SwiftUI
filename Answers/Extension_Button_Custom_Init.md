@@ -32,3 +32,5 @@ and the usage then
 Tested with XCode 13.3 / iOS 15.4
 
 ![Screenshot 2022-04-15 at 09 23 03](https://user-images.githubusercontent.com/62171579/163530188-0df2802b-efd2-4133-83e4-1ea116beb5e4.png)
+
+[A documented extension in code is here](https://github.com/Asperi-Demo/4SwiftUI/blob/master/PlayOn_iOS/PlayOn_iOS/Extensions/Button%2B.swift)
