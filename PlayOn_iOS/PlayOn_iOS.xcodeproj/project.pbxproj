@@ -19,6 +19,7 @@
 		DE5F379C280545170030FE37 /* TestViewModelTaskBlocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */; };
 		DE76E20428073164006EDA5A /* TestUnwindFromSwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */; };
 		DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */; };
+		DE76E20D28094B15006EDA5A /* Button+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E20C28094B15006EDA5A /* Button+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModelTaskBlocking.swift; sourceTree = "<group>"; };
 		DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUnwindFromSwiftUIButton.swift; sourceTree = "<group>"; };
 		DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPersistentOpaqueNavBar.swift; sourceTree = "<group>"; };
+		DE76E20C28094B15006EDA5A /* Button+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */,
 				DE5F367D280173030030FE37 /* ContentView.swift */,
+				DE76E20B28094AD6006EDA5A /* Extensions */,
 				DE5F36E82802AB5C0030FE37 /* Findings */,
 				DE5F367F280173040030FE37 /* Assets.xcassets */,
 				DE5F3681280173040030FE37 /* Preview Content */,
@@ -148,6 +151,14 @@
 				DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */,
 			);
 			path = Findings;
+			sourceTree = "<group>";
+		};
+		DE76E20B28094AD6006EDA5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE76E20C28094B15006EDA5A /* Button+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +298,7 @@
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
 				DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */,
+				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
