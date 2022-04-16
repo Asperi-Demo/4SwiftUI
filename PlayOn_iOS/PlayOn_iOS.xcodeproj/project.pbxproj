@@ -21,6 +21,7 @@
 		DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */; };
 		DE76E20D28094B15006EDA5A /* Button+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E20C28094B15006EDA5A /* Button+.swift */; };
 		DE76E211280AA42D006EDA5A /* TestMixedHorizontalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E210280AA42D006EDA5A /* TestMixedHorizontalLayout.swift */; };
+		DE76E213280AE709006EDA5A /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E212280AE709006EDA5A /* View+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPersistentOpaqueNavBar.swift; sourceTree = "<group>"; };
 		DE76E20C28094B15006EDA5A /* Button+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+.swift"; sourceTree = "<group>"; };
 		DE76E210280AA42D006EDA5A /* TestMixedHorizontalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMixedHorizontalLayout.swift; sourceTree = "<group>"; };
+		DE76E212280AE709006EDA5A /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				DE76E20C28094B15006EDA5A /* Button+.swift */,
+				DE76E212280AE709006EDA5A /* View+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
 				DE76E211280AA42D006EDA5A /* TestMixedHorizontalLayout.swift in Sources */,
 				DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */,
+				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

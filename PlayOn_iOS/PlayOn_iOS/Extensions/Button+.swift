@@ -6,7 +6,7 @@
 
 import SwiftUI
 
-extension Button {
+public extension Button {
 
 	/// A helper constructor for a Button with simplified interface
 	///
