@@ -18,21 +18,24 @@ Tested with XCode 13.3 / iOS 15.4
 
 
 ```
+  // Color elements below is used for simplicity of demo, because they by-design automatically fill
+  // available space, so we can exclude not important modifiers
+  
   let fixed1: CGFloat = 100
   let fixed2: CGFloat = 140
 
   var body: some View {
     HStack(spacing: 0) {
       Color.red
-        .frame(width: fixed1)
+        .frame(width: fixed1)  // << known fixed
 
       GeometryReader { gp in
         HStack (spacing: 0) {
           Color.green
-              .frame(width: (gp.size.width - fixed2) * 2/3)
+              .frame(width: (gp.size.width - fixed2) * 2/3)  // << calculable !!
           Color.blue
-            .frame(width: fixed2)
-          Color.purple
+            .frame(width: fixed2) // << known fixed
+          Color.purple   // << fills remaining
         }
       }
 
