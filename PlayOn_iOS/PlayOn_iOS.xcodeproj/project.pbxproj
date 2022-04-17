@@ -25,6 +25,8 @@
 		DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */; };
 		DE76E219280BDB35006EDA5A /* TestViewModelViaViewPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */; };
 		DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E21A280BE890006EDA5A /* TestFixedStateButtonStyle.swift */; };
+		DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */; };
+		DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetectListBeginToScroll.swift; sourceTree = "<group>"; };
 		DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModelViaViewPreference.swift; sourceTree = "<group>"; };
 		DE76E21A280BE890006EDA5A /* TestFixedStateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFixedStateButtonStyle.swift; sourceTree = "<group>"; };
+		DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollDidEndDetect.swift; sourceTree = "<group>"; };
+		DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 			children = (
 				DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */,
 				DE5F367D280173030030FE37 /* ContentView.swift */,
+				DE9EA2A2280C3187007F5ED3 /* Helpers */,
 				DE76E20B28094AD6006EDA5A /* Extensions */,
 				DE5F36E82802AB5C0030FE37 /* Findings */,
 				DE5F367F280173040030FE37 /* Assets.xcassets */,
@@ -163,6 +168,7 @@
 				DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */,
 				DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */,
 				DE76E21A280BE890006EDA5A /* TestFixedStateButtonStyle.swift */,
+				DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */,
 			);
 			path = Findings;
 			sourceTree = "<group>";
@@ -174,6 +180,14 @@
 				DE76E212280AE709006EDA5A /* View+.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DE9EA2A2280C3187007F5ED3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,10 +327,12 @@
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
+				DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */,
 				DE76E211280AA42D006EDA5A /* TestMixedHorizontalLayout.swift in Sources */,
 				DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */,
 				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
 				DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */,
+				DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */,
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
 				DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */,
 			);
