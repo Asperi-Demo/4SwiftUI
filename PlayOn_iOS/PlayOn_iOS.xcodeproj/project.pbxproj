@@ -24,6 +24,7 @@
 		DE76E213280AE709006EDA5A /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E212280AE709006EDA5A /* View+.swift */; };
 		DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */; };
 		DE76E219280BDB35006EDA5A /* TestViewModelViaViewPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */; };
+		DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E21A280BE890006EDA5A /* TestFixedStateButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		DE76E212280AE709006EDA5A /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetectListBeginToScroll.swift; sourceTree = "<group>"; };
 		DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModelViaViewPreference.swift; sourceTree = "<group>"; };
+		DE76E21A280BE890006EDA5A /* TestFixedStateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFixedStateButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				DE76E210280AA42D006EDA5A /* TestMixedHorizontalLayout.swift */,
 				DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */,
 				DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */,
+				DE76E21A280BE890006EDA5A /* TestFixedStateButtonStyle.swift */,
 			);
 			path = Findings;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
 				DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */,
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
+				DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
