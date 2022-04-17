@@ -23,6 +23,7 @@
 		DE76E211280AA42D006EDA5A /* TestMixedHorizontalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E210280AA42D006EDA5A /* TestMixedHorizontalLayout.swift */; };
 		DE76E213280AE709006EDA5A /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E212280AE709006EDA5A /* View+.swift */; };
 		DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */; };
+		DE76E219280BDB35006EDA5A /* TestViewModelViaViewPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		DE76E210280AA42D006EDA5A /* TestMixedHorizontalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMixedHorizontalLayout.swift; sourceTree = "<group>"; };
 		DE76E212280AE709006EDA5A /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetectListBeginToScroll.swift; sourceTree = "<group>"; };
+		DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModelViaViewPreference.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */,
 				DE76E210280AA42D006EDA5A /* TestMixedHorizontalLayout.swift */,
 				DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */,
+				DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */,
 			);
 			path = Findings;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5F379C280545170030FE37 /* TestViewModelTaskBlocking.swift in Sources */,
+				DE76E219280BDB35006EDA5A /* TestViewModelViaViewPreference.swift in Sources */,
 				DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */,
 				DE76E20428073164006EDA5A /* TestUnwindFromSwiftUIButton.swift in Sources */,
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
