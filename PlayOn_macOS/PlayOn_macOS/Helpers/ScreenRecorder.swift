@@ -16,16 +16,19 @@ class ScreenRecorder: NSObject {
 		self.completion = completion
 	}
 
-	func startRecording(to destination: URL) -> Bool {
+	func startRecording(to destination: URL, in rect: CGRect? = nil) -> Bool {
 		guard destination.isFileURL &&
 			!FileManager.default.fileExists(atPath: destination.path) else { return false }
 
 		let session = AVCaptureSession()
 		session.sessionPreset = .high
-		
+
 		session.beginConfiguration()
 		// for simplicity on main desplay only
 		guard let input = AVCaptureScreenInput(displayID: CGMainDisplayID()) else { return false }
+		if let cropRect = rect {
+			input.cropRect = cropRect
+		}
 		input.capturesCursor = true
 		input.capturesMouseClicks = true
 		guard session.canAddInput(input) else { return false }
