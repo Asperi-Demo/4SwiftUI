@@ -9,6 +9,9 @@ import SwiftUI
 struct ViewRectKey: PreferenceKey {
 	static var defaultValue: CGRect = .zero
 	static func reduce(value: inout CGRect, nextValue: () -> CGRect) {
-		value = nextValue()
+		let newValue = nextValue()
+		if newValue != .zero {   // always accept only concrete rects
+			value = newValue
+		}
 	}
 }

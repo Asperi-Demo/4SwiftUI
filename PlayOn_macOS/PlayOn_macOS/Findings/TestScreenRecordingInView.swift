@@ -18,22 +18,28 @@ struct TestScreenRecordingInView: View {
 	@State private var recording = false
 	@State private var viewRect = CGRect.zero
 
+	struct DemoView: View {
+		var body: some View {
+			List(0..<100) {
+				Text("Item \($0)")
+			}
+			.frame(width: 200, height: 100).border(.red)
+		}
+	}
+
 	var body: some View {
 		VStack {
-			Text("Hello, World!")
+			HStack {
+				DemoView()
+					.gettingInWindow(rect: $viewRect)   // << here !!
+				Spacer()
+			}
 			Button(recording ? "Stop" : "Start") {
 				if !recording && !validate(destinationURL) {
 					return
 				}
 				recording.toggle()
 			}
-		}
-		.frame(maxWidth: .infinity, maxHeight: .infinity)
-		.background(GeometryReader {
-			Color.clear.preference(key: ViewRectKey.self, value: $0.frame(in: .global))
-		})
-		.onPreferenceChange(ViewRectKey.self) {
-			viewRect = $0
 		}
 		.onChange(of: recording) {
 			if $0 {

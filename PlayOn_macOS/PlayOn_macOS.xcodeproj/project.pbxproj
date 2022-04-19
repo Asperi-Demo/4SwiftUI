@@ -18,6 +18,7 @@
 		DEF4B744280EA41B0023ECBE /* ScreenRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4B743280EA41B0023ECBE /* ScreenRecorder.swift */; };
 		DEF4B746280EADEA0023ECBE /* TestScreenRecordingInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4B745280EADEA0023ECBE /* TestScreenRecordingInView.swift */; };
 		DEF4B74A280F05970023ECBE /* MyPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4B749280F05970023ECBE /* MyPreferenceKeys.swift */; };
+		DEF4B74D280F14F30023ECBE /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4B74C280F14F30023ECBE /* View+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DEF4B743280EA41B0023ECBE /* ScreenRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecorder.swift; sourceTree = "<group>"; };
 		DEF4B745280EADEA0023ECBE /* TestScreenRecordingInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreenRecordingInView.swift; sourceTree = "<group>"; };
 		DEF4B749280F05970023ECBE /* MyPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPreferenceKeys.swift; sourceTree = "<group>"; };
+		DEF4B74C280F14F30023ECBE /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				DE5F36B82801CC880030FE37 /* PlayOn_macOSApp.swift */,
 				DE5F36BA2801CC880030FE37 /* ContentView.swift */,
+				DEF4B74B280F14E00023ECBE /* Extensions */,
 				DEF4B742280EA4080023ECBE /* Helpers */,
 				DE5F36E42801CE760030FE37 /* Findings */,
 				DE5F36BC2801CC890030FE37 /* Assets.xcassets */,
@@ -155,6 +158,14 @@
 				DEF4B749280F05970023ECBE /* MyPreferenceKeys.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DEF4B74B280F14E00023ECBE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DEF4B74C280F14F30023ECBE /* View+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 				DEF4B746280EADEA0023ECBE /* TestScreenRecordingInView.swift in Sources */,
 				DE5F36BB2801CC880030FE37 /* ContentView.swift in Sources */,
 				DEF4B744280EA41B0023ECBE /* ScreenRecorder.swift in Sources */,
+				DEF4B74D280F14F30023ECBE /* View+.swift in Sources */,
 				DE5F36B92801CC880030FE37 /* PlayOn_macOSApp.swift in Sources */,
 				DE5F36E62801CF280030FE37 /* TestTextFieldActivationEffect.swift in Sources */,
 			);
