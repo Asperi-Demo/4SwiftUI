@@ -6,6 +6,7 @@
 
 import Foundation
 import AVFoundation
+import AppKit
 
 class ScreenRecorder: NSObject {
 	private var captureSession: AVCaptureSession?
@@ -23,11 +24,10 @@ class ScreenRecorder: NSObject {
 		let session = AVCaptureSession()
 		session.sessionPreset = .high
 
-		session.beginConfiguration()
 		// for simplicity on main desplay only
 		guard let input = AVCaptureScreenInput(displayID: CGMainDisplayID()) else { return false }
-		if let cropRect = rect {
-			input.cropRect = cropRect
+		if let cropRect = rect, let window = NSApp.mainWindow {
+			input.cropRect = window.convertToScreen(cropRect)
 		}
 		input.capturesCursor = true
 		input.capturesMouseClicks = true
@@ -35,15 +35,16 @@ class ScreenRecorder: NSObject {
 		session.addInput(input)
 
 		let output = AVCaptureMovieFileOutput()
+		output.delegate = self
 		guard session.canAddOutput(output) else { return false }
 		session.addOutput(output)
-		session.commitConfiguration()
-		
-		session.startRunning()
-		output.startRecording(to: destination, recordingDelegate: self)
 
 		captureSession = session
 		captureOutput = output
+
+		captureSession?.startRunning()
+		captureOutput?.startRecording(to: destination, recordingDelegate: self)
+
 		return true
 	}
 
@@ -52,7 +53,11 @@ class ScreenRecorder: NSObject {
 	}
 }
 
-extension ScreenRecorder: AVCaptureFileOutputRecordingDelegate {
+extension ScreenRecorder: AVCaptureFileOutputRecordingDelegate, AVCaptureFileOutputDelegate {
+	func fileOutputShouldProvideSampleAccurateRecordingStart(_ output: AVCaptureFileOutput) -> Bool {
+		false
+	}
+
 	func fileOutput(_ output: AVCaptureFileOutput, didStartRecordingTo fileURL: URL, from connections: [AVCaptureConnection]) {
 
 	}

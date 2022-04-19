@@ -22,12 +22,8 @@ struct TestScreenRecordingInView: View {
 		VStack {
 			Text("Hello, World!")
 			Button(recording ? "Stop" : "Start") {
-				let fileManager = FileManager.default
-				if fileManager.fileExists(atPath: destinationURL.path) {
-					guard (try? fileManager.removeItem(at: destinationURL)) != nil else {
-						print("Cannot clean destination, remove manually!")
-						return
-					}
+				if !recording && !validate(destinationURL) {
+					return
 				}
 				recording.toggle()
 			}
@@ -41,33 +37,32 @@ struct TestScreenRecordingInView: View {
 		}
 		.onChange(of: recording) {
 			if $0 {
-				var cropRect: CGRect?
-				if let window = NSApp.mainWindow {
-					cropRect = window.convertToScreen(viewRect)
-				}
-				recording = recorder.startRecording(to: destinationURL, in: cropRect)
+				recording = recorder.startRecording(to: destinationURL, in: viewRect)
 			} else {
 				recorder.stop()
 			}
 		}
 		.onAppear {
 			recorder.completion = { _ in
-				print("Done!")
-				// Something wrong - file is not created, but no error !!!
+				NSWorkspace.shared.open(destinationURL)
 			}
 		}
+	}
+
+	func validate(_ url: URL) -> Bool {
+		let fileManager = FileManager.default
+		if fileManager.fileExists(atPath: url.path) {
+			guard (try? fileManager.removeItem(at: url)) != nil else {
+				print("Cannot clean destination, remove manually!")
+				return false
+			}
+		}
+		return true
 	}
 }
 
 struct TestScreenRecordingInView_Previews: PreviewProvider {
 	static var previews: some View {
 		TestScreenRecordingInView()
-	}
-}
-
-struct ViewRectKey: PreferenceKey {
-	static var defaultValue: CGRect = .zero
-	static func reduce(value: inout CGRect, nextValue: () -> CGRect) {
-		value = nextValue()
 	}
 }
