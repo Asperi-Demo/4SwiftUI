@@ -106,3 +106,5 @@ struct ReversingScale: AnimatableModifier {
     }
 }
 ```
+
+[Test module in project here](https://github.com/Asperi-Demo/4SwiftUI/blob/master/PlayOn_iOS/PlayOn_iOS/Findings/TestReversingScaleAnimation.swift)
