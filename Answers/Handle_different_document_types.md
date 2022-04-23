@@ -23,31 +23,31 @@ Tested with Xcode 13.3 / macOS 12.2.1
 @main
 struct SwiftUI_macOS_TwoDocumentsApp: App {
 
-	var body: some Scene {
-		// The first is default (returned by @see NSDocumentController.defaultType)
-		// and created by -newDocument action which is also one and default
-		// Review NSDocumentController interface/documentation for details on behavior
-		DocumentGroup(newDocument: SwiftUI_macOS_TwoDocumentsDocument()) { file in
-			ContentView(document: file.$document)
-		}
+  var body: some Scene {
+    // The first is default (returned by @see NSDocumentController.defaultType)
+    // and created by -newDocument action which is also one and default
+    // Review NSDocumentController interface/documentation for details on behavior
+    DocumentGroup(newDocument: SwiftUI_macOS_TwoDocumentsDocument()) { file in
+      ContentView(document: file.$document)
+    }
 
-		// Any number of other supported documents can be listed from here, but
-		// create new document should be done manually, although openning works as expected
-		DocumentGroup(newDocument: SwiftUI_macOS_TwoDocumentsDocument2()) { file in
-			ContentView2(document: file.$document)
-		}
-		.commands {
-			CommandGroup(after: .newItem) { // Use NSApp.mainMenu to inject to File > New > ...
-				Button("New Document2") {
-					let dc = NSDocumentController.shared
-					if let newDocument = try? dc.makeUntitledDocument(ofType: "com.example2.plain-text") {
-						dc.addDocument(newDocument)
-						newDocument.makeWindowControllers()
-						newDocument.showWindows()
-					}
-				}
-			}
-		}
-	}
+    // Any number of other supported documents can be listed from here, but
+    // create new document should be done manually, although openning works as expected
+    DocumentGroup(newDocument: SwiftUI_macOS_TwoDocumentsDocument2()) { file in
+      ContentView2(document: file.$document)
+    }
+    .commands {
+      CommandGroup(after: .newItem) { // Use NSApp.mainMenu to inject to File > New > ...
+        Button("New Document2") {
+          let dc = NSDocumentController.shared
+          if let newDocument = try? dc.makeUntitledDocument(ofType: "com.example2.plain-text") {
+            dc.addDocument(newDocument)
+            newDocument.makeWindowControllers()
+            newDocument.showWindows()
+          }
+        }
+      }
+    }
+  }
 }
 ```
