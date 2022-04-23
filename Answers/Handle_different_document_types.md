@@ -37,7 +37,9 @@ struct SwiftUI_macOS_TwoDocumentsApp: App {
       ContentView2(document: file.$document)
     }
     .commands {
-      CommandGroup(after: .newItem) { // Use NSApp.mainMenu to inject to File > New > ...
+      // Use NSApp.mainMenu to inject to File > New > ... or recreate .newItem section completely,
+      // which is probably better from management/support perspective
+      CommandGroup(after: .newItem) { 
         Button("New Document2") {
           let dc = NSDocumentController.shared
           if let newDocument = try? dc.makeUntitledDocument(ofType: "com.example2.plain-text") {
