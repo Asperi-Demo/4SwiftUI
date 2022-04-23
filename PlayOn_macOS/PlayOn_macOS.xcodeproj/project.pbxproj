@@ -16,6 +16,7 @@
 		DE5F36D72801CC890030FE37 /* PlayOn_macOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36D62801CC890030FE37 /* PlayOn_macOSUITestsLaunchTests.swift */; };
 		DE5F36E62801CF280030FE37 /* TestTextFieldActivationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36E52801CEA50030FE37 /* TestTextFieldActivationEffect.swift */; };
 		DE7DA389281466730071472E /* TestToggleSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA388281466730071472E /* TestToggleSidebar.swift */; };
+		DE7DA38B281472CD0071472E /* SplitViewAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA38A281472CD0071472E /* SplitViewAccessor.swift */; };
 		DEF4B744280EA41B0023ECBE /* ScreenRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4B743280EA41B0023ECBE /* ScreenRecorder.swift */; };
 		DEF4B746280EADEA0023ECBE /* TestScreenRecordingInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4B745280EADEA0023ECBE /* TestScreenRecordingInView.swift */; };
 		DEF4B74A280F05970023ECBE /* MyPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4B749280F05970023ECBE /* MyPreferenceKeys.swift */; };
@@ -53,6 +54,7 @@
 		DE5F36D62801CC890030FE37 /* PlayOn_macOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_macOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE5F36E52801CEA50030FE37 /* TestTextFieldActivationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldActivationEffect.swift; sourceTree = "<group>"; };
 		DE7DA388281466730071472E /* TestToggleSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestToggleSidebar.swift; sourceTree = "<group>"; };
+		DE7DA38A281472CD0071472E /* SplitViewAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewAccessor.swift; sourceTree = "<group>"; };
 		DEF4B743280EA41B0023ECBE /* ScreenRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecorder.swift; sourceTree = "<group>"; };
 		DEF4B745280EADEA0023ECBE /* TestScreenRecordingInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreenRecordingInView.swift; sourceTree = "<group>"; };
 		DEF4B749280F05970023ECBE /* MyPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPreferenceKeys.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			children = (
 				DEF4B743280EA41B0023ECBE /* ScreenRecorder.swift */,
 				DEF4B749280F05970023ECBE /* MyPreferenceKeys.swift */,
+				DE7DA38A281472CD0071472E /* SplitViewAccessor.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7DA38B281472CD0071472E /* SplitViewAccessor.swift in Sources */,
 				DEF4B74A280F05970023ECBE /* MyPreferenceKeys.swift in Sources */,
 				DEF4B746280EADEA0023ECBE /* TestScreenRecordingInView.swift in Sources */,
 				DE5F36BB2801CC880030FE37 /* ContentView.swift in Sources */,
