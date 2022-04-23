@@ -72,5 +72,5 @@ struct SplitViewAccessor: NSViewRepresentable {
 }
 ```
 
-[Test module in project is here](https://github.com/Asperi-Demo/4SwiftUI/blob/master/PlayOn_macOS/PlayOn_macOS/Findings/TestToggleSidebar.swift)
-[SplitViewAccessor](https://github.com/Asperi-Demo/4SwiftUI/blob/master/PlayOn_macOS/PlayOn_macOS/Helpers/SplitViewAccessor.swift)
+[Test module in project is here](https://github.com/Asperi-Demo/4SwiftUI/blob/master/PlayOn_macOS/PlayOn_macOS/Findings/TestToggleSidebar.swift)<br>
+[SplitViewAccessor is here](https://github.com/Asperi-Demo/4SwiftUI/blob/master/PlayOn_macOS/PlayOn_macOS/Helpers/SplitViewAccessor.swift)
