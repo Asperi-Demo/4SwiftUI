@@ -10,6 +10,7 @@
 		DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0F428115E59000FF004 /* TestWays4DynamicMemberLookup.swift */; };
 		DE0DD0F928128735000FF004 /* TestConvenienceInitWithConstrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */; };
 		DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */; };
+		DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0FE2813BDB5000FF004 /* TestColorFadeEffect.swift */; };
 		DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */; };
 		DE5F367E280173030030FE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367D280173030030FE37 /* ContentView.swift */; };
 		DE5F3680280173040030FE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F367F280173040030FE37 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		DE0DD0F428115E59000FF004 /* TestWays4DynamicMemberLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWays4DynamicMemberLookup.swift; sourceTree = "<group>"; };
 		DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConvenienceInitWithConstrains.swift; sourceTree = "<group>"; };
 		DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReversingScaleAnimation.swift; sourceTree = "<group>"; };
+		DE0DD0FE2813BDB5000FF004 /* TestColorFadeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorFadeEffect.swift; sourceTree = "<group>"; };
 		DE5F3678280173030030FE37 /* PlayOn_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOn_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_iOSApp.swift; sourceTree = "<group>"; };
 		DE5F367D280173030030FE37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */,
 				DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */,
 				DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */,
+				DE0DD0FE2813BDB5000FF004 /* TestColorFadeEffect.swift */,
 				DE76E21A280BE890006EDA5A /* TestFixedStateButtonStyle.swift */,
 				DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */,
 				DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */,
@@ -336,6 +339,7 @@
 				DE76E219280BDB35006EDA5A /* TestViewModelViaViewPreference.swift in Sources */,
 				DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */,
 				DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */,
+				DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */,
 				DE76E20428073164006EDA5A /* TestUnwindFromSwiftUIButton.swift in Sources */,
 				DE0DD0F928128735000FF004 /* TestConvenienceInitWithConstrains.swift in Sources */,
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
