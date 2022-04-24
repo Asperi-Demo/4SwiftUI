@@ -1,3 +1,11 @@
+```
+BOYCOTT on ᵣussia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Grybov, Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 Q: Automatically adjustable view height based on text height in SwiftUI (by Nace)
 
 A: Here is a solution based on view preference key. `PreferenceKey` (and accompany 
