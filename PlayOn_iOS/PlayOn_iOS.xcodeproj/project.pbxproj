@@ -29,6 +29,7 @@
 		DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */; };
 		DE76E219280BDB35006EDA5A /* TestViewModelViaViewPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */; };
 		DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E21A280BE890006EDA5A /* TestFixedStateButtonStyle.swift */; };
+		DE7DA38D28153FBC0071472E /* TestListNoPaddings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA38C28153FBC0071472E /* TestListNoPaddings.swift */; };
 		DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */; };
 		DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */; };
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
@@ -77,6 +78,7 @@
 		DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetectListBeginToScroll.swift; sourceTree = "<group>"; };
 		DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModelViaViewPreference.swift; sourceTree = "<group>"; };
 		DE76E21A280BE890006EDA5A /* TestFixedStateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFixedStateButtonStyle.swift; sourceTree = "<group>"; };
+		DE7DA38C28153FBC0071472E /* TestListNoPaddings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListNoPaddings.swift; sourceTree = "<group>"; };
 		DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollDidEndDetect.swift; sourceTree = "<group>"; };
 		DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */,
 				DE76E218280BDB35006EDA5A /* TestViewModelViaViewPreference.swift */,
 				DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */,
+				DE7DA38C28153FBC0071472E /* TestListNoPaddings.swift */,
 				DE0DD0FE2813BDB5000FF004 /* TestColorFadeEffect.swift */,
 				DE76E21A280BE890006EDA5A /* TestFixedStateButtonStyle.swift */,
 				DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */,
@@ -347,6 +350,7 @@
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
 				DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */,
 				DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */,
+				DE7DA38D28153FBC0071472E /* TestListNoPaddings.swift in Sources */,
 				DE76E211280AA42D006EDA5A /* TestMixedHorizontalLayout.swift in Sources */,
 				DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */,
 				DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */,
