@@ -14,3 +14,11 @@ public struct ViewOffsetKey: PreferenceKey {
         value += nextValue()
     }
 }
+
+/// A preference key to store a view's height
+public struct ViewHeightKey: PreferenceKey {
+    public static var defaultValue: CGFloat { 0 }
+    public static func reduce(value: inout Value, nextValue: () -> Value) {
+        value += nextValue()
+    }
+}
