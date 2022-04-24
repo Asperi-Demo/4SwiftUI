@@ -27,6 +27,7 @@ struct DemoDisclosureGroups: View {
                     }
                 } label: {
                     Label(group.name, systemImage: group.icon)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                         .contentShape(Rectangle())
                         .onTapGesture {
                             withAnimation {
