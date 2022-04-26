@@ -33,6 +33,7 @@
 		DE7DA3E42815B2480071472E /* TestCustomButtonInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA3E32815B2480071472E /* TestCustomButtonInList.swift */; };
 		DE7DA43D281704020071472E /* TestDragGestureDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA43C281704020071472E /* TestDragGestureDirection.swift */; };
 		DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */; };
+		DE7DA49C28186ABD0071472E /* TestNextTextFieldFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */; };
 		DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */; };
 		DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */; };
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
@@ -85,6 +86,7 @@
 		DE7DA3E32815B2480071472E /* TestCustomButtonInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomButtonInList.swift; sourceTree = "<group>"; };
 		DE7DA43C281704020071472E /* TestDragGestureDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragGestureDirection.swift; sourceTree = "<group>"; };
 		DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPulseColorView.swift; sourceTree = "<group>"; };
+		DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNextTextFieldFocus.swift; sourceTree = "<group>"; };
 		DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollDidEndDetect.swift; sourceTree = "<group>"; };
 		DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */,
 				DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */,
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
+				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
 				DE7DA43C281704020071472E /* TestDragGestureDirection.swift */,
 				DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */,
 				DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */,
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5F379C280545170030FE37 /* TestViewModelTaskBlocking.swift in Sources */,
+				DE7DA49C28186ABD0071472E /* TestNextTextFieldFocus.swift in Sources */,
 				DE76E219280BDB35006EDA5A /* TestViewModelViaViewPreference.swift in Sources */,
 				DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */,
 				DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */,
