@@ -29,6 +29,7 @@ struct TestNextTextFieldFocus: View {
 								.submitLabel(.next)
 								.id(i)
 								.onSubmit {
+									// update state here !!
 									if (i + 1) < inputsValues.count {
 										focusedInput = i + 1
 									} else {
@@ -38,6 +39,7 @@ struct TestNextTextFieldFocus: View {
 						}
 					}
 					.onChange(of: focusedInput) {
+						// react on state change here !!
 						proxy.scrollTo($0)
 					}
 				}
