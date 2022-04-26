@@ -282,6 +282,17 @@
          location = "group:WKWebView_content_height_in_ScrollView.md">
       </FileRef>
    </Group>
+   <Group
+      location = "group:Common"
+      name = "Common">
+      <Group
+         location = "container:"
+         name = "Helpers">
+         <FileRef
+            location = "group:DeferView.swift">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "group:PlayOn_macOS/PlayOn_macOS.xcodeproj">
    </FileRef>
