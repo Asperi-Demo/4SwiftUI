@@ -32,6 +32,7 @@
 		DE7DA38D28153FBC0071472E /* TestListNoPaddings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA38C28153FBC0071472E /* TestListNoPaddings.swift */; };
 		DE7DA3E42815B2480071472E /* TestCustomButtonInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA3E32815B2480071472E /* TestCustomButtonInList.swift */; };
 		DE7DA43D281704020071472E /* TestDragGestureDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA43C281704020071472E /* TestDragGestureDirection.swift */; };
+		DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */; };
 		DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */; };
 		DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */; };
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
@@ -83,6 +84,7 @@
 		DE7DA38C28153FBC0071472E /* TestListNoPaddings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListNoPaddings.swift; sourceTree = "<group>"; };
 		DE7DA3E32815B2480071472E /* TestCustomButtonInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomButtonInList.swift; sourceTree = "<group>"; };
 		DE7DA43C281704020071472E /* TestDragGestureDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragGestureDirection.swift; sourceTree = "<group>"; };
+		DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPulseColorView.swift; sourceTree = "<group>"; };
 		DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollDidEndDetect.swift; sourceTree = "<group>"; };
 		DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */,
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
 				DE7DA43C281704020071472E /* TestDragGestureDirection.swift */,
+				DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */,
 				DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */,
 				DE76E210280AA42D006EDA5A /* TestMixedHorizontalLayout.swift */,
 				DE76E214280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift */,
@@ -366,6 +369,7 @@
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
 				DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */,
 				DE7DA43D281704020071472E /* TestDragGestureDirection.swift in Sources */,
+				DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */,
 				DE7DA3E42815B2480071472E /* TestCustomButtonInList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
