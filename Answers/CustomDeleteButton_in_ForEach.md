@@ -13,7 +13,7 @@ A: Here is a simple demo of possible approach to implement custom
 delete (of course with move it would be more complicated due to drag/drop, 
 but idea is the same). Tested with Xcode 12 / iOS 14.
 
-
+![MTWIG](https://user-images.githubusercontent.com/62171579/165327574-b638f8ae-9a5c-4b4e-92a5-d379672d1ed5.gif)
 
 ```
 struct DemoCustomDelete: View {
