@@ -36,8 +36,8 @@ struct TestBackgroundOfFocusedTextField: View {
 			}
 			.padding(.horizontal, 5)
 			.padding(.vertical, 3)
-			.background(focused ? .black : .clear)
-			.clipShape(RoundedRectangle(cornerRadius: 4))
+			.background(focused ? .black : .clear)          // << here on focus !!
+			.clipShape(RoundedRectangle(cornerRadius: 4))   // << clip to preserve shape !!
 			.overlay(RoundedRectangle(cornerRadius: 4).stroke(Color.gray, lineWidth: 0.5).cornerRadius(4)
 			)
 		}
