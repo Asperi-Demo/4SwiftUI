@@ -286,7 +286,7 @@
       location = "group:Common"
       name = "Common">
       <Group
-         location = "container:"
+         location = "container:Common/Helpers"
          name = "Helpers">
          <FileRef
             location = "group:DeferView.swift">
