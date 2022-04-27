@@ -16,6 +16,8 @@ is needed to entire card, so placed at the end).
 
 UPDATE: re-tested with Xcode 13.3 / iOS 15.4
 
+![fahkA](https://user-images.githubusercontent.com/62171579/165592027-bfe4cfd9-3c5b-49ec-8104-fad9753232d8.png)
+
 
     ZStack (alignment: .topLeading) {
         Rectangle()
