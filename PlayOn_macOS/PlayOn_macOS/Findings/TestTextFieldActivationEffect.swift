@@ -9,7 +9,7 @@ import SwiftUI
 struct TestTextFieldActivationEffect: View {
 	@State private var txt = ""
 	var body: some View {
-		VStack(spacing: 20) {
+		VStack(alignment: .leading, spacing: 20) {
 			TextField("", text: $txt)
 			ContentView()
 		}
@@ -34,6 +34,15 @@ struct TestTextFieldActivationEffect: View {
 						}.animation(.default, value: highlight), alignment: .bottom))
 				.clipShape(RoundedRectangle(cornerRadius: 8))
 				.frame(width: 200)
+				.onChange(of: highlight) {  // handle selection on focus
+					if $0 {
+						// need a bit of time while NSWindow's TextEditor is created
+						DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+							NSApp.sendAction(#selector(NSText.selectAll(_:)), to: nil, from: nil)
+
+						}
+					}
+				}
 		}
 	}
 }
