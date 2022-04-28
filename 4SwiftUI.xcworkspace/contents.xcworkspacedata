@@ -79,16 +79,6 @@
       <FileRef
          location = "group:DatePicker_jumps_between_short_medium.md">
       </FileRef>
-      <Group
-         location = "group:Demos"
-         name = "Demos">
-         <FileRef
-            location = "group:README.md">
-         </FileRef>
-         <FileRef
-            location = "group:textfield_activation.gif">
-         </FileRef>
-      </Group>
       <FileRef
          location = "group:Dependency_on_local_swift_package.md">
       </FileRef>
