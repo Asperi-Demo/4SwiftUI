@@ -1,3 +1,11 @@
+```
+BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Grybov, Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 Q: How to change icon color in UIAction inside UIMenu? (by X.Creates)
 
 A: You need to use rendering mode `.alwaysOriginal` because internally they 
