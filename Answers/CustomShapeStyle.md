@@ -33,3 +33,5 @@ struct RedView: ShapeStyle {
 Which gives on Xcode 13.3 / iOS 15.4
 
 ![F7fO4](https://user-images.githubusercontent.com/62171579/165888697-38effbf9-0f5d-41f7-895a-2e44990faba0.png)
+
+[Test module in project is here](https://github.com/Asperi-Demo/4SwiftUI/blob/master/PlayOn_iOS/PlayOn_iOS/Findings/TestCustomShapeStyle.swift)
