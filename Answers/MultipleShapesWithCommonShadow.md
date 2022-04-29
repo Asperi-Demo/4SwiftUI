@@ -1,7 +1,12 @@
 Q: How to make multiple shapes with unified shadow? (by fuzzygoat)
 
-A: Here is possible solution. Tested with Xcode 11.4 / iOS 13.4
+A: Here is possible solution - join into zero spacing stack and combine with 
+`compositionGroup`, and only after this apply `shadow`. 
 
+Tested with Xcode 11.4 / iOS 13.4
+
+![yrG80](https://user-images.githubusercontent.com/62171579/165960610-7e380f15-6ac7-47bb-8bcf-b33437dc3651.png)
+![Eb5M4](https://user-images.githubusercontent.com/62171579/165960626-c4b60802-581c-4f6a-9119-8eca2704d0f8.png)
 
 
 ```
