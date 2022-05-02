@@ -26,3 +26,25 @@ fileprivate struct FullScreenModifier<V: View>: ViewModifier {
 		}
 	}
 }
+
+// MARK: -
+
+public extension View {
+	// Get rect of a view in specified coordinate space, by default in global, so by default it
+	// provides view's frame in window coordinates, to have bounds specify .local, to have in some
+	// parent provide named coordinate space correspondingly.
+	func reading(rect binding: Binding<CGRect>, _ space: CoordinateSpace = .global) -> some View {
+		self.background(rectReader(binding, space))
+	}
+}
+
+func rectReader(_ binding: Binding<CGRect>, _ space: CoordinateSpace = .global) -> some View {
+    GeometryReader { (geometry) -> Color in
+        let rect = geometry.frame(in: space)
+        DispatchQueue.main.async {
+            binding.wrappedValue = rect
+        }
+        return .clear
+    }
+}
+
