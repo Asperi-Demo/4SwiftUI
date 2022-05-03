@@ -40,6 +40,7 @@
 		DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */; };
 		DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */; };
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
+		DEC9E6BE2821C7A9001F0A1D /* TestWrappingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +98,7 @@
 		DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollDidEndDetect.swift; sourceTree = "<group>"; };
 		DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
+		DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappingUIView.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,6 +195,7 @@
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
 				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
 				DE7DA43C281704020071472E /* TestDragGestureDirection.swift */,
+				DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */,
 				DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */,
 				DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */,
 				DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */,
@@ -376,6 +379,7 @@
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
 				DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */,
 				DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */,
+				DEC9E6BE2821C7A9001F0A1D /* TestWrappingUIView.swift in Sources */,
 				DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */,
 				DE7DA38D28153FBC0071472E /* TestListNoPaddings.swift in Sources */,
 				DE76E211280AA42D006EDA5A /* TestMixedHorizontalLayout.swift in Sources */,
