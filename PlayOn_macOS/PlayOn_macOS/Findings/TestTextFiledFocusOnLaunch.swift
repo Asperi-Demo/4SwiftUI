@@ -13,12 +13,12 @@ struct TestTextFiledFocusOnLaunch: View {
 		VStack(alignment: .leading, spacing: 20) {
 			TextField("", text: $txt).disabled(disabled)
 				.onAppear { DispatchQueue.main.async { disabled = false } }
-		}
+		}.padding(.horizontal)
 	}
 }
 
 struct TestTextFiledFocusOnLaunch_Previews: PreviewProvider {
-    static var previews: some View {
-        TestTextFiledFocusOnLaunch()
-    }
+	static var previews: some View {
+		TestTextFiledFocusOnLaunch()
+	}
 }
