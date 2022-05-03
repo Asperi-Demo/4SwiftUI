@@ -10,7 +10,7 @@ struct ContentView: View {
 	var body: some View {
 		// Replace this with specific Test* module from Findings
 		// to run specific problem demo/solution
-		Text("Just Demo!")
+		EmptyView()
 	}
 }
 
