@@ -42,6 +42,7 @@
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
 		DEC9E6BE2821C7A9001F0A1D /* TestWrappingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */; };
 		DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */; };
+		DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,7 @@
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
 		DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappingUIView.swift; sourceTree = "<group>"; };
 		DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridNonClip.swift; sourceTree = "<group>"; };
+		DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageRectCornersGet.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,6 +200,7 @@
 				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
 				DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */,
 				DE7DA43C281704020071472E /* TestDragGestureDirection.swift */,
+				DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */,
 				DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */,
 				DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */,
 				DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */,
@@ -373,6 +376,7 @@
 				DE76E219280BDB35006EDA5A /* TestViewModelViaViewPreference.swift in Sources */,
 				DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */,
 				DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */,
+				DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */,
 				DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */,
 				DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */,
 				DE76E20428073164006EDA5A /* TestUnwindFromSwiftUIButton.swift in Sources */,
