@@ -10,7 +10,7 @@ Q: How to center a view vertically and horizontally inside of a container view a
 
 A: Here is possible approach (at least for start) that I would prefer, because both labels remains independent, and always be centered in parent container by primary text.
 
-
+![hgErk](https://user-images.githubusercontent.com/62171579/167195478-172519a6-5686-4b1d-94c1-07423e964547.png)
 
 ```
 struct DemoCenteredText: View {
