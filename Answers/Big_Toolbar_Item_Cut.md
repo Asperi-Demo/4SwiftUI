@@ -1,3 +1,11 @@
+```
+BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Grybov, Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 A: The bug is actually that it is not refreshed to clipped area from start, because it is actually clipped by 
 UINavigationBar, but probably due to rendering optimization initial drawing cached and flashed to screen. 
 If we try to enter View Debug (below) in Xcode, we see that it is within UINavigationBar height, no more:
