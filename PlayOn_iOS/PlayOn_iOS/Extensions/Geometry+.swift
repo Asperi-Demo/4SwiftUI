@@ -14,3 +14,9 @@ public extension CGPoint {
 							y: (size / 2 - 0.8 * hypotenuse * sin(radians)).rounded(.up))
 	}
 }
+
+public extension CGRect {
+	var center: CGPoint {
+		CGPoint(x: midX, y: midY)
+	}
+}

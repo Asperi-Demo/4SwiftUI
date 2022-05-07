@@ -12,7 +12,7 @@
 		DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */; };
 		DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0FE2813BDB5000FF004 /* TestColorFadeEffect.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
-		DE3D93EF281A5BEB00A2C842 /* Point+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Point+.swift */; };
+		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
 		DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */; };
 		DE5F367E280173030030FE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367D280173030030FE37 /* ContentView.swift */; };
@@ -24,6 +24,7 @@
 		DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */; };
 		DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */; };
 		DE5F379C280545170030FE37 /* TestViewModelTaskBlocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */; };
+		DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */; };
 		DE76E20428073164006EDA5A /* TestUnwindFromSwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */; };
 		DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */; };
 		DE76E20D28094B15006EDA5A /* Button+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E20C28094B15006EDA5A /* Button+.swift */; };
@@ -69,7 +70,7 @@
 		DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReversingScaleAnimation.swift; sourceTree = "<group>"; };
 		DE0DD0FE2813BDB5000FF004 /* TestColorFadeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorFadeEffect.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
-		DE3D93EE281A5BEB00A2C842 /* Point+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Point+.swift"; sourceTree = "<group>"; };
+		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
 		DE5F3678280173030030FE37 /* PlayOn_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOn_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_iOSApp.swift; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 		DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlignWithCertainVStack.swift; sourceTree = "<group>"; };
 		DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRotatingLineAndLabel.swift; sourceTree = "<group>"; };
 		DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModelTaskBlocking.swift; sourceTree = "<group>"; };
+		DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBigToolbarItemCut.swift; sourceTree = "<group>"; };
 		DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUnwindFromSwiftUIButton.swift; sourceTree = "<group>"; };
 		DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPersistentOpaqueNavBar.swift; sourceTree = "<group>"; };
 		DE76E20C28094B15006EDA5A /* Button+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+.swift"; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
 				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
 				DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */,
+				DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */,
 				DE7DA43C281704020071472E /* TestDragGestureDirection.swift */,
 				DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */,
 				DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */,
@@ -228,7 +231,7 @@
 			children = (
 				DE76E20C28094B15006EDA5A /* Button+.swift */,
 				DE76E212280AE709006EDA5A /* View+.swift */,
-				DE3D93EE281A5BEB00A2C842 /* Point+.swift */,
+				DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */,
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
+				DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
 				DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */,
 				DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */,
@@ -395,7 +399,7 @@
 				DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */,
 				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
-				DE3D93EF281A5BEB00A2C842 /* Point+.swift in Sources */,
+				DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */,
 				DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */,
 				DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */,
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
