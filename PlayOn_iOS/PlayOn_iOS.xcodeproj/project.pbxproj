@@ -25,6 +25,7 @@
 		DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */; };
 		DE5F379C280545170030FE37 /* TestViewModelTaskBlocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */; };
 		DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */; };
+		DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */; };
 		DE76E20428073164006EDA5A /* TestUnwindFromSwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */; };
 		DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */; };
 		DE76E20D28094B15006EDA5A /* Button+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76E20C28094B15006EDA5A /* Button+.swift */; };
@@ -86,6 +87,7 @@
 		DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRotatingLineAndLabel.swift; sourceTree = "<group>"; };
 		DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModelTaskBlocking.swift; sourceTree = "<group>"; };
 		DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBigToolbarItemCut.swift; sourceTree = "<group>"; };
+		DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationDetailsWithPersistedView.swift; sourceTree = "<group>"; };
 		DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUnwindFromSwiftUIButton.swift; sourceTree = "<group>"; };
 		DE76E2052807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPersistentOpaqueNavBar.swift; sourceTree = "<group>"; };
 		DE76E20C28094B15006EDA5A /* Button+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+.swift"; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */,
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
 				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
+				DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */,
 				DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */,
 				DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */,
 				DE7DA43C281704020071472E /* TestDragGestureDirection.swift */,
@@ -401,6 +404,7 @@
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
 				DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */,
 				DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */,
+				DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */,
 				DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */,
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
 				DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */,
