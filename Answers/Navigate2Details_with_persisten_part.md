@@ -1,3 +1,11 @@
+```
+BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Grybov, Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 Q: How to navigate between NavigationLink while leave a part of main window stay the same in SwiftUI (by Yiming Designer)
 
 A: In this case the *default* details view and navigated details view should be the same, but updated content can be injected in it in navigation link.
