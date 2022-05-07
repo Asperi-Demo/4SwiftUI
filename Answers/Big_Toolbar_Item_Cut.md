@@ -16,6 +16,12 @@ A possible solution is to use that widget (Circle in the case) *above* `Navigati
 
 ![pLbZ5](https://user-images.githubusercontent.com/62171579/167240349-80bd3f22-439f-4bfe-84f5-45efc640a4f7.gif)
 
+Also if toolbar item should remain during navigation
+
+![ezgif com-gif-maker-52](https://user-images.githubusercontent.com/62171579/167253231-24664103-9f49-4693-bd48-9fe8fbf931a6.gif)
+
+Tested with Xcode 13.3 / iOS 15.4.
+
 Here is main part:
 
 	.toolbar {
