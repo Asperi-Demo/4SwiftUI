@@ -8,6 +8,11 @@ import SwiftUI
 
 @main
 struct PlayOn_iOSApp: App {
+	init() {
+		if ProcessInfo.processInfo.environment["DISABLE_ANIMATIONS"] == "1" {
+			UIView.setAnimationsEnabled(false)
+		}
+	}
     var body: some Scene {
         WindowGroup {
             ContentView()
