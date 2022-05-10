@@ -40,27 +40,28 @@ struct TestDragDropInGrid: View {
 		@StateObject private var model = Model()
 
 		@State private var dragging: GridData?
+		@State private var isUpdating = false
 
 		var body: some View {
 			ScrollView {
 				LazyVGrid(columns: model.columns, spacing: 32) {
 					ForEach(model.data) { d in
 						GridItemView(d: d)
-							.overlay(dragging?.id == d.id ? Color.white.opacity(0.8) : Color.clear)
-							.contextMenu {  // menu works simultaneously with drag !
-								Button {
-									// some action here
-								} label: {
-									Label("Edit...", systemImage: "pencil")
-								}
-
-								// other options .....
-							}
+							.overlay(dragging?.id == d.id && isUpdating ? Color.white.opacity(0.8) : Color.clear)
+//							.contextMenu {  // menu works simultaneously with drag !
+//								Button {
+//									// some action here
+//								} label: {
+//									Label("Edit...", systemImage: "pencil")
+//								}
+//
+//								// other options .....
+//							}
 							.onDrag {
 								self.dragging = d
 								return NSItemProvider(object: String(d.id) as NSString)
 							}
-							.onDrop(of: [UTType.text], delegate: DragRelocateDelegate(item: d, listData: $model.data, current: $dragging))
+							.onDrop(of: [UTType.text], delegate: DragRelocateDelegate(item: d, listData: $model.data, current: $dragging, updating: $isUpdating))
 					}
 				}.animation(.default, value: model.data)
 			}
@@ -71,8 +72,10 @@ struct TestDragDropInGrid: View {
 		let item: GridData
 		@Binding var listData: [GridData]
 		@Binding var current: GridData?
+		@Binding var updating: Bool
 
 		func dropEntered(info: DropInfo) {
+			updating = true
 			if item != current {
 				let from = listData.firstIndex(of: current!)!
 				let to = listData.firstIndex(of: item)!
@@ -88,6 +91,7 @@ struct TestDragDropInGrid: View {
 		}
 
 		func performDrop(info: DropInfo) -> Bool {
+			self.updating = false
 			self.current = nil
 			return true
 		}
