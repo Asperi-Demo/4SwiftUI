@@ -12,6 +12,7 @@
 		DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */; };
 		DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0FE2813BDB5000FF004 /* TestColorFadeEffect.swift */; };
 		DE1A42C8282A29E20026319F /* TestDragDropInGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A42C7282A29E20026319F /* TestDragDropInGrid.swift */; };
+		DE1A4329282AAA360026319F /* Binding+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A4328282AAA360026319F /* Binding+.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
@@ -73,6 +74,7 @@
 		DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReversingScaleAnimation.swift; sourceTree = "<group>"; };
 		DE0DD0FE2813BDB5000FF004 /* TestColorFadeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorFadeEffect.swift; sourceTree = "<group>"; };
 		DE1A42C7282A29E20026319F /* TestDragDropInGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragDropInGrid.swift; sourceTree = "<group>"; };
+		DE1A4328282AAA360026319F /* Binding+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+.swift"; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 				DE76E20C28094B15006EDA5A /* Button+.swift */,
 				DE76E212280AE709006EDA5A /* View+.swift */,
 				DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */,
+				DE1A4328282AAA360026319F /* Binding+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */,
 				DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */,
 				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
+				DE1A4329282AAA360026319F /* Binding+.swift in Sources */,
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
 				DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */,
 				DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */,
