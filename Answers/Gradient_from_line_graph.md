@@ -12,6 +12,7 @@ A: Here is possible solution - use same graph for clipped background (we need cl
 
 Prepared with Xcode 12.4 / iOS 14.4
 
+![rht9X](https://user-images.githubusercontent.com/62171579/167889867-6a32fb12-7350-4765-8760-31dd023be1e9.png)
 
 ```
 struct Graph: View {
