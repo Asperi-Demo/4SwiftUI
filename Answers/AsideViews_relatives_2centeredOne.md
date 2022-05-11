@@ -14,6 +14,7 @@ Color.clear instead of Spacer.
 
 Tested with Xcode 11.4 / iOS 13.4
 
+![zIWtw](https://user-images.githubusercontent.com/62171579/167773113-7087f42b-9824-4ced-a67d-35c9afeac832.png)
 
 A view for List row
 
