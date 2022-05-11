@@ -10,6 +10,7 @@ Q: SwiftUI edges visible after using overlay (by M1X)
 
 A: Your view will not be tappable through overlay, even with transparency, so the solution is to use clip shape and background as shown below
 
+![HSpRU](https://user-images.githubusercontent.com/62171579/167899445-cc9b153c-9f89-45a0-8abf-ca3ef5752aaa.png)
 
 ```
 struct DemoRoundRectView: View {
