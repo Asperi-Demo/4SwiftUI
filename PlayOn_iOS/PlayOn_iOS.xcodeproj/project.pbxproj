@@ -26,6 +26,7 @@
 		DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */; };
 		DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */; };
 		DE5F379C280545170030FE37 /* TestViewModelTaskBlocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */; };
+		DE603B39282D7794009D41D8 /* TestNumberOrEmptyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE603B38282D7794009D41D8 /* TestNumberOrEmptyTextField.swift */; };
 		DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */; };
 		DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */; };
 		DE720BEE2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE720BED2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift */; };
@@ -91,6 +92,7 @@
 		DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlignWithCertainVStack.swift; sourceTree = "<group>"; };
 		DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRotatingLineAndLabel.swift; sourceTree = "<group>"; };
 		DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModelTaskBlocking.swift; sourceTree = "<group>"; };
+		DE603B38282D7794009D41D8 /* TestNumberOrEmptyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNumberOrEmptyTextField.swift; sourceTree = "<group>"; };
 		DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBigToolbarItemCut.swift; sourceTree = "<group>"; };
 		DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationDetailsWithPersistedView.swift; sourceTree = "<group>"; };
 		DE720BED2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDatePickerMinuteInterval.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
 				DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */,
 				DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */,
+				DE603B38282D7794009D41D8 /* TestNumberOrEmptyTextField.swift */,
 				DE720BED2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift */,
 				DE1A42C7282A29E20026319F /* TestDragDropInGrid.swift */,
 				DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */,
@@ -412,6 +415,7 @@
 				DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */,
 				DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */,
 				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
+				DE603B39282D7794009D41D8 /* TestNumberOrEmptyTextField.swift in Sources */,
 				DE1A4329282AAA360026319F /* Binding+.swift in Sources */,
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
 				DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */,
