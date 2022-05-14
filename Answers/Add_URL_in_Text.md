@@ -22,16 +22,24 @@ And code:
 
 ```
 struct ContentView: View {
-	@Environment(\.openURL) var openURL
-	var body: some View {
-		Text("here is a phone: [xxx-xxx-xxxx](tel:xxx-xxx-xxxx) and here is a link: [apple.com](asperi://apple.com). Go for it.")
-			.onOpenURL {
-				print(">> got: \($0)")
-				print("preprocess & forward")
-				if let host = $0.host, let url = URL(string: "https://" + host) {
-					openURL(url)
-				}
-			}
-	}
+  @Environment(\.openURL) var openURL
+  var body: some View {
+    Text("here is a phone: [xxx-xxx-xxxx](tel:xxx-xxx-xxxx) and here is a link: [apple.com](asperi://apple.com). Go for it.")
+      .onOpenURL {
+        print(">> got: \($0)")
+        print("preprocess & forward")
+        if let host = $0.host, let url = URL(string: "https://" + host) {
+          openURL(url)
+        }
+      }
+  }
 }
 ```
+
+or directly with open URL action, like
+
+    Text("here is a phone: [xxx-xxx-xxxx](tel:xxx-xxx-xxxx) and here is a link: [apple.com](asperi://apple.com). Go for it.")
+      .environment(\.openURL, OpenURLAction { url in
+          handleURL(url) // << handle inside your function
+          return .handled
+      })
