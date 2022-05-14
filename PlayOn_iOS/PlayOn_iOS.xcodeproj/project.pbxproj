@@ -16,6 +16,7 @@
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
+		DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570614282F7850004014F8 /* TestTextWithURL.swift */; };
 		DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */; };
 		DE5F367E280173030030FE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367D280173030030FE37 /* ContentView.swift */; };
 		DE5F3680280173040030FE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F367F280173040030FE37 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */; };
 		DE5F379C280545170030FE37 /* TestViewModelTaskBlocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */; };
 		DE603B39282D7794009D41D8 /* TestNumberOrEmptyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE603B38282D7794009D41D8 /* TestNumberOrEmptyTextField.swift */; };
+		DE603B3B282E41F5009D41D8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE603B3A282E41F5009D41D8 /* Localizable.strings */; };
 		DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */; };
 		DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */; };
 		DE720BEE2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE720BED2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift */; };
@@ -79,6 +81,8 @@
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
+		DE570613282F7167004014F8 /* PlayOn-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PlayOn-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DE570614282F7850004014F8 /* TestTextWithURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextWithURL.swift; sourceTree = "<group>"; };
 		DE5F3678280173030030FE37 /* PlayOn_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOn_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_iOSApp.swift; sourceTree = "<group>"; };
 		DE5F367D280173030030FE37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 		DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRotatingLineAndLabel.swift; sourceTree = "<group>"; };
 		DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModelTaskBlocking.swift; sourceTree = "<group>"; };
 		DE603B38282D7794009D41D8 /* TestNumberOrEmptyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNumberOrEmptyTextField.swift; sourceTree = "<group>"; };
+		DE603B3A282E41F5009D41D8 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBigToolbarItemCut.swift; sourceTree = "<group>"; };
 		DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationDetailsWithPersistedView.swift; sourceTree = "<group>"; };
 		DE720BED2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDatePickerMinuteInterval.swift; sourceTree = "<group>"; };
@@ -166,6 +171,7 @@
 		DE5F367A280173030030FE37 /* PlayOn_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DE570613282F7167004014F8 /* PlayOn-iOS-Info.plist */,
 				DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */,
 				DE5F367D280173030030FE37 /* ContentView.swift */,
 				DE9EA2A2280C3187007F5ED3 /* Helpers */,
@@ -173,6 +179,7 @@
 				DE5F36E82802AB5C0030FE37 /* Findings */,
 				DE5F367F280173040030FE37 /* Assets.xcassets */,
 				DE5F3681280173040030FE37 /* Preview Content */,
+				DE603B3A282E41F5009D41D8 /* Localizable.strings */,
 			);
 			path = PlayOn_iOS;
 			sourceTree = "<group>";
@@ -208,6 +215,7 @@
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
 				DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */,
 				DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */,
+				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
 				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
 				DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */,
@@ -364,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5F3683280173040030FE37 /* Preview Assets.xcassets in Resources */,
+				DE603B3B282E41F5009D41D8 /* Localizable.strings in Resources */,
 				DE5F3680280173040030FE37 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +425,7 @@
 				DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */,
 				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
 				DE603B39282D7794009D41D8 /* TestNumberOrEmptyTextField.swift in Sources */,
+				DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */,
 				DE1A4329282AAA360026319F /* Binding+.swift in Sources */,
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
 				DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */,
@@ -587,6 +597,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PlayOn_iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PlayOn-iOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -615,6 +626,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PlayOn_iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PlayOn-iOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
