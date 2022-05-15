@@ -13,38 +13,70 @@ struct TestMasonry: View {
 
 	struct Item: Identifiable {
 		let id = UUID()
-		let height: CGFloat
+		let height: CGFloat = CGFloat([43, 87, 121, 204].randomElement()!)
 	}
 
-	let items: [Item] = (0...99).map { _ in Item(height: CGFloat([43, 87, 121, 204].randomElement()!)) }
+	@State private var items: [Item] = (0...99).map { _ in Item() }
 
 	var body: some View {
-		GeometryReader { gp in
+//		GeometryReader { gp in // actually not needed for now (was needed for LazyHStack, which appeared not needed)
 			ScrollView {
 				HStack(alignment: .top, spacing: wSpacing) { // Lazy not needed and gives incorrect layout
 					let sub = items.count / columns
 					ForEach(1..<columns+1, id: \.self) { i in
 						LazyVStack(spacing: hSpacing) {
-							ForEach(calculatedItems(i, sub)) { item in
-								Rectangle().stroke(.red, lineWidth: 2)
-									.frame(height: item.height)
-									.background(.green.opacity(0.3))
+							ForEach(Array(calculatedItems(i, sub).enumerated()), id: \.1.id) { num, item in
+								Cell(num, item: item)
 									.onAppear {
 										// confirms appear on-scroll !!
-										print(">> \(i):\(item.id)")
-									}
+										print(">> \(i)-\(num):\(item.id)")
 
+										// add next if close to the end (infinite scroll)
+										if num > items.count/3 - columns {
+											items.append(contentsOf: (0...9).map { _ in Item() })
+										}
+									}
+									.onDisappear{
+										// confirms disappear on-scroll !!
+										print("<<<<<< \(i):\(item.id)")
+									}
 							}
 						}
-						.frame(width: (gp.size.width - wSpacing * CGFloat(columns - 1))/3)
+//						.frame(width: (gp.size.width - wSpacing * CGFloat(columns - 1)) / CGFloat(columns))
 					}
 				}
 			}
+//		}
+	}
+
+	struct Cell: View {
+		let index: Int
+		let item: Item
+
+		init(_ index: Int, item: Item) {
+			self.index = index
+			self.item = item
+			print("== \(index)")
+		}
+
+		var body: some View {
+			Rectangle().stroke(.red, lineWidth: 2)
+				.frame(height: item.height)
+				.background(.green.opacity(0.3))
+				.onAppear {
+					// confirms appear on-scroll - works here as well !!
+				}
+				.onDisappear{
+					// confirms disappear on-scroll - works here as well !!
+				}
 		}
 	}
 
 	func calculatedItems(_ i: Int, _ sub: Int) -> ArraySlice<Item> {
+		// 1st try: just split by 3
 		items[(i-1)*sub..<(i*sub > items.count ? items.count : i*sub)]
+		// 2d try: TODO: fill by columns
+		// 3d try: TODO: dynamic balancing by filled column height
 	}
 }
 
