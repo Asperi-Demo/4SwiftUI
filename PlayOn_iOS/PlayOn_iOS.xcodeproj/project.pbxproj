@@ -19,6 +19,7 @@
 		DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570614282F7850004014F8 /* TestTextWithURL.swift */; };
 		DE570617282F83BE004014F8 /* TestTabBarShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570616282F83BE004014F8 /* TestTabBarShadow.swift */; };
 		DE5706192830CCB9004014F8 /* TestMasonry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5706182830CCB9004014F8 /* TestMasonry.swift */; };
+		DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57061A283126E8004014F8 /* TabViewDynamicHeight.swift */; };
 		DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */; };
 		DE5F367E280173030030FE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367D280173030030FE37 /* ContentView.swift */; };
 		DE5F3680280173040030FE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F367F280173040030FE37 /* Assets.xcassets */; };
@@ -86,6 +87,7 @@
 		DE570614282F7850004014F8 /* TestTextWithURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextWithURL.swift; sourceTree = "<group>"; };
 		DE570616282F83BE004014F8 /* TestTabBarShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabBarShadow.swift; sourceTree = "<group>"; };
 		DE5706182830CCB9004014F8 /* TestMasonry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMasonry.swift; sourceTree = "<group>"; };
+		DE57061A283126E8004014F8 /* TabViewDynamicHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDynamicHeight.swift; sourceTree = "<group>"; };
 		DE5F3678280173030030FE37 /* PlayOn_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOn_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_iOSApp.swift; sourceTree = "<group>"; };
 		DE5F367D280173030030FE37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				DE720BED2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift */,
 				DE1A42C7282A29E20026319F /* TestDragDropInGrid.swift */,
 				DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */,
+				DE57061A283126E8004014F8 /* TabViewDynamicHeight.swift */,
 				DE7DA43C281704020071472E /* TestDragGestureDirection.swift */,
 				DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */,
 				DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */,
@@ -421,6 +424,7 @@
 				DEC9E6BE2821C7A9001F0A1D /* TestWrappingUIView.swift in Sources */,
 				DE570617282F83BE004014F8 /* TestTabBarShadow.swift in Sources */,
 				DE720BEE2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift in Sources */,
+				DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */,
 				DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */,
 				DE7DA38D28153FBC0071472E /* TestListNoPaddings.swift in Sources */,
 				DE76E211280AA42D006EDA5A /* TestMixedHorizontalLayout.swift in Sources */,
