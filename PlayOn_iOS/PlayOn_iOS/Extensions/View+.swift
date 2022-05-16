@@ -33,7 +33,7 @@ public extension View {
 	// Get rect of a view in specified coordinate space, by default in global, so by default it
 	// provides view's frame in window coordinates, to have bounds specify .local, to have in some
 	// parent provide named coordinate space correspondingly.
-	func reading(rect binding: Binding<CGRect>, _ space: CoordinateSpace = .global) -> some View {
+	func reading(rect binding: Binding<CGRect>, in space: CoordinateSpace = .global) -> some View {
 		self.background(rectReader(binding, space))
 	}
 }
