@@ -21,6 +21,7 @@
 		DE5706192830CCB9004014F8 /* TestMasonry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5706182830CCB9004014F8 /* TestMasonry.swift */; };
 		DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57061A283126E8004014F8 /* TabViewDynamicHeight.swift */; };
 		DE5707ED2832DE85004014F8 /* TestInputViewGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5707EC2832DE85004014F8 /* TestInputViewGenerics.swift */; };
+		DE5707EF2833BFFD004014F8 /* TestTextFieldWithBoxedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5707EE2833BFFD004014F8 /* TestTextFieldWithBoxedLabel.swift */; };
 		DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */; };
 		DE5F367E280173030030FE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367D280173030030FE37 /* ContentView.swift */; };
 		DE5F3680280173040030FE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F367F280173040030FE37 /* Assets.xcassets */; };
@@ -90,6 +91,7 @@
 		DE5706182830CCB9004014F8 /* TestMasonry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMasonry.swift; sourceTree = "<group>"; };
 		DE57061A283126E8004014F8 /* TabViewDynamicHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDynamicHeight.swift; sourceTree = "<group>"; };
 		DE5707EC2832DE85004014F8 /* TestInputViewGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInputViewGenerics.swift; sourceTree = "<group>"; };
+		DE5707EE2833BFFD004014F8 /* TestTextFieldWithBoxedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWithBoxedLabel.swift; sourceTree = "<group>"; };
 		DE5F3678280173030030FE37 /* PlayOn_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOn_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_iOSApp.swift; sourceTree = "<group>"; };
 		DE5F367D280173030030FE37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
 				DE570616282F83BE004014F8 /* TestTabBarShadow.swift */,
 				DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */,
+				DE5707EE2833BFFD004014F8 /* TestTextFieldWithBoxedLabel.swift */,
 				DE5707EC2832DE85004014F8 /* TestInputViewGenerics.swift */,
 				DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */,
 				DE5706182830CCB9004014F8 /* TestMasonry.swift */,
@@ -407,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5F379C280545170030FE37 /* TestViewModelTaskBlocking.swift in Sources */,
+				DE5707EF2833BFFD004014F8 /* TestTextFieldWithBoxedLabel.swift in Sources */,
 				DE7DA49C28186ABD0071472E /* TestNextTextFieldFocus.swift in Sources */,
 				DE76E219280BDB35006EDA5A /* TestViewModelViaViewPreference.swift in Sources */,
 				DE1A42C8282A29E20026319F /* TestDragDropInGrid.swift in Sources */,
