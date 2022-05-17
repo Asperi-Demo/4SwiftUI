@@ -22,6 +22,7 @@
 		DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57061A283126E8004014F8 /* TabViewDynamicHeight.swift */; };
 		DE5707ED2832DE85004014F8 /* TestInputViewGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5707EC2832DE85004014F8 /* TestInputViewGenerics.swift */; };
 		DE5707EF2833BFFD004014F8 /* TestTextFieldWithBoxedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5707EE2833BFFD004014F8 /* TestTextFieldWithBoxedLabel.swift */; };
+		DE5707F12833E8D0004014F8 /* TestWeirdReferenceInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5707F02833E8D0004014F8 /* TestWeirdReferenceInjector.swift */; };
 		DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */; };
 		DE5F367E280173030030FE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367D280173030030FE37 /* ContentView.swift */; };
 		DE5F3680280173040030FE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F367F280173040030FE37 /* Assets.xcassets */; };
@@ -92,6 +93,7 @@
 		DE57061A283126E8004014F8 /* TabViewDynamicHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDynamicHeight.swift; sourceTree = "<group>"; };
 		DE5707EC2832DE85004014F8 /* TestInputViewGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInputViewGenerics.swift; sourceTree = "<group>"; };
 		DE5707EE2833BFFD004014F8 /* TestTextFieldWithBoxedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWithBoxedLabel.swift; sourceTree = "<group>"; };
+		DE5707F02833E8D0004014F8 /* TestWeirdReferenceInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWeirdReferenceInjector.swift; sourceTree = "<group>"; };
 		DE5F3678280173030030FE37 /* PlayOn_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOn_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_iOSApp.swift; sourceTree = "<group>"; };
 		DE5F367D280173030030FE37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				DE5706182830CCB9004014F8 /* TestMasonry.swift */,
 				DE603B38282D7794009D41D8 /* TestNumberOrEmptyTextField.swift */,
 				DE720BED2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift */,
+				DE5707F02833E8D0004014F8 /* TestWeirdReferenceInjector.swift */,
 				DE1A42C7282A29E20026319F /* TestDragDropInGrid.swift */,
 				DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */,
 				DE57061A283126E8004014F8 /* TabViewDynamicHeight.swift */,
@@ -416,6 +419,7 @@
 				DE1A42C8282A29E20026319F /* TestDragDropInGrid.swift in Sources */,
 				DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */,
 				DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */,
+				DE5707F12833E8D0004014F8 /* TestWeirdReferenceInjector.swift in Sources */,
 				DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */,
 				DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */,
 				DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */,
