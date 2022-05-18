@@ -25,6 +25,8 @@
 		DE5707F12833E8D0004014F8 /* TestWeirdReferenceInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5707F02833E8D0004014F8 /* TestWeirdReferenceInjector.swift */; };
 		DE5A18E828341C1B008DF951 /* TestCustomModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A18E728341C1B008DF951 /* TestCustomModal.swift */; };
 		DE5A19572835186F008DF951 /* TestAppStorageInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A19562835186F008DF951 /* TestAppStorageInVM.swift */; };
+		DE5A1959283544EF008DF951 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A1958283544EF008DF951 /* UIView+.swift */; };
+		DE5A195B2835458F008DF951 /* TestScrollViewBouncing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A195A2835458F008DF951 /* TestScrollViewBouncing.swift */; };
 		DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */; };
 		DE5F367E280173030030FE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367D280173030030FE37 /* ContentView.swift */; };
 		DE5F3680280173040030FE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F367F280173040030FE37 /* Assets.xcassets */; };
@@ -98,6 +100,8 @@
 		DE5707F02833E8D0004014F8 /* TestWeirdReferenceInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWeirdReferenceInjector.swift; sourceTree = "<group>"; };
 		DE5A18E728341C1B008DF951 /* TestCustomModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomModal.swift; sourceTree = "<group>"; };
 		DE5A19562835186F008DF951 /* TestAppStorageInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppStorageInVM.swift; sourceTree = "<group>"; };
+		DE5A1958283544EF008DF951 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		DE5A195A2835458F008DF951 /* TestScrollViewBouncing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollViewBouncing.swift; sourceTree = "<group>"; };
 		DE5F3678280173030030FE37 /* PlayOn_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOn_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_iOSApp.swift; sourceTree = "<group>"; };
 		DE5F367D280173030030FE37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -229,6 +233,7 @@
 				DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */,
 				DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */,
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
+				DE5A195A2835458F008DF951 /* TestScrollViewBouncing.swift */,
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
 				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
 				DE5A19562835186F008DF951 /* TestAppStorageInVM.swift */,
@@ -276,6 +281,7 @@
 				DE76E212280AE709006EDA5A /* View+.swift */,
 				DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */,
 				DE1A4328282AAA360026319F /* Binding+.swift */,
+				DE5A1958283544EF008DF951 /* UIView+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -430,6 +436,7 @@
 				DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */,
 				DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */,
 				DE76E20428073164006EDA5A /* TestUnwindFromSwiftUIButton.swift in Sources */,
+				DE5A1959283544EF008DF951 /* UIView+.swift in Sources */,
 				DE0DD0F928128735000FF004 /* TestConvenienceInitWithConstrains.swift in Sources */,
 				DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */,
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
@@ -463,6 +470,7 @@
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
 				DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */,
 				DE7DA43D281704020071472E /* TestDragGestureDirection.swift in Sources */,
+				DE5A195B2835458F008DF951 /* TestScrollViewBouncing.swift in Sources */,
 				DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */,
 				DE7DA3E42815B2480071472E /* TestCustomButtonInList.swift in Sources */,
 			);
