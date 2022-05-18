@@ -27,6 +27,7 @@
 		DE5A19572835186F008DF951 /* TestAppStorageInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A19562835186F008DF951 /* TestAppStorageInVM.swift */; };
 		DE5A1959283544EF008DF951 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A1958283544EF008DF951 /* UIView+.swift */; };
 		DE5A195B2835458F008DF951 /* TestScrollViewBouncing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A195A2835458F008DF951 /* TestScrollViewBouncing.swift */; };
+		DE5A196C283567CD008DF951 /* TestTextFieldMoveFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A196B283567CD008DF951 /* TestTextFieldMoveFocus.swift */; };
 		DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */; };
 		DE5F367E280173030030FE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F367D280173030030FE37 /* ContentView.swift */; };
 		DE5F3680280173040030FE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F367F280173040030FE37 /* Assets.xcassets */; };
@@ -102,6 +103,7 @@
 		DE5A19562835186F008DF951 /* TestAppStorageInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppStorageInVM.swift; sourceTree = "<group>"; };
 		DE5A1958283544EF008DF951 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		DE5A195A2835458F008DF951 /* TestScrollViewBouncing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollViewBouncing.swift; sourceTree = "<group>"; };
+		DE5A196B283567CD008DF951 /* TestTextFieldMoveFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldMoveFocus.swift; sourceTree = "<group>"; };
 		DE5F3678280173030030FE37 /* PlayOn_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOn_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_iOSApp.swift; sourceTree = "<group>"; };
 		DE5F367D280173030030FE37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DE5A195A2835458F008DF951 /* TestScrollViewBouncing.swift */,
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
+				DE5A196B283567CD008DF951 /* TestTextFieldMoveFocus.swift */,
 				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
 				DE5A19562835186F008DF951 /* TestAppStorageInVM.swift */,
 				DE570616282F83BE004014F8 /* TestTabBarShadow.swift */,
@@ -471,6 +474,7 @@
 				DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */,
 				DE7DA43D281704020071472E /* TestDragGestureDirection.swift in Sources */,
 				DE5A195B2835458F008DF951 /* TestScrollViewBouncing.swift in Sources */,
+				DE5A196C283567CD008DF951 /* TestTextFieldMoveFocus.swift in Sources */,
 				DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */,
 				DE7DA3E42815B2480071472E /* TestCustomButtonInList.swift in Sources */,
 			);
