@@ -25,7 +25,7 @@ struct TestRightToLeftScrollView: View {
 						}
 					}
 				}.padding()
-					.scaleEffect(CGSize(width: -1, height: 1))
+				.scaleEffect(CGSize(width: -1, height: 1))
 			}
 			.scaleEffect(CGSize(width: -1, height: 1))
 		}
