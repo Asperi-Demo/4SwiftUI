@@ -1,3 +1,11 @@
+```
+BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Grybov, Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 Q: swiftUI transitions: Scale from some frame - like iOS Homescreen is doing when opening an App (by jboi)
 
 A: Here is a demo of idea how such effect could be done with combined transitions... (positions and sizes are hardcoded for demo simplicity - they can be read with geometry reader, alignment guides or anchor preferences, and actually do not affect the transition usage idea, also animation can be configured)
