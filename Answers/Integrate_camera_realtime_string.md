@@ -1,3 +1,11 @@
+```
+BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Grybov, Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 Q: How to using realtime camera streaming in swiftui? (by Shydow Lee)
 
 A: Here is a demo code of integration via `UIViewRepresentable`.
