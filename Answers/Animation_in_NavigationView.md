@@ -6,7 +6,7 @@ ATTENTION: By using this you agree do not repost any part of this code
            on StackOverflow site. Thanks, Asperi.
 ```
 
-Q: SwiftUI: Broken explicit animations in NavigationView? (by )
+Q: SwiftUI: Broken explicit animations in NavigationView? (by Arman)
 
 A: The initial construction flow of `NavigationView` is very complicated and long, actually 
 as it is seen from debugging something might be recreated several times, so it is better
