@@ -61,6 +61,7 @@
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
 		DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */; };
 		DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */; };
+		DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */; };
 		DEC9E6BE2821C7A9001F0A1D /* TestWrappingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */; };
 		DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */; };
 		DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */; };
@@ -143,6 +144,7 @@
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
 		DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservableInsideObservable.swift; sourceTree = "<group>"; };
 		DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCenterInputInForm.swift; sourceTree = "<group>"; };
+		DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoundedSelectionList.swift; sourceTree = "<group>"; };
 		DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappingUIView.swift; sourceTree = "<group>"; };
 		DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridNonClip.swift; sourceTree = "<group>"; };
 		DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageRectCornersGet.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DE5A195A2835458F008DF951 /* TestScrollViewBouncing.swift */,
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
+				DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */,
 				DE5A196B283567CD008DF951 /* TestTextFieldMoveFocus.swift */,
 				DE5A196D2836CEA0008DF951 /* TestRightToLeftScrollView.swift */,
 				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
@@ -464,6 +467,7 @@
 				DE570617282F83BE004014F8 /* TestTabBarShadow.swift in Sources */,
 				DE720BEE2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift in Sources */,
 				DE5707ED2832DE85004014F8 /* TestInputViewGenerics.swift in Sources */,
+				DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */,
 				DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */,
 				DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */,
 				DE7DA38D28153FBC0071472E /* TestListNoPaddings.swift in Sources */,
