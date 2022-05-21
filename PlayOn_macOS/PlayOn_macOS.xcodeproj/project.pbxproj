@@ -19,6 +19,7 @@
 		DE7DA38B281472CD0071472E /* SplitViewAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA38A281472CD0071472E /* SplitViewAccessor.swift */; };
 		DE7DA49628181DE00071472E /* TestBackgroundOfFocusedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA49528181DE00071472E /* TestBackgroundOfFocusedTextField.swift */; };
 		DE7DA498281827B70071472E /* Text+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA497281827B70071472E /* Text+.swift */; };
+		DEC69D172838CB0500E70BB9 /* TestNonFocusableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D162838CB0500E70BB9 /* TestNonFocusableTextField.swift */; };
 		DEC9E6BC28218F0E001F0A1D /* TestTextFiledFocusOnLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E6BB28218F0E001F0A1D /* TestTextFiledFocusOnLaunch.swift */; };
 		DEC9E6C028225A3F001F0A1D /* TestAsyncProgressInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E6BF28225A3F001F0A1D /* TestAsyncProgressInList.swift */; };
 		DEF4B744280EA41B0023ECBE /* ScreenRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4B743280EA41B0023ECBE /* ScreenRecorder.swift */; };
@@ -61,6 +62,7 @@
 		DE7DA38A281472CD0071472E /* SplitViewAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewAccessor.swift; sourceTree = "<group>"; };
 		DE7DA49528181DE00071472E /* TestBackgroundOfFocusedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBackgroundOfFocusedTextField.swift; sourceTree = "<group>"; };
 		DE7DA497281827B70071472E /* Text+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+.swift"; sourceTree = "<group>"; };
+		DEC69D162838CB0500E70BB9 /* TestNonFocusableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNonFocusableTextField.swift; sourceTree = "<group>"; };
 		DEC9E6BB28218F0E001F0A1D /* TestTextFiledFocusOnLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFiledFocusOnLaunch.swift; sourceTree = "<group>"; };
 		DEC9E6BF28225A3F001F0A1D /* TestAsyncProgressInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncProgressInList.swift; sourceTree = "<group>"; };
 		DEF4B743280EA41B0023ECBE /* ScreenRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecorder.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				DE5F36E52801CEA50030FE37 /* TestTextFieldActivationEffect.swift */,
 				DEF4B745280EADEA0023ECBE /* TestScreenRecordingInView.swift */,
 				DEC9E6BB28218F0E001F0A1D /* TestTextFiledFocusOnLaunch.swift */,
+				DEC69D162838CB0500E70BB9 /* TestNonFocusableTextField.swift */,
 				DE7DA388281466730071472E /* TestToggleSidebar.swift */,
 				DE7DA49528181DE00071472E /* TestBackgroundOfFocusedTextField.swift */,
 				DEC9E6BF28225A3F001F0A1D /* TestAsyncProgressInList.swift */,
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC69D172838CB0500E70BB9 /* TestNonFocusableTextField.swift in Sources */,
 				DE7DA38B281472CD0071472E /* SplitViewAccessor.swift in Sources */,
 				DEF4B74A280F05970023ECBE /* MyPreferenceKeys.swift in Sources */,
 				DEF4B746280EADEA0023ECBE /* TestScreenRecordingInView.swift in Sources */,
