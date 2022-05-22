@@ -60,6 +60,9 @@
 		DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */; };
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
 		DEA09376283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09375283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift */; };
+		DEA09378283A68E400AEF697 /* TestControllerRepresentableDirectCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09377283A68E400AEF697 /* TestControllerRepresentableDirectCall.swift */; };
+		DEA0937B283A75BC00AEF697 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA0937A283A75BC00AEF697 /* demo.png */; };
+		DEA0937D283ABC3800AEF697 /* TestAnimationFromActionForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0937C283ABC3800AEF697 /* TestAnimationFromActionForEach.swift */; };
 		DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */; };
 		DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */; };
 		DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */; };
@@ -144,6 +147,9 @@
 		DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
 		DEA09375283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUpdateOnPartOfModelChange.swift; sourceTree = "<group>"; };
+		DEA09377283A68E400AEF697 /* TestControllerRepresentableDirectCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestControllerRepresentableDirectCall.swift; sourceTree = "<group>"; };
+		DEA0937A283A75BC00AEF697 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
+		DEA0937C283ABC3800AEF697 /* TestAnimationFromActionForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimationFromActionForEach.swift; sourceTree = "<group>"; };
 		DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservableInsideObservable.swift; sourceTree = "<group>"; };
 		DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCenterInputInForm.swift; sourceTree = "<group>"; };
 		DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoundedSelectionList.swift; sourceTree = "<group>"; };
@@ -208,6 +214,7 @@
 				DE76E20B28094AD6006EDA5A /* Extensions */,
 				DE5F36E82802AB5C0030FE37 /* Findings */,
 				DE5F367F280173040030FE37 /* Assets.xcassets */,
+				DEA09379283A731F00AEF697 /* Resources */,
 				DE5F3681280173040030FE37 /* Preview Content */,
 			);
 			path = PlayOn_iOS;
@@ -246,11 +253,13 @@
 				DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */,
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
+				DEA0937C283ABC3800AEF697 /* TestAnimationFromActionForEach.swift */,
 				DE5A195A2835458F008DF951 /* TestScrollViewBouncing.swift */,
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
 				DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */,
 				DEA09375283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift */,
 				DE5A196B283567CD008DF951 /* TestTextFieldMoveFocus.swift */,
+				DEA09377283A68E400AEF697 /* TestControllerRepresentableDirectCall.swift */,
 				DE5A196D2836CEA0008DF951 /* TestRightToLeftScrollView.swift */,
 				DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */,
 				DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */,
@@ -310,6 +319,14 @@
 				DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DEA09379283A731F00AEF697 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEA0937A283A75BC00AEF697 /* demo.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +435,7 @@
 			files = (
 				DE5F3683280173040030FE37 /* Preview Assets.xcassets in Resources */,
 				DE5F3680280173040030FE37 /* Assets.xcassets in Resources */,
+				DEA0937B283A75BC00AEF697 /* demo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +498,7 @@
 				DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */,
 				DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */,
 				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
+				DEA0937D283ABC3800AEF697 /* TestAnimationFromActionForEach.swift in Sources */,
 				DE5706192830CCB9004014F8 /* TestMasonry.swift in Sources */,
 				DE603B39282D7794009D41D8 /* TestNumberOrEmptyTextField.swift in Sources */,
 				DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */,
@@ -487,6 +506,7 @@
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
 				DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */,
 				DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */,
+				DEA09378283A68E400AEF697 /* TestControllerRepresentableDirectCall.swift in Sources */,
 				DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */,
 				DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */,
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
