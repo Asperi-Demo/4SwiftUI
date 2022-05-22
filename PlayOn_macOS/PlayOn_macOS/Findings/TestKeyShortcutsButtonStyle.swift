@@ -52,10 +52,29 @@ struct TestKeyShortcutsButtonStyle: View {
 
 	struct ContentView: View {
 		var body: some View {
+        // Work fine
+        Button("Button 1") {
+            print("1")
+        }
+        .buttonStyle(PlayerButton())
+        .keyboardShortcut(.space, modifiers: [])
+
+        // Work fine
+        Button("Button 2") {
+            print("2")
+        }
+        .keyboardShortcut(.upArrow, modifiers: [])
+
+        //Doesn't work
+        Button("Button X") {
+            print("X")
+        }
+        .buttonStyle(PlayerButton())
+        .keyboardShortcut(.downArrow, modifiers: [])
 
 			ZStack {
 				Button("", action: button3action)
-					.opacity(0)
+					.opacity(0)    // << works !!
 					.keyboardShortcut(.downArrow, modifiers: [])
 				Button("Button 3", action: button3action)
 					.buttonStyle(PlayerButton())
