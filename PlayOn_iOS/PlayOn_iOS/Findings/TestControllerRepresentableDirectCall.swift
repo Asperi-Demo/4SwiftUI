@@ -8,7 +8,7 @@ import SwiftUI
 import QuickLook
 
 struct TestControllerRepresentableDirectCall: View {
-	@Environment(\.controllerBox) var controllerBox
+	@Environment(\.weakBox) var weakBox
 
 	let testURL: URL = Bundle.main.url(forResource: "demo", withExtension: "png")!
 
@@ -16,7 +16,7 @@ struct TestControllerRepresentableDirectCall: View {
 		VStack {
 			QuickLookController(url: testURL, onDismiss: {})
 			Button("Reset") {
-				controllerBox.qlController?.reloadData()
+				weakBox.qlController?.reloadData()
 			}
 		}
 	}
@@ -28,19 +28,18 @@ struct TestControllerRepresentableDirectCall_Previews: PreviewProvider {
 	}
 }
 
-class ControllersBox {
+class WeakBox {
 	weak var qlController: QLPreviewController?    // don't hold !!
 	// ... add other controllers here
 
-	struct ControllerBoxKey: EnvironmentKey {
-		static let defaultValue = ControllersBox()
+	struct WeakBoxKey: EnvironmentKey {
+		static let defaultValue = WeakBox()
 	}
 }
 
 extension EnvironmentValues {
-	var controllerBox: ControllersBox {
-		get { self[ControllersBox.ControllerBoxKey.self] }
-		set { }
+	var weakBox: WeakBox {
+		get { self[WeakBox.WeakBoxKey.self] }
 	}
 }
 
@@ -61,7 +60,7 @@ struct QuickLookController: UIViewControllerRepresentable {
 
 	func makeUIViewController(context: Context) -> UINavigationController {
 		let controller = QLPreviewController()
-		context.environment.controllerBox.qlController = controller        // << here !!
+		context.environment.weakBox.qlController = controller        // << here !!
 
 		controller.dataSource = context.coordinator
 		controller.reloadData()
