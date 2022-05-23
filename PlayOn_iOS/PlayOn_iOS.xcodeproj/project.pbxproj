@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AF3D8E3283BFECB00ED89D3 /* TestTextStyleRestriction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */; };
 		DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0F428115E59000FF004 /* TestWays4DynamicMemberLookup.swift */; };
 		DE0DD0F928128735000FF004 /* TestConvenienceInitWithConstrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */; };
 		DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */; };
@@ -93,6 +94,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextStyleRestriction.swift; sourceTree = "<group>"; };
 		DE0DD0F428115E59000FF004 /* TestWays4DynamicMemberLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWays4DynamicMemberLookup.swift; sourceTree = "<group>"; };
 		DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConvenienceInitWithConstrains.swift; sourceTree = "<group>"; };
 		DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReversingScaleAnimation.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEA09380283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift */,
+				8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */,
 				DEA0937C283ABC3800AEF697 /* TestAnimationFromActionForEach.swift */,
 				DE5A195A2835458F008DF951 /* TestScrollViewBouncing.swift */,
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
@@ -492,6 +495,7 @@
 				DEA09376283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift in Sources */,
 				DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
+				8AF3D8E3283BFECB00ED89D3 /* TestTextStyleRestriction.swift in Sources */,
 				DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */,
 				DE5A19572835186F008DF951 /* TestAppStorageInVM.swift in Sources */,
 				DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */,
