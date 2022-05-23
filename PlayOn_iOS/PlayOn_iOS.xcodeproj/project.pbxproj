@@ -68,6 +68,7 @@
 		DEA09381283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09380283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift */; };
 		DEA09383283BC82800AEF697 /* TestModalTabViewSlideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09382283BC82800AEF697 /* TestModalTabViewSlideshow.swift */; };
 		DEA09385283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */; };
+		DEA09387283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */; };
 		DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */; };
 		DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */; };
 		DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */; };
@@ -160,6 +161,7 @@
 		DEA09380283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonContextMenu_vs_Menu.swift; sourceTree = "<group>"; };
 		DEA09382283BC82800AEF697 /* TestModalTabViewSlideshow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModalTabViewSlideshow.swift; sourceTree = "<group>"; };
 		DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservingAppStorageInVM.swift; sourceTree = "<group>"; };
+		DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatchedPersonDetailsFromGrid.swift; sourceTree = "<group>"; };
 		DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservableInsideObservable.swift; sourceTree = "<group>"; };
 		DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCenterInputInForm.swift; sourceTree = "<group>"; };
 		DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoundedSelectionList.swift; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 				DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */,
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
+				DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */,
 				DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */,
 				DEA09380283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift */,
 				8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */,
@@ -536,6 +539,7 @@
 				DE5A196C283567CD008DF951 /* TestTextFieldMoveFocus.swift in Sources */,
 				DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */,
 				DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */,
+				DEA09387283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift in Sources */,
 				DE7DA3E42815B2480071472E /* TestCustomButtonInList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
