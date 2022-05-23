@@ -8,7 +8,7 @@ import SwiftUI
 
 struct TestAnimationFromActionForEach: View {
 	var body: some View {
-		AnimationQuestion(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		AnimationQuestion()
 	}
 
 	struct AnimationQuestion: View {
