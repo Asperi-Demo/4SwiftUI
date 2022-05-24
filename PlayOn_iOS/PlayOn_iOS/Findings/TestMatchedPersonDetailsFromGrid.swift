@@ -64,16 +64,20 @@ struct TestMatchedPersonDetailsFromGrid: View {
 				ScrollView {
 					LazyVGrid(columns: [c]) {
 						ForEach(persons) { person in
-							PersonView(person: person)   // << just to keep same in place
-								.overlay(
+							ZStack {
+								if let selected = selectedPerson, selected == person {
+									PersonView(person: person)
+								} else {
 									PersonView(person: person)
 										.matchedGeometryEffect(id: person.id, in: gridSpace)
 										.onTapGesture {
 											if nil == selectedPerson {
 												selectedPerson = person
 											}
-										})
-								.frame(width: 100, height: 100)
+										}}
+
+							}
+							.frame(width: 100, height: 100)
 						}
 					}
 				}
@@ -88,8 +92,8 @@ struct TestMatchedPersonDetailsFromGrid: View {
 							}
 					}
 				}
+				.animation(.default, value: selectedPerson)
 			}
-			.animation(.default, value: selectedPerson)
 		}
 	}
 }
