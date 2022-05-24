@@ -70,6 +70,8 @@
 		DEA09383283BC82800AEF697 /* TestModalTabViewSlideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09382283BC82800AEF697 /* TestModalTabViewSlideshow.swift */; };
 		DEA09385283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */; };
 		DEA09387283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */; };
+		DEB68C38283CFBA200507A4F /* document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DEB68C37283CFBA200507A4F /* document.pdf */; };
+		DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */; };
 		DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */; };
 		DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */; };
 		DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */; };
@@ -164,6 +166,8 @@
 		DEA09382283BC82800AEF697 /* TestModalTabViewSlideshow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModalTabViewSlideshow.swift; sourceTree = "<group>"; };
 		DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservingAppStorageInVM.swift; sourceTree = "<group>"; };
 		DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatchedPersonDetailsFromGrid.swift; sourceTree = "<group>"; };
+		DEB68C37283CFBA200507A4F /* document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = document.pdf; sourceTree = "<group>"; };
+		DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPDFViewNavigation.swift; sourceTree = "<group>"; };
 		DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservableInsideObservable.swift; sourceTree = "<group>"; };
 		DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCenterInputInForm.swift; sourceTree = "<group>"; };
 		DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoundedSelectionList.swift; sourceTree = "<group>"; };
@@ -268,6 +272,7 @@
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */,
+				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
 				DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */,
 				DEA09380283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift */,
 				8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */,
@@ -345,6 +350,7 @@
 		DEA09379283A731F00AEF697 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DEB68C37283CFBA200507A4F /* document.pdf */,
 				DEA0937A283A75BC00AEF697 /* demo.png */,
 			);
 			path = Resources;
@@ -457,6 +463,7 @@
 				DE5F3683280173040030FE37 /* Preview Assets.xcassets in Resources */,
 				DE5F3680280173040030FE37 /* Assets.xcassets in Resources */,
 				DEA0937B283A75BC00AEF697 /* demo.png in Resources */,
+				DEB68C38283CFBA200507A4F /* document.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +508,7 @@
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
 				DE5A18E828341C1B008DF951 /* TestCustomModal.swift in Sources */,
+				DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */,
 				DEA09376283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift in Sources */,
 				DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
