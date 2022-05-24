@@ -14,10 +14,15 @@ struct PlayOn_macOSApp: App {
             ContentView()
             	.frame(width: 640, height: 480)
         }
+        .handlesExternalEvents(matching: [])
     }
 }
 
 class AppDelegate: NSObject, NSApplicationDelegate {
+	func application(_ application: NSApplication, open urls: [URL]) {
+		print("Unhandled: \(urls)")
+	}
+	
 	func applicationDidBecomeActive(_ notification: Notification) {
 		// Restore first minimized window if app became active and no one window
 		// is visible
