@@ -14,6 +14,9 @@ struct PlayOn_macOSApp: App {
             ContentView()
             	.frame(width: 640, height: 480)
         }
+		 // needed because WindowGroup scene seems have default
+		 // handler for external events, so opens new scene even
+		 // if no onOpenURL or userActivity callbacks are present
         .handlesExternalEvents(matching: [])
     }
 }
