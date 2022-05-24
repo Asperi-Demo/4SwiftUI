@@ -27,7 +27,7 @@ struct TestWeirdReferenceInjector: View {
 	}
 }
 
-protocol ParentProtocol: AnyObject {}
+protocol ParentProtocol: AnyObject {}  // << important - must be reference type !!
 class Parent: ParentProtocol {
 
 	//var child: Child?
@@ -37,7 +37,7 @@ class Parent: ParentProtocol {
 	deinit { print ("♻️ Deallocating Parent from memory") }
 }
 
-protocol ChildProtocol: AnyObject {}
+protocol ChildProtocol: AnyObject {}  // << important - must be reference type !!
 class Child: ChildProtocol {
 
 	//weak var parent: Parent?
@@ -100,11 +100,11 @@ extension InjectedDependency {
 
 // The instantiation of the value linked to the key.
 struct ParentKey: InjectedKeyProtocol {
-	static weak var currentValue: ParentProtocol?
+	static weak var currentValue: ParentProtocol?  // << important - must be WEAK !!
 }
 
 struct ChildKey: InjectedKeyProtocol {
-	static weak var currentValue: ChildProtocol?
+	static weak var currentValue: ChildProtocol?  // << important - must be WEAK !!
 }
 
 struct TestWeirdReferenceInjector_Previews: PreviewProvider {
