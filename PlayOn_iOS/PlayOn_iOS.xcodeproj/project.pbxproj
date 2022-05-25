@@ -72,6 +72,7 @@
 		DEA09387283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */; };
 		DEB68C38283CFBA200507A4F /* document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DEB68C37283CFBA200507A4F /* document.pdf */; };
 		DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */; };
+		DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */; };
 		DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */; };
 		DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */; };
 		DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */; };
@@ -168,6 +169,7 @@
 		DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatchedPersonDetailsFromGrid.swift; sourceTree = "<group>"; };
 		DEB68C37283CFBA200507A4F /* document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = document.pdf; sourceTree = "<group>"; };
 		DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPDFViewNavigation.swift; sourceTree = "<group>"; };
+		DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwitchSecureField.swift; sourceTree = "<group>"; };
 		DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservableInsideObservable.swift; sourceTree = "<group>"; };
 		DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCenterInputInForm.swift; sourceTree = "<group>"; };
 		DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoundedSelectionList.swift; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */,
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
+				DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */,
 				DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */,
 				DEA09380283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift */,
 				8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */,
@@ -497,6 +500,7 @@
 				DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */,
 				DE5707F12833E8D0004014F8 /* TestWeirdReferenceInjector.swift in Sources */,
 				DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */,
+				DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */,
 				DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */,
 				DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */,
 				DE76E20428073164006EDA5A /* TestUnwindFromSwiftUIButton.swift in Sources */,
