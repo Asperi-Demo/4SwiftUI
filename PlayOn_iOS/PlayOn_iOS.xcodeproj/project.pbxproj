@@ -74,6 +74,8 @@
 		DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */; };
 		DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */; };
 		DEB68C42283E23CA00507A4F /* TestBackgroundRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C41283E23CA00507A4F /* TestBackgroundRendering.swift */; };
+		DEB68C44283F3CA800507A4F /* TestColorShemeForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C43283F3CA800507A4F /* TestColorShemeForView.swift */; };
+		DEB68C46283F46D400507A4F /* TestDropCancellingIntercept.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C45283F46D400507A4F /* TestDropCancellingIntercept.swift */; };
 		DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */; };
 		DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */; };
 		DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */; };
@@ -172,6 +174,8 @@
 		DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPDFViewNavigation.swift; sourceTree = "<group>"; };
 		DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwitchSecureField.swift; sourceTree = "<group>"; };
 		DEB68C41283E23CA00507A4F /* TestBackgroundRendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBackgroundRendering.swift; sourceTree = "<group>"; };
+		DEB68C43283F3CA800507A4F /* TestColorShemeForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorShemeForView.swift; sourceTree = "<group>"; };
+		DEB68C45283F46D400507A4F /* TestDropCancellingIntercept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDropCancellingIntercept.swift; sourceTree = "<group>"; };
 		DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservableInsideObservable.swift; sourceTree = "<group>"; };
 		DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCenterInputInForm.swift; sourceTree = "<group>"; };
 		DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoundedSelectionList.swift; sourceTree = "<group>"; };
@@ -285,9 +289,11 @@
 				8AF3D8E4283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift */,
 				DEA0937C283ABC3800AEF697 /* TestAnimationFromActionForEach.swift */,
 				DE5A195A2835458F008DF951 /* TestScrollViewBouncing.swift */,
+				DEB68C43283F3CA800507A4F /* TestColorShemeForView.swift */,
 				DE76E20328073164006EDA5A /* TestUnwindFromSwiftUIButton.swift */,
 				DEA09382283BC82800AEF697 /* TestModalTabViewSlideshow.swift */,
 				DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */,
+				DEB68C45283F46D400507A4F /* TestDropCancellingIntercept.swift */,
 				DEA09375283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift */,
 				DEA0937E283B5B3100AEF697 /* TestTabViewBarAppearance.swift */,
 				DE5A196B283567CD008DF951 /* TestTextFieldMoveFocus.swift */,
@@ -507,6 +513,7 @@
 				DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */,
 				DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */,
 				DE76E20428073164006EDA5A /* TestUnwindFromSwiftUIButton.swift in Sources */,
+				DEB68C44283F3CA800507A4F /* TestColorShemeForView.swift in Sources */,
 				DE5A1959283544EF008DF951 /* UIView+.swift in Sources */,
 				DE5A196E2836CEA0008DF951 /* TestRightToLeftScrollView.swift in Sources */,
 				DEA0937F283B5B3100AEF697 /* TestTabViewBarAppearance.swift in Sources */,
@@ -549,6 +556,7 @@
 				DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */,
 				8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */,
 				DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */,
+				DEB68C46283F46D400507A4F /* TestDropCancellingIntercept.swift in Sources */,
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
 				DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */,
 				DE7DA43D281704020071472E /* TestDragGestureDirection.swift in Sources */,
