@@ -14,7 +14,9 @@ struct TestGradientProgressView: View {
 	}
 
 	struct GradientProgressView: View, Animatable {
-		@State private var animate = CGFloat(0.1)
+		// gradient colors should be ordered so position cannot be less
+		// then first color in gradient and more then last color in gradient
+		@State private var animate = CGFloat(0.1)  // << left prgress position !!
 
 		var body: some View {
 			RoundedRectangle(cornerRadius: 12).fill(.clear)
@@ -23,7 +25,7 @@ struct TestGradientProgressView: View {
 				.animation(.linear(duration: 2.0)
 					.repeatForever(autoreverses: true), value: animate)
 				.onAppear {
-					animate = 0.9
+					animate = 0.9   // << right progress position !!
 				}
 		}
 
@@ -50,9 +52,9 @@ struct TestGradientProgressView: View {
 						startPoint: .leading,
 						endPoint: .trailing
 					)
-					// we need it wider to avoid jam and boundary
-						.padding(.horizontal, -40)
-						.clipped()
+					// we need gradient wider than holder to avoid jaming at edges
+					.padding(.horizontal, -40)
+					.clipped()
 				)
 			}
 		}
