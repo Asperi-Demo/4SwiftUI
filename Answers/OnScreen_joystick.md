@@ -1,3 +1,11 @@
+```
+BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 Q: SwiftUI: How to change the speed of drag based on distance already dragged? (by VladislavS)
 
 A: Here is possible solution based on asymptotic curve (if somebody find it helpful). 
