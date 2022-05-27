@@ -18,6 +18,7 @@
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
+		DE492EC528414D96009C434F /* TestScreenJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE492EC428414D96009C434F /* TestScreenJoystick.swift */; };
 		DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570614282F7850004014F8 /* TestTextWithURL.swift */; };
 		DE570617282F83BE004014F8 /* TestTabBarShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570616282F83BE004014F8 /* TestTabBarShadow.swift */; };
 		DE5706192830CCB9004014F8 /* TestMasonry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5706182830CCB9004014F8 /* TestMasonry.swift */; };
@@ -115,6 +116,7 @@
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
+		DE492EC428414D96009C434F /* TestScreenJoystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreenJoystick.swift; sourceTree = "<group>"; };
 		DE570613282F7167004014F8 /* PlayOn-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PlayOn-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DE570614282F7850004014F8 /* TestTextWithURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextWithURL.swift; sourceTree = "<group>"; };
 		DE570616282F83BE004014F8 /* TestTabBarShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabBarShadow.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
 				DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */,
 				DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */,
+				DE492EC428414D96009C434F /* TestScreenJoystick.swift */,
 				DEB68C4728400D6300507A4F /* TestGradientProgressView.swift */,
 				DEA09380283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift */,
 				8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */,
@@ -542,6 +545,7 @@
 				DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */,
 				DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */,
 				DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */,
+				DE492EC528414D96009C434F /* TestScreenJoystick.swift in Sources */,
 				DE7DA38D28153FBC0071472E /* TestListNoPaddings.swift in Sources */,
 				DE76E211280AA42D006EDA5A /* TestMixedHorizontalLayout.swift in Sources */,
 				DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */,
