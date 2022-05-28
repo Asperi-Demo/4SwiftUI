@@ -13,9 +13,13 @@ struct PlayOn_iOSApp: App {
 			UIView.setAnimationsEnabled(false)
 		}
 	}
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+
+	var body: some Scene {
+		WindowGroup {
+			// ❌ Try don't do here anything more than
+			// just create a root view ‼️
+			ContentView()
+		}
+	}
+
 }
