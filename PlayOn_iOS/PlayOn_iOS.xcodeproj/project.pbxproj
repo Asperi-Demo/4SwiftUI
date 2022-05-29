@@ -21,6 +21,7 @@
 		DE492EC528414D96009C434F /* TestScreenJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE492EC428414D96009C434F /* TestScreenJoystick.swift */; };
 		DE492EC72841F862009C434F /* TestReverseAnimationOnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE492EC62841F862009C434F /* TestReverseAnimationOnAppear.swift */; };
 		DE492EC9284264E1009C434F /* TestToggledReppeatingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE492EC8284264E1009C434F /* TestToggledReppeatingAnimation.swift */; };
+		DE492ECB284333FC009C434F /* TestTapableTextOnAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE492ECA284333FC009C434F /* TestTapableTextOnAnimate.swift */; };
 		DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570614282F7850004014F8 /* TestTextWithURL.swift */; };
 		DE570617282F83BE004014F8 /* TestTabBarShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570616282F83BE004014F8 /* TestTabBarShadow.swift */; };
 		DE5706192830CCB9004014F8 /* TestMasonry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5706182830CCB9004014F8 /* TestMasonry.swift */; };
@@ -121,6 +122,7 @@
 		DE492EC428414D96009C434F /* TestScreenJoystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreenJoystick.swift; sourceTree = "<group>"; };
 		DE492EC62841F862009C434F /* TestReverseAnimationOnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReverseAnimationOnAppear.swift; sourceTree = "<group>"; };
 		DE492EC8284264E1009C434F /* TestToggledReppeatingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestToggledReppeatingAnimation.swift; sourceTree = "<group>"; };
+		DE492ECA284333FC009C434F /* TestTapableTextOnAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTapableTextOnAnimate.swift; sourceTree = "<group>"; };
 		DE570613282F7167004014F8 /* PlayOn-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PlayOn-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DE570614282F7850004014F8 /* TestTextWithURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextWithURL.swift; sourceTree = "<group>"; };
 		DE570616282F83BE004014F8 /* TestTabBarShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabBarShadow.swift; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 				DEB68C4728400D6300507A4F /* TestGradientProgressView.swift */,
 				DE492EC8284264E1009C434F /* TestToggledReppeatingAnimation.swift */,
 				DEA09380283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift */,
+				DE492ECA284333FC009C434F /* TestTapableTextOnAnimate.swift */,
 				8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */,
 				8AF3D8E4283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift */,
 				DEA0937C283ABC3800AEF697 /* TestAnimationFromActionForEach.swift */,
@@ -537,6 +540,7 @@
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
 				DE5A18E828341C1B008DF951 /* TestCustomModal.swift in Sources */,
 				DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */,
+				DE492ECB284333FC009C434F /* TestTapableTextOnAnimate.swift in Sources */,
 				DEA09376283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift in Sources */,
 				DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
