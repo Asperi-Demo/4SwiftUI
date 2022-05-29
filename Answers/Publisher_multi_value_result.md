@@ -1,3 +1,11 @@
+```
+BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 Q: Combine: Publisher like Future but with multiple values (by Paul T.)
 
 A: Here is possible alternate approach. No needs in `Defer`, `cause subject lives idle, and can send (pass-through) as many values as `libraryObject` will live.
