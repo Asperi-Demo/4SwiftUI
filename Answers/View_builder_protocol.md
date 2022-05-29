@@ -8,7 +8,19 @@ ATTENTION: By using this you agree do not repost any part of this code
 
 Q: Protocol that has method return type View (by Pavel Gatilov)
 
-A: Here is a solution. Tested with Xcode 11.4 / iOS 13.4
+A: Here is a solution. 
+
+### Update: Xcode 13.4 - now I would propose
+
+```
+protocol Builder {
+    associatedtype T: View
+    @ViewBuilder func buildView() -> T
+}
+```
+
+
+### Original: Tested with Xcode 11.4 / iOS 13.4
 
 ```
 protocol Builder {
