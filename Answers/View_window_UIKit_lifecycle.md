@@ -18,7 +18,7 @@ Here is a solution (tested with Xcode 13.4), to be brief only for iOS
 ```
 @main
 struct PlayOn_iOSApp: App {
-	@UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+  @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     // ...
 }
@@ -26,13 +26,13 @@ struct PlayOn_iOSApp: App {
 class AppDelegate: NSObject, UIApplicationDelegate {
 
 
-	func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-		let configuration = UISceneConfiguration(name: nil, sessionRole: connectingSceneSession.role)
-		if connectingSceneSession.role == .windowApplication {
-			configuration.delegateClass = SceneDelegate.self
-		}
-		return configuration
-	}
+  func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+    let configuration = UISceneConfiguration(name: nil, sessionRole: connectingSceneSession.role)
+    if connectingSceneSession.role == .windowApplication {
+      configuration.delegateClass = SceneDelegate.self
+    }
+    return configuration
+  }
 }
 ```
 
@@ -40,12 +40,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 ```
 class SceneDelegate: NSObject, ObservableObject, UIWindowSceneDelegate {
-	var window: UIWindow?   // << contract of `UIWindowSceneDelegate`
+  var window: UIWindow?   // << contract of `UIWindowSceneDelegate`
 
-	func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-		guard let windowScene = scene as? UIWindowScene else { return }
-		self.window = windowScene.keyWindow   // << store !!!
-	}
+  func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+    guard let windowScene = scene as? UIWindowScene else { return }
+    self.window = windowScene.keyWindow   // << store !!!
+  }
 }
 
 ```
@@ -53,16 +53,16 @@ class SceneDelegate: NSObject, ObservableObject, UIWindowSceneDelegate {
 3) Now we can use our delegate anywhere (!!!) in view hierarchy as `EnvironmentObject`, because (bonus of confirming to `ObservableObject`) SwiftUI automatically injects it into `ContentView`
 
 ```
-	@EnvironmentObject var sceneDelegate: SceneDelegate
-	
-	var body: some View {
+  @EnvironmentObject var sceneDelegate: SceneDelegate
+  
+  var body: some View {
               Text("STOP russia")
-			.onAppear {
-				if let myWindow = sceneDelegate.window {
-					print(">> window: \(myWindow.description)")
-				}
-			}
-	}
+      .onAppear {
+        if let myWindow = sceneDelegate.window {
+          print(">> window: \(myWindow.description)")
+        }
+      }
+  }
 ```
 
 ![Screenshot 2022-05-30 at 19 56 59](https://user-images.githubusercontent.com/62171579/171037991-2af6678f-3506-4ce3-bca8-a43783f90885.png)
@@ -114,9 +114,9 @@ The idea is to use native SwiftUI Environment concept, because once injected env
                 return window })
   
   #if canImport(UIKit)
-    	window.rootViewController = UIHostingController(rootView: contentView)
+      window.rootViewController = UIHostingController(rootView: contentView)
   #elseif canImport(AppKit)
-     	window.contentView = NSHostingView(rootView: contentView)
+       window.contentView = NSHostingView(rootView: contentView)
   #else
     #error("Unsupported platform")
   #endif
