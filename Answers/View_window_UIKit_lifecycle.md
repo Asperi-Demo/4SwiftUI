@@ -67,7 +67,7 @@ class SceneDelegate: NSObject, ObservableObject, UIWindowSceneDelegate {
 
 ![Screenshot 2022-05-30 at 19 56 59](https://user-images.githubusercontent.com/62171579/171037991-2af6678f-3506-4ce3-bca8-a43783f90885.png)
 
-[Complete code in project is here](https://github.com/Asperi-Demo/4SwiftUI/blob/master/PlayOn_iOS/PlayOn_iOS/Findings/TestWindowFromScene.swift)
+[Complete code in project is here](https://github.com/Asperi-Demo/4SwiftUI/blob/master/PlayOn_iOS/PlayOn_iOS/Findings/TestWindowFromScene.swift) and [app module is here](https://github.com/Asperi-Demo/4SwiftUI/blob/master/PlayOn_iOS/PlayOn_iOS/PlayOn_iOSApp.swift)
 
 ### UIKit Life-Cycle
 
