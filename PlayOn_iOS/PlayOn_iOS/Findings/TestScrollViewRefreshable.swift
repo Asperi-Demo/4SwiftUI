@@ -54,7 +54,7 @@ struct TestScrollViewRefreshable: View {
 		var body: some View {
 			VStack {
 				if isRefreshing {
-					MyProgress()
+					MyProgress()    // ProgressView() ?? - no, it's boring :)
 						.transition(.scale)
 				}
 
