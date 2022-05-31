@@ -89,6 +89,7 @@
 		DEC9E6BE2821C7A9001F0A1D /* TestWrappingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */; };
 		DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */; };
 		DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */; };
+		DECEDF5F2845F99B00457D78 /* TestAlignmentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -196,6 +197,7 @@
 		DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappingUIView.swift; sourceTree = "<group>"; };
 		DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridNonClip.swift; sourceTree = "<group>"; };
 		DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageRectCornersGet.swift; sourceTree = "<group>"; };
+		DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlignmentAnimation.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -298,6 +300,7 @@
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
 				DE492ECC2845321D009C434F /* TestWindowFromScene.swift */,
 				DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */,
+				DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */,
 				DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */,
 				8AF3D8E628437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift */,
 				DE492EC428414D96009C434F /* TestScreenJoystick.swift */,
@@ -592,6 +595,7 @@
 				DEA09385283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift in Sources */,
 				DEB68C42283E23CA00507A4F /* TestBackgroundRendering.swift in Sources */,
 				DEA09381283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift in Sources */,
+				DECEDF5F2845F99B00457D78 /* TestAlignmentAnimation.swift in Sources */,
 				DE5A196C283567CD008DF951 /* TestTextFieldMoveFocus.swift in Sources */,
 				DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */,
 				DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */,
