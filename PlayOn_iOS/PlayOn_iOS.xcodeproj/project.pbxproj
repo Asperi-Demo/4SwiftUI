@@ -91,6 +91,7 @@
 		DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */; };
 		DECEDF5F2845F99B00457D78 /* TestAlignmentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */; };
 		DECEDF612846A5B200457D78 /* TestInjectScenePhaseInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */; };
+		DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -200,6 +201,7 @@
 		DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageRectCornersGet.swift; sourceTree = "<group>"; };
 		DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlignmentAnimation.swift; sourceTree = "<group>"; };
 		DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInjectScenePhaseInModel.swift; sourceTree = "<group>"; };
+		DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollViewRefreshable.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -302,6 +304,7 @@
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
 				DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */,
 				DE492ECC2845321D009C434F /* TestWindowFromScene.swift */,
+				DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */,
 				DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */,
 				DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */,
 				DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */,
@@ -569,6 +572,7 @@
 				DE5707ED2832DE85004014F8 /* TestInputViewGenerics.swift in Sources */,
 				DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */,
 				DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */,
+				DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */,
 				DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */,
 				DE492EC528414D96009C434F /* TestScreenJoystick.swift in Sources */,
 				DE7DA38D28153FBC0071472E /* TestListNoPaddings.swift in Sources */,
