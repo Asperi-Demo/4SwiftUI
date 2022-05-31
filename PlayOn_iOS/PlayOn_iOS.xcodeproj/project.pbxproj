@@ -90,6 +90,7 @@
 		DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */; };
 		DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */; };
 		DECEDF5F2845F99B00457D78 /* TestAlignmentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */; };
+		DECEDF612846A5B200457D78 /* TestInjectScenePhaseInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -198,6 +199,7 @@
 		DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridNonClip.swift; sourceTree = "<group>"; };
 		DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageRectCornersGet.swift; sourceTree = "<group>"; };
 		DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlignmentAnimation.swift; sourceTree = "<group>"; };
+		DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInjectScenePhaseInModel.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -298,6 +300,7 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */,
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
+				DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */,
 				DE492ECC2845321D009C434F /* TestWindowFromScene.swift */,
 				DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */,
 				DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */,
@@ -592,6 +595,7 @@
 				DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */,
 				DE7DA43D281704020071472E /* TestDragGestureDirection.swift in Sources */,
 				DE5A195B2835458F008DF951 /* TestScrollViewBouncing.swift in Sources */,
+				DECEDF612846A5B200457D78 /* TestInjectScenePhaseInModel.swift in Sources */,
 				DEA09385283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift in Sources */,
 				DEB68C42283E23CA00507A4F /* TestBackgroundRendering.swift in Sources */,
 				DEA09381283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift in Sources */,
