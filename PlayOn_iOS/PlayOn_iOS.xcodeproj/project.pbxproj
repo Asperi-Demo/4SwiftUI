@@ -92,6 +92,7 @@
 		DECEDF5F2845F99B00457D78 /* TestAlignmentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */; };
 		DECEDF612846A5B200457D78 /* TestInjectScenePhaseInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */; };
 		DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */; };
+		DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -202,6 +203,7 @@
 		DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlignmentAnimation.swift; sourceTree = "<group>"; };
 		DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInjectScenePhaseInModel.swift; sourceTree = "<group>"; };
 		DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollViewRefreshable.swift; sourceTree = "<group>"; };
+		DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragUnderScrollView.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -305,6 +307,7 @@
 				DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */,
 				DE492ECC2845321D009C434F /* TestWindowFromScene.swift */,
 				DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */,
+				DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */,
 				DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */,
 				DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */,
 				DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */,
@@ -592,6 +595,7 @@
 				DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */,
 				DEA09378283A68E400AEF697 /* TestControllerRepresentableDirectCall.swift in Sources */,
 				DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */,
+				DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */,
 				8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */,
 				DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */,
 				DEB68C46283F46D400507A4F /* TestDropCancellingIntercept.swift in Sources */,
