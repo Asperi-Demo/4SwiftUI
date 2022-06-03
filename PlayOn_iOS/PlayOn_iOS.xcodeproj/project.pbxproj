@@ -93,6 +93,7 @@
 		DECEDF612846A5B200457D78 /* TestInjectScenePhaseInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */; };
 		DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */; };
 		DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */; };
+		DECEDFBE2849E75300457D78 /* TestSomeViewFillInScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -204,6 +205,7 @@
 		DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInjectScenePhaseInModel.swift; sourceTree = "<group>"; };
 		DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollViewRefreshable.swift; sourceTree = "<group>"; };
 		DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragUnderScrollView.swift; sourceTree = "<group>"; };
+		DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSomeViewFillInScrollView.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -306,6 +308,7 @@
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
 				DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */,
 				DE492ECC2845321D009C434F /* TestWindowFromScene.swift */,
+				DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */,
 				DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */,
 				DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */,
 				DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */,
@@ -541,6 +544,7 @@
 				DE1A42C8282A29E20026319F /* TestDragDropInGrid.swift in Sources */,
 				DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */,
 				DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */,
+				DECEDFBE2849E75300457D78 /* TestSomeViewFillInScrollView.swift in Sources */,
 				DE5707F12833E8D0004014F8 /* TestWeirdReferenceInjector.swift in Sources */,
 				DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */,
 				DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */,
