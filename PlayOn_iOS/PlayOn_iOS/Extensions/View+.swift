@@ -67,3 +67,15 @@ extension View {
     }
 }
 
+// MARK: -
+extension View {
+	@ViewBuilder
+	func labelStyle(includingText: Bool) -> some View {
+		if includingText {
+			self.labelStyle(.titleAndIcon)
+		} else {
+			self.labelStyle(.iconOnly)
+		}
+	}
+}
+
