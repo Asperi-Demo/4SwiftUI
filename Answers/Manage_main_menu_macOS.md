@@ -1,3 +1,11 @@
+```
+BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 Q: How can I remove macOS SwiftUI title options? (by code13de)
 
 A: A possible approach is to filter created menu after launch. So create app delegate adapter and on did finish, do the following:
