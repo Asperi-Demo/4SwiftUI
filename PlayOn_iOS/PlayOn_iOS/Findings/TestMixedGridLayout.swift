@@ -44,9 +44,12 @@ struct TestMixedGridLayout: View {
 
 		struct AdView: View {
 			var body: some View {
-				Color.yellow
-					.frame(width: UIScreen.main.bounds.width, height: 140)
-					.overlay(Text("Ad is here"))
+				VStack(spacing: 0) {
+					Color.blue
+					Color.yellow
+				}
+				.frame(width: UIScreen.main.bounds.width, height: 140)
+				.overlay(Text("STOP WAR").font(.largeTitle).bold())
 			}
 		}
 
