@@ -96,6 +96,7 @@
 		DECEDFBE2849E75300457D78 /* TestSomeViewFillInScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 		DEF88210284AFADF0039F5B1 /* TestMixedGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */; };
+		DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +210,7 @@
 		DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSomeViewFillInScrollView.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 		DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMixedGridLayout.swift; sourceTree = "<group>"; };
+		DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInternalTypeModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,6 +310,7 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */,
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
+				DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */,
 				DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */,
 				DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */,
 				DE492ECC2845321D009C434F /* TestWindowFromScene.swift */,
@@ -596,6 +599,7 @@
 				DEA0937D283ABC3800AEF697 /* TestAnimationFromActionForEach.swift in Sources */,
 				DE5706192830CCB9004014F8 /* TestMasonry.swift in Sources */,
 				DE603B39282D7794009D41D8 /* TestNumberOrEmptyTextField.swift in Sources */,
+				DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */,
 				DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */,
 				DE1A4329282AAA360026319F /* Binding+.swift in Sources */,
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
