@@ -9,8 +9,8 @@ import SwiftUI
 struct TestWeirdReferenceInjector: View {
 
 	init() {
-		var mary: Parent? = Parent()
-		var tom: Child? = Child()
+		var mary: ParentObject? = ParentObject()
+		var tom: ChildObject? = ChildObject()
 
 		// Original test-case: cross-dependency !!
 		mary?.child = tom!
@@ -28,7 +28,7 @@ struct TestWeirdReferenceInjector: View {
 }
 
 protocol ParentProtocol: AnyObject {}  // << important - must be reference type !!
-class Parent: ParentProtocol {
+class ParentObject: ParentProtocol {
 
 	//var child: Child?
 	@Injected(\.child) var child
@@ -38,7 +38,7 @@ class Parent: ParentProtocol {
 }
 
 protocol ChildProtocol: AnyObject {}  // << important - must be reference type !!
-class Child: ChildProtocol {
+class ChildObject: ChildProtocol {
 
 	//weak var parent: Parent?
 	@Injected(\.parent) var parent
