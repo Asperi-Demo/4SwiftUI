@@ -97,6 +97,7 @@
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 		DEF88210284AFADF0039F5B1 /* TestMixedGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */; };
 		DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */; };
+		DEF88214284C74DB0039F5B1 /* TestProminentInsideStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88213284C74DB0039F5B1 /* TestProminentInsideStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +212,7 @@
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 		DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMixedGridLayout.swift; sourceTree = "<group>"; };
 		DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInternalTypeModifiers.swift; sourceTree = "<group>"; };
+		DEF88213284C74DB0039F5B1 /* TestProminentInsideStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProminentInsideStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -310,6 +312,7 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */,
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
+				DEF88213284C74DB0039F5B1 /* TestProminentInsideStyle.swift */,
 				DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */,
 				DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */,
 				DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */,
@@ -564,6 +567,7 @@
 				DE5A196E2836CEA0008DF951 /* TestRightToLeftScrollView.swift in Sources */,
 				DEA0937F283B5B3100AEF697 /* TestTabViewBarAppearance.swift in Sources */,
 				DE0DD0F928128735000FF004 /* TestConvenienceInitWithConstrains.swift in Sources */,
+				DEF88214284C74DB0039F5B1 /* TestProminentInsideStyle.swift in Sources */,
 				DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */,
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
