@@ -19,8 +19,9 @@ protocol Media {
 }
 
 final class Playlist: Media, Identifiable {
+    @ViewBuilder
     func displaySummary() -> some View {
-        return HStack {
+        HStack {
             Text("Summary")
                 .padding(.all)
                 .background(Color.black)
