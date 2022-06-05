@@ -12,3 +12,11 @@ public extension Binding where Value == Bool {
             set: { self.wrappedValue = !$0})
     }
 }
+
+public extension Binding where Value == Bool {
+
+    static func ||(_ lhs: Binding<Bool>, _ rhs: Binding<Bool>) -> Binding<Bool> {
+        return Binding<Bool>( get: { lhs.wrappedValue || rhs.wrappedValue },
+                              set: {_ in })
+    }
+}
