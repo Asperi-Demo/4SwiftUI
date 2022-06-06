@@ -98,6 +98,7 @@
 		DEF88210284AFADF0039F5B1 /* TestMixedGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */; };
 		DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */; };
 		DEF88214284C74DB0039F5B1 /* TestProminentInsideStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88213284C74DB0039F5B1 /* TestProminentInsideStyle.swift */; };
+		DEF88267284E5B2A0039F5B1 /* TestHostingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88266284E5B2A0039F5B1 /* TestHostingInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +214,7 @@
 		DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMixedGridLayout.swift; sourceTree = "<group>"; };
 		DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInternalTypeModifiers.swift; sourceTree = "<group>"; };
 		DEF88213284C74DB0039F5B1 /* TestProminentInsideStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProminentInsideStyle.swift; sourceTree = "<group>"; };
+		DEF88266284E5B2A0039F5B1 /* TestHostingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHostingInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +318,7 @@
 				DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */,
 				DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */,
 				DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */,
+				DEF88266284E5B2A0039F5B1 /* TestHostingInViewController.swift */,
 				DE492ECC2845321D009C434F /* TestWindowFromScene.swift */,
 				DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */,
 				DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */,
@@ -574,6 +577,7 @@
 				DE5A18E828341C1B008DF951 /* TestCustomModal.swift in Sources */,
 				DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */,
 				DE492ECB284333FC009C434F /* TestTapableTextOnAnimate.swift in Sources */,
+				DEF88267284E5B2A0039F5B1 /* TestHostingInViewController.swift in Sources */,
 				8AF3D8E728437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift in Sources */,
 				DEA09376283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift in Sources */,
 				DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */,
