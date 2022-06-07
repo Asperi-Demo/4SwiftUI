@@ -99,6 +99,7 @@
 		DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */; };
 		DEF88214284C74DB0039F5B1 /* TestProminentInsideStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88213284C74DB0039F5B1 /* TestProminentInsideStyle.swift */; };
 		DEF88267284E5B2A0039F5B1 /* TestHostingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88266284E5B2A0039F5B1 /* TestHostingInViewController.swift */; };
+		DEF8829F284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8829E284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +216,7 @@
 		DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInternalTypeModifiers.swift; sourceTree = "<group>"; };
 		DEF88213284C74DB0039F5B1 /* TestProminentInsideStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProminentInsideStyle.swift; sourceTree = "<group>"; };
 		DEF88266284E5B2A0039F5B1 /* TestHostingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHostingInViewController.swift; sourceTree = "<group>"; };
+		DEF8829E284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBackgroundInHalfSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +319,7 @@
 				DEF88213284C74DB0039F5B1 /* TestProminentInsideStyle.swift */,
 				DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */,
 				DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */,
+				DEF8829E284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift */,
 				DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */,
 				DEF88266284E5B2A0039F5B1 /* TestHostingInViewController.swift */,
 				DE492ECC2845321D009C434F /* TestWindowFromScene.swift */,
@@ -603,6 +606,7 @@
 				DE492EC72841F862009C434F /* TestReverseAnimationOnAppear.swift in Sources */,
 				DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */,
 				DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */,
+				DEF8829F284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift in Sources */,
 				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
 				DEA0937D283ABC3800AEF697 /* TestAnimationFromActionForEach.swift in Sources */,
 				DE5706192830CCB9004014F8 /* TestMasonry.swift in Sources */,
