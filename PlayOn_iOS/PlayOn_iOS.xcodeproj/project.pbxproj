@@ -17,6 +17,7 @@
 		DE1A42C8282A29E20026319F /* TestDragDropInGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A42C7282A29E20026319F /* TestDragDropInGrid.swift */; };
 		DE1A4329282AAA360026319F /* Binding+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A4328282AAA360026319F /* Binding+.swift */; };
 		DE1B19822850F04700FBEE96 /* TestEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B19812850F04700FBEE96 /* TestEmitterView.swift */; };
+		DE1B198428512F5300FBEE96 /* TestTextEditorToFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */; };
 		DE240F49284F948300D82EC2 /* TestArcAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE240F48284F948300D82EC2 /* TestArcAnimation.swift */; };
 		DE240F7A2850DE3900D82EC2 /* TestPanoramaImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE240F792850DE3900D82EC2 /* TestPanoramaImageView.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
@@ -134,6 +135,7 @@
 		DE1A42C7282A29E20026319F /* TestDragDropInGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragDropInGrid.swift; sourceTree = "<group>"; };
 		DE1A4328282AAA360026319F /* Binding+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+.swift"; sourceTree = "<group>"; };
 		DE1B19812850F04700FBEE96 /* TestEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEmitterView.swift; sourceTree = "<group>"; };
+		DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextEditorToFocus.swift; sourceTree = "<group>"; };
 		DE240F48284F948300D82EC2 /* TestArcAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestArcAnimation.swift; sourceTree = "<group>"; };
 		DE240F792850DE3900D82EC2 /* TestPanoramaImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPanoramaImageView.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DEB68C41283E23CA00507A4F /* TestBackgroundRendering.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
+				DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */,
 				DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */,
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
 				DEF88213284C74DB0039F5B1 /* TestProminentInsideStyle.swift */,
@@ -635,6 +638,7 @@
 				DE1B19822850F04700FBEE96 /* TestEmitterView.swift in Sources */,
 				DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */,
 				8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */,
+				DE1B198428512F5300FBEE96 /* TestTextEditorToFocus.swift in Sources */,
 				DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */,
 				DEB68C46283F46D400507A4F /* TestDropCancellingIntercept.swift in Sources */,
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
