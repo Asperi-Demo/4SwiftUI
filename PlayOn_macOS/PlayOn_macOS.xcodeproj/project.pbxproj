@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1B19FD285225A900FBEE96 /* TestMultiWebViewScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B19FC285225A900FBEE96 /* TestMultiWebViewScroller.swift */; };
 		DE5F36B92801CC880030FE37 /* PlayOn_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36B82801CC880030FE37 /* PlayOn_macOSApp.swift */; };
 		DE5F36BB2801CC880030FE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36BA2801CC880030FE37 /* ContentView.swift */; };
 		DE5F36BD2801CC890030FE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F36BC2801CC890030FE37 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE1B19FC285225A900FBEE96 /* TestMultiWebViewScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMultiWebViewScroller.swift; sourceTree = "<group>"; };
 		DE5F36B52801CC880030FE37 /* PlayOn_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOn_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F36B82801CC880030FE37 /* PlayOn_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_macOSApp.swift; sourceTree = "<group>"; };
 		DE5F36BA2801CC880030FE37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				DEC69D162838CB0500E70BB9 /* TestNonFocusableTextField.swift */,
 				DEB68C35283CF04900507A4F /* TestSectionResultsExtension.swift */,
 				DEA09373283A157500AEF697 /* TestKeyShortcutsButtonStyle.swift */,
+				DE1B19FC285225A900FBEE96 /* TestMultiWebViewScroller.swift */,
 				DE7DA388281466730071472E /* TestToggleSidebar.swift */,
 				DE7DA49528181DE00071472E /* TestBackgroundOfFocusedTextField.swift */,
 				DEC9E6BF28225A3F001F0A1D /* TestAsyncProgressInList.swift */,
@@ -333,6 +336,7 @@
 				DE5F36BB2801CC880030FE37 /* ContentView.swift in Sources */,
 				DEF4B744280EA41B0023ECBE /* ScreenRecorder.swift in Sources */,
 				DEF4B74D280F14F30023ECBE /* View+.swift in Sources */,
+				DE1B19FD285225A900FBEE96 /* TestMultiWebViewScroller.swift in Sources */,
 				DE7DA498281827B70071472E /* Text+.swift in Sources */,
 				DE7DA49628181DE00071472E /* TestBackgroundOfFocusedTextField.swift in Sources */,
 				DEC9E6BC28218F0E001F0A1D /* TestTextFiledFocusOnLaunch.swift in Sources */,

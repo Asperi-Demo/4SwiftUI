@@ -12,7 +12,6 @@ struct PlayOn_macOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-            	.frame(width: 640, height: 480)
         }
 		 // needed because WindowGroup scene seems have default
 		 // handler for external events, so opens new scene even
