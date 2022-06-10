@@ -40,12 +40,12 @@ struct TestPrefReduce: View {
     VStack {
       Text("Common size: [\(Int(size.width)) x \(Int(size.height))]")
       Divider()
-      Text("Title").font(.title)
+      Text("Boycott russia!").font(.title).background(.blue)
                 .background(GeometryReader {
                     Color.clear.preference(key: SizePreferenceKey.self,
                         value: $0.frame(in: .local).size)
            })
-      Text("Hello, World!").font(.headline)
+      Text("Help To Stop WAR!").font(.headline).background(.yellow)
                 .background(GeometryReader {
                     Color.clear.preference(key: SizePreferenceKey.self,
                         value: $0.frame(in: .local).size)
