@@ -14,7 +14,8 @@ Here is an example (based on your preference key) of how to calculate common siz
 
 Demo is prepared with Xcode 13 / iOS 15
 
-![pMaOx](https://user-images.githubusercontent.com/62171579/173037172-519d5cea-aca9-44c7-9a2a-ab4814ed10cb.png)
+![FU4ch2IWAAMR4Ev](https://user-images.githubusercontent.com/62171579/173038846-d2c2a632-cfb9-423b-9f42-3f669ef1ac03.png)
+
 
 ```
 extension CGSize {
