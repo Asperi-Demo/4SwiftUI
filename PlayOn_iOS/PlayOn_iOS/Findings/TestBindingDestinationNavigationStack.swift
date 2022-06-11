@@ -6,6 +6,7 @@
 
 import SwiftUI
 
+#if canImport(Charts)
 struct TestBindingDestinationNavigationStack: View {
     var body: some View {
         if #available(iOS 16.0, *) {
@@ -14,7 +15,7 @@ struct TestBindingDestinationNavigationStack: View {
             EmptyView()
         }
     }
-    
+
     @available (iOS 16.0, *)
     struct ParentListView: View {
         @State private var numbers = [1, 2, 3, 4, 5]
@@ -33,7 +34,6 @@ struct TestBindingDestinationNavigationStack: View {
             }
         }
     }
-    
     struct ChildDetailView: View {
         @Binding var number: Int
         var body: some View {
@@ -49,6 +49,13 @@ struct TestBindingDestinationNavigationStack: View {
     }
 }
 
+struct TestBindingDestinationNavigationStack_Previews: PreviewProvider {
+    static var previews: some View {
+        TestBindingDestinationNavigationStack()
+    }
+}
+#endif
+
 extension Binding: Equatable where Value: Equatable {
     public static func == (lhs: Binding<Value>, rhs: Binding<Value>) -> Bool {
         return lhs.wrappedValue == rhs.wrappedValue
@@ -61,8 +68,3 @@ extension Binding: Hashable where Value: Hashable {
     }
 }
 
-struct TestBindingDestinationNavigationStack_Previews: PreviewProvider {
-    static var previews: some View {
-        TestBindingDestinationNavigationStack()
-    }
-}
