@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
+		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
 		8AF3D8E3283BFECB00ED89D3 /* TestTextStyleRestriction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */; };
 		8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E4283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift */; };
 		8AF3D8E728437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E628437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift */; };
@@ -129,6 +130,7 @@
 
 /* Begin PBXFileReference section */
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
+		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
 		8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextStyleRestriction.swift; sourceTree = "<group>"; };
 		8AF3D8E4283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldModifierErrors.swift; sourceTree = "<group>"; };
 		8AF3D8E628437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomToolbarItemFitFrame.swift; sourceTree = "<group>"; };
@@ -330,6 +332,7 @@
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DEB68C41283E23CA00507A4F /* TestBackgroundRendering.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
+				8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */,
 				DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */,
 				DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */,
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
@@ -647,6 +650,7 @@
 				DEA09378283A68E400AEF697 /* TestControllerRepresentableDirectCall.swift in Sources */,
 				DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */,
 				DE1B19822850F04700FBEE96 /* TestEmitterView.swift in Sources */,
+				8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */,
 				DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */,
 				8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */,
 				DE1B198428512F5300FBEE96 /* TestTextEditorToFocus.swift in Sources */,
