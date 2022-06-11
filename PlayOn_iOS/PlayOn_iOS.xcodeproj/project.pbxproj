@@ -20,6 +20,7 @@
 		DE1B19822850F04700FBEE96 /* TestEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B19812850F04700FBEE96 /* TestEmitterView.swift */; };
 		DE1B198428512F5300FBEE96 /* TestTextEditorToFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */; };
 		DE1B1A3E2854560500FBEE96 /* TestTestFieldAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B1A3D2854560500FBEE96 /* TestTestFieldAttributedString.swift */; };
+		DE1B1A40285491A200FBEE96 /* TestButtonBlinkForcing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B1A3F285491A200FBEE96 /* TestButtonBlinkForcing.swift */; };
 		DE240F49284F948300D82EC2 /* TestArcAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE240F48284F948300D82EC2 /* TestArcAnimation.swift */; };
 		DE240F7A2850DE3900D82EC2 /* TestPanoramaImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE240F792850DE3900D82EC2 /* TestPanoramaImageView.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
@@ -140,6 +141,7 @@
 		DE1B19812850F04700FBEE96 /* TestEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEmitterView.swift; sourceTree = "<group>"; };
 		DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextEditorToFocus.swift; sourceTree = "<group>"; };
 		DE1B1A3D2854560500FBEE96 /* TestTestFieldAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTestFieldAttributedString.swift; sourceTree = "<group>"; };
+		DE1B1A3F285491A200FBEE96 /* TestButtonBlinkForcing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonBlinkForcing.swift; sourceTree = "<group>"; };
 		DE240F48284F948300D82EC2 /* TestArcAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestArcAnimation.swift; sourceTree = "<group>"; };
 		DE240F792850DE3900D82EC2 /* TestPanoramaImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPanoramaImageView.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
@@ -338,6 +340,7 @@
 				DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */,
 				DEF8829E284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift */,
 				DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */,
+				DE1B1A3F285491A200FBEE96 /* TestButtonBlinkForcing.swift */,
 				DEF88266284E5B2A0039F5B1 /* TestHostingInViewController.swift */,
 				DE492ECC2845321D009C434F /* TestWindowFromScene.swift */,
 				DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */,
@@ -588,6 +591,7 @@
 				DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */,
 				DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */,
 				DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */,
+				DE1B1A40285491A200FBEE96 /* TestButtonBlinkForcing.swift in Sources */,
 				DEB68C4828400D6300507A4F /* TestGradientProgressView.swift in Sources */,
 				DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */,
 				DE76E20428073164006EDA5A /* TestUnwindFromSwiftUIButton.swift in Sources */,
