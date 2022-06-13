@@ -1,3 +1,11 @@
+```
+BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Grybov, Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 Q: Get onAppear behaviour from list in ScrollView in SwiftUI (by M. Koot)
 
 A: Here is possible approach how to do this (tested/worked with Xcode 11.2 / iOS 13.2)
