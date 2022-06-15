@@ -8,7 +8,7 @@ import SwiftUI
 
 struct TestTextStyleRestriction: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, World!")
     }
 }
 
@@ -21,6 +21,12 @@ struct TestTextStyleRestriction_Previews: PreviewProvider {
 struct TitleStyle: ViewModifier {
     func body(content: Content) -> some View {
         content.font(.system(size: 34, weight: .bold))
+    }
+}
+
+struct BodyStyle: ViewModifier {
+    func body(content: Content) -> some View {
+      content
     }
 }
 
@@ -45,4 +51,19 @@ func ExpandingTextEditor<Style: ViewModifier>(text: Binding<String>, style: Styl
             .opacity(0)
             .padding(.all, 8)
     }
+}
+
+extension ViewModifier where Self == TitleStyle {
+	static var title: TitleStyle { TitleStyle() }
+}
+
+extension ViewModifier where Self == BodyStyle {
+	static var body: BodyStyle { BodyStyle() }
+}
+
+struct Demo_Previews: PreviewProvider {
+	static var previews: some View {
+		Text("Demo")
+			.textStyle(.title)
+	}
 }
