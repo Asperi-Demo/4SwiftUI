@@ -10,16 +10,21 @@ struct TestModalTabViewSlideshow: View {
 	var body: some View {
 		ContentView()
 	}
+	struct Value: Hashable, Identifiable {
+		var id: Int { index }
+		var index: Int
+		init(_ i: Int) { index = i }
+	}
 
 	struct ContentView: View {
 		let assets: [String] = (1...32).map { "preview_\($0)"}
 
-		@State private var selection: Int?
+		@State private var selection: Value?
 
 		var body: some View {
 			VStack {
 				Button("Random element") {
-					selection = Int.random(in: 1...32)
+					selection = Value(Int.random(in: 1...32))
 				}
 			}
 			.sheet(item: $selection) { _ in
@@ -29,7 +34,7 @@ struct TestModalTabViewSlideshow: View {
 	}
 
 	struct SlideshowView: View {
-		@Binding var selection: Int?
+		@Binding var selection: Value?
 		var assets: [String]
 		var body: some View {
 			TabView(selection: $selection) {
@@ -37,7 +42,7 @@ struct TestModalTabViewSlideshow: View {
 //                Image(assets[index])
 					Image(systemName: "\(index).square")
 						.resizable()
-						.aspectRatio(contentMode: .fit).tag(Optional(index))
+						.aspectRatio(contentMode: .fit).tag(Optional(Value(index)))
 				}
 			}
 			.tabViewStyle(PageTabViewStyle())
