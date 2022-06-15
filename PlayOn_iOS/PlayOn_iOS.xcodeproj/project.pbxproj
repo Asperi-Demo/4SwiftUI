@@ -10,7 +10,6 @@
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
 		8AEA7AF12855093A000C3AF5 /* TestNavigationStackPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AF02855093A000C3AF5 /* TestNavigationStackPush.swift */; };
-		8AF3D8E3283BFECB00ED89D3 /* TestTextStyleRestriction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */; };
 		8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E4283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift */; };
 		8AF3D8E728437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E628437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift */; };
 		DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0F428115E59000FF004 /* TestWays4DynamicMemberLookup.swift */; };
@@ -29,6 +28,8 @@
 		DE1B1A4D2857B61100FBEE96 /* TestTwoEdiatableLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B1A4C2857B61100FBEE96 /* TestTwoEdiatableLists.swift */; };
 		DE1B1A5E2859A9A000FBEE96 /* TestMultiPickersInRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B1A5D2859A99F00FBEE96 /* TestMultiPickersInRow.swift */; };
 		DE1B1A602859BD4700FBEE96 /* TestRenewAsyncImageResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B1A5F2859BD4700FBEE96 /* TestRenewAsyncImageResult.swift */; };
+		DE1B1A612859FC6A00FBEE96 /* TestTextStyleRestriction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */; };
+		DE1B1A63285A004200FBEE96 /* TestEditModeInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B1A62285A004200FBEE96 /* TestEditModeInForm.swift */; };
 		DE240F49284F948300D82EC2 /* TestArcAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE240F48284F948300D82EC2 /* TestArcAnimation.swift */; };
 		DE240F7A2850DE3900D82EC2 /* TestPanoramaImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE240F792850DE3900D82EC2 /* TestPanoramaImageView.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
@@ -158,6 +159,7 @@
 		DE1B1A4C2857B61100FBEE96 /* TestTwoEdiatableLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTwoEdiatableLists.swift; sourceTree = "<group>"; };
 		DE1B1A5D2859A99F00FBEE96 /* TestMultiPickersInRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMultiPickersInRow.swift; sourceTree = "<group>"; };
 		DE1B1A5F2859BD4700FBEE96 /* TestRenewAsyncImageResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRenewAsyncImageResult.swift; sourceTree = "<group>"; };
+		DE1B1A62285A004200FBEE96 /* TestEditModeInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEditModeInForm.swift; sourceTree = "<group>"; };
 		DE240F48284F948300D82EC2 /* TestArcAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestArcAnimation.swift; sourceTree = "<group>"; };
 		DE240F792850DE3900D82EC2 /* TestPanoramaImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPanoramaImageView.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
@@ -350,6 +352,7 @@
 				DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */,
 				DE1B1A4C2857B61100FBEE96 /* TestTwoEdiatableLists.swift */,
 				DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */,
+				DE1B1A62285A004200FBEE96 /* TestEditModeInForm.swift */,
 				DE1B1A412855003000FBEE96 /* TestToolbarItemsByTabSelection.swift */,
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
 				DE1B1A5D2859A99F00FBEE96 /* TestMultiPickersInRow.swift */,
@@ -638,7 +641,6 @@
 				DEA09376283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift in Sources */,
 				DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
-				8AF3D8E3283BFECB00ED89D3 /* TestTextStyleRestriction.swift in Sources */,
 				DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */,
 				DE5A19572835186F008DF951 /* TestAppStorageInVM.swift in Sources */,
 				DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */,
@@ -649,6 +651,7 @@
 				DE720BEE2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift in Sources */,
 				DE5707ED2832DE85004014F8 /* TestInputViewGenerics.swift in Sources */,
 				DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */,
+				DE1B1A612859FC6A00FBEE96 /* TestTextStyleRestriction.swift in Sources */,
 				DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */,
 				DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */,
 				DE1B1A442855F5B100FBEE96 /* TestCustomProcessingProgress.swift in Sources */,
@@ -679,6 +682,7 @@
 				DE1B19822850F04700FBEE96 /* TestEmitterView.swift in Sources */,
 				8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */,
 				DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */,
+				DE1B1A63285A004200FBEE96 /* TestEditModeInForm.swift in Sources */,
 				8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */,
 				DE1B198428512F5300FBEE96 /* TestTextEditorToFocus.swift in Sources */,
 				DE1B1A4D2857B61100FBEE96 /* TestTwoEdiatableLists.swift in Sources */,
