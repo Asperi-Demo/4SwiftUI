@@ -10,6 +10,7 @@
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
 		8AEA7AF12855093A000C3AF5 /* TestNavigationStackPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AF02855093A000C3AF5 /* TestNavigationStackPush.swift */; };
+		8AEA7B27285BA867000C3AF5 /* TestListBackgroundiOS16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */; };
 		8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E4283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift */; };
 		8AF3D8E728437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E628437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift */; };
 		DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0F428115E59000FF004 /* TestWays4DynamicMemberLookup.swift */; };
@@ -142,6 +143,7 @@
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
 		8AEA7AF02855093A000C3AF5 /* TestNavigationStackPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationStackPush.swift; sourceTree = "<group>"; };
+		8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListBackgroundiOS16.swift; sourceTree = "<group>"; };
 		8AF3D8E2283BFECB00ED89D3 /* TestTextStyleRestriction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextStyleRestriction.swift; sourceTree = "<group>"; };
 		8AF3D8E4283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldModifierErrors.swift; sourceTree = "<group>"; };
 		8AF3D8E628437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomToolbarItemFitFrame.swift; sourceTree = "<group>"; };
@@ -352,6 +354,7 @@
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DEB68C41283E23CA00507A4F /* TestBackgroundRendering.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
+				8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */,
 				8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */,
 				DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */,
 				DE1B1A4C2857B61100FBEE96 /* TestTwoEdiatableLists.swift */,
@@ -615,6 +618,7 @@
 				DEF88210284AFADF0039F5B1 /* TestMixedGridLayout.swift in Sources */,
 				DE5707EF2833BFFD004014F8 /* TestTextFieldWithBoxedLabel.swift in Sources */,
 				DE492EC9284264E1009C434F /* TestToggledReppeatingAnimation.swift in Sources */,
+				8AEA7B27285BA867000C3AF5 /* TestListBackgroundiOS16.swift in Sources */,
 				DE7DA49C28186ABD0071472E /* TestNextTextFieldFocus.swift in Sources */,
 				DE76E219280BDB35006EDA5A /* TestViewModelViaViewPreference.swift in Sources */,
 				DE1A42C8282A29E20026319F /* TestDragDropInGrid.swift in Sources */,
