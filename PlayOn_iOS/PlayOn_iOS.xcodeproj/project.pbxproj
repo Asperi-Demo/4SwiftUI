@@ -36,6 +36,7 @@
 		DE240F7A2850DE3900D82EC2 /* TestPanoramaImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE240F792850DE3900D82EC2 /* TestPanoramaImageView.swift */; };
 		DE296607285B8D40009F7093 /* TestStyleOfHeaderIfPinned.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296606285B8D40009F7093 /* TestStyleOfHeaderIfPinned.swift */; };
 		DE296609285C434C009F7093 /* TestExternalInternalFocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296608285C434C009F7093 /* TestExternalInternalFocusState.swift */; };
+		DE296624285CB917009F7093 /* TestNavigateLazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296623285CB917009F7093 /* TestNavigateLazyGridView.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
@@ -170,6 +171,7 @@
 		DE240F792850DE3900D82EC2 /* TestPanoramaImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPanoramaImageView.swift; sourceTree = "<group>"; };
 		DE296606285B8D40009F7093 /* TestStyleOfHeaderIfPinned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStyleOfHeaderIfPinned.swift; sourceTree = "<group>"; };
 		DE296608285C434C009F7093 /* TestExternalInternalFocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExternalInternalFocusState.swift; sourceTree = "<group>"; };
+		DE296623285CB917009F7093 /* TestNavigateLazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigateLazyGridView.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
@@ -359,6 +361,7 @@
 				8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */,
 				8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */,
 				DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */,
+				DE296623285CB917009F7093 /* TestNavigateLazyGridView.swift */,
 				DE296608285C434C009F7093 /* TestExternalInternalFocusState.swift */,
 				DE1B1A4C2857B61100FBEE96 /* TestTwoEdiatableLists.swift */,
 				DE1B1A64285B042800FBEE96 /* TestFillAsyncImagesInGrid.swift */,
@@ -653,6 +656,7 @@
 				DEF88267284E5B2A0039F5B1 /* TestHostingInViewController.swift in Sources */,
 				8AF3D8E728437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift in Sources */,
 				DEA09376283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift in Sources */,
+				DE296624285CB917009F7093 /* TestNavigateLazyGridView.swift in Sources */,
 				DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
 				DE296607285B8D40009F7093 /* TestStyleOfHeaderIfPinned.swift in Sources */,
