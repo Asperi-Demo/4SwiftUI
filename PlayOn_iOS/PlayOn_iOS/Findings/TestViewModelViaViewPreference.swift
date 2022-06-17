@@ -22,6 +22,7 @@ struct TestViewModelViaViewPreference: View {
 		@StateObject var vm = SomeViewModel()
 
 		var body: some View {
+			// Self._printChanges() << call to debug reason of refresh
 			Button("Generate") {
 				vm.value = String(Int.random(in: 0...9))
 			}
