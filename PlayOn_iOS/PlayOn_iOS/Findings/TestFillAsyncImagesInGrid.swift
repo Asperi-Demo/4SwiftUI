@@ -36,21 +36,25 @@ struct TestFillAsyncImagesInGrid: View {
 				ScrollView {
 					LazyVGrid(columns: columns, spacing: 1) {
 						ForEach(results, id: \.self) { result in
-							AsyncImage(url: URL(string: result)) { phase in
-								switch phase {
-								case .success(let image):
-									image
-										.resizable()
-										.scaledToFill()
-										.onTapGesture {
-											selectedID = result
-											selected = image
-										}
-								default:
-									Image(systemName: "car")
+							Color.clear.overlay(
+								AsyncImage(url: URL(string: result)) { phase in
+									switch phase {
+									case .success(let image):
+										image
+											.resizable()
+											.scaledToFill()
+											.onTapGesture {
+												selectedID = result
+												selected = image
+											}
+									default:
+										Image(systemName: "photo")
+									}
 								}
-							}
+							)
 							.frame(maxWidth: .infinity)
+							.aspectRatio(1, contentMode: .fit)
+							.clipped()
 						}
 					}
 				}
