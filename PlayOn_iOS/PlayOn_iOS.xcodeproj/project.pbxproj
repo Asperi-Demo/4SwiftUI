@@ -40,6 +40,7 @@
 		DE296627285D803B009F7093 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE296629285D803B009F7093 /* Localizable.strings */; };
 		DE29662D285D81EC009F7093 /* TestLocalizationPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29662C285D81EC009F7093 /* TestLocalizationPicker.swift */; };
 		DE296630285D9D1F009F7093 /* TestUnlimitedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29662F285D9D1F009F7093 /* TestUnlimitedScrollView.swift */; };
+		DE296632285E4FAB009F7093 /* TestMenuSortOrderChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
@@ -180,6 +181,7 @@
 		DE29662C285D81EC009F7093 /* TestLocalizationPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLocalizationPicker.swift; sourceTree = "<group>"; };
 		DE29662E285D8271009F7093 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DE29662F285D9D1F009F7093 /* TestUnlimitedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUnlimitedScrollView.swift; sourceTree = "<group>"; };
+		DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMenuSortOrderChange.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
@@ -368,6 +370,7 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */,
 				8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */,
+				DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */,
 				DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */,
 				DE296623285CB917009F7093 /* TestNavigateLazyGridView.swift */,
 				DE296608285C434C009F7093 /* TestExternalInternalFocusState.swift */,
@@ -707,6 +710,7 @@
 				DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */,
 				DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */,
 				DE1A4329282AAA360026319F /* Binding+.swift in Sources */,
+				DE296632285E4FAB009F7093 /* TestMenuSortOrderChange.swift in Sources */,
 				DE1B1A5E2859A9A000FBEE96 /* TestMultiPickersInRow.swift in Sources */,
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
 				DE1B1A602859BD4700FBEE96 /* TestRenewAsyncImageResult.swift in Sources */,
