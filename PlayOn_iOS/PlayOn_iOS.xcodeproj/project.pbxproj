@@ -42,6 +42,7 @@
 		DE296630285D9D1F009F7093 /* TestUnlimitedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29662F285D9D1F009F7093 /* TestUnlimitedScrollView.swift */; };
 		DE296632285E4FAB009F7093 /* TestMenuSortOrderChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */; };
 		DE296634285E5E57009F7093 /* TestVerticalTextWithFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296633285E5E57009F7093 /* TestVerticalTextWithFrame.swift */; };
+		DE296636285F2862009F7093 /* TestSegmentedPickerHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296635285F2862009F7093 /* TestSegmentedPickerHeight.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
@@ -184,6 +185,7 @@
 		DE29662F285D9D1F009F7093 /* TestUnlimitedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUnlimitedScrollView.swift; sourceTree = "<group>"; };
 		DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMenuSortOrderChange.swift; sourceTree = "<group>"; };
 		DE296633285E5E57009F7093 /* TestVerticalTextWithFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVerticalTextWithFrame.swift; sourceTree = "<group>"; };
+		DE296635285F2862009F7093 /* TestSegmentedPickerHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSegmentedPickerHeight.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
@@ -375,6 +377,7 @@
 				DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */,
 				DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */,
 				DE296623285CB917009F7093 /* TestNavigateLazyGridView.swift */,
+				DE296635285F2862009F7093 /* TestSegmentedPickerHeight.swift */,
 				DE296633285E5E57009F7093 /* TestVerticalTextWithFrame.swift */,
 				DE296608285C434C009F7093 /* TestExternalInternalFocusState.swift */,
 				DE29662F285D9D1F009F7093 /* TestUnlimitedScrollView.swift */,
@@ -747,6 +750,7 @@
 				DE240F7A2850DE3900D82EC2 /* TestPanoramaImageView.swift in Sources */,
 				DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */,
 				DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */,
+				DE296636285F2862009F7093 /* TestSegmentedPickerHeight.swift in Sources */,
 				DEA09387283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift in Sources */,
 				DE7DA3E42815B2480071472E /* TestCustomButtonInList.swift in Sources */,
 			);
