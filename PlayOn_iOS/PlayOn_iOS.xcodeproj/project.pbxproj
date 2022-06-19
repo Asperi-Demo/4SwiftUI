@@ -43,6 +43,7 @@
 		DE296632285E4FAB009F7093 /* TestMenuSortOrderChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */; };
 		DE296634285E5E57009F7093 /* TestVerticalTextWithFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296633285E5E57009F7093 /* TestVerticalTextWithFrame.swift */; };
 		DE296636285F2862009F7093 /* TestSegmentedPickerHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296635285F2862009F7093 /* TestSegmentedPickerHeight.swift */; };
+		DE296638285F602E009F7093 /* Representables.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296637285F602E009F7093 /* Representables.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
@@ -186,6 +187,7 @@
 		DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMenuSortOrderChange.swift; sourceTree = "<group>"; };
 		DE296633285E5E57009F7093 /* TestVerticalTextWithFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVerticalTextWithFrame.swift; sourceTree = "<group>"; };
 		DE296635285F2862009F7093 /* TestSegmentedPickerHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSegmentedPickerHeight.swift; sourceTree = "<group>"; };
+		DE296637285F602E009F7093 /* Representables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representables.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
@@ -490,6 +492,7 @@
 			isa = PBXGroup;
 			children = (
 				DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */,
+				DE296637285F602E009F7093 /* Representables.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -682,6 +685,7 @@
 				8AF3D8E728437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift in Sources */,
 				DEA09376283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift in Sources */,
 				DE296624285CB917009F7093 /* TestNavigateLazyGridView.swift in Sources */,
+				DE296638285F602E009F7093 /* Representables.swift in Sources */,
 				DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
 				DE296607285B8D40009F7093 /* TestStyleOfHeaderIfPinned.swift in Sources */,
