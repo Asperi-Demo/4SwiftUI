@@ -45,6 +45,7 @@
 		DE296636285F2862009F7093 /* TestSegmentedPickerHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296635285F2862009F7093 /* TestSegmentedPickerHeight.swift */; };
 		DE296638285F602E009F7093 /* Representables.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296637285F602E009F7093 /* Representables.swift */; };
 		DE29663A285F769E009F7093 /* TestSingleRowActivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296639285F769E009F7093 /* TestSingleRowActivation.swift */; };
+		DE2966412860C9CF009F7093 /* TestAVPlayerControllerFullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2966402860C9CF009F7093 /* TestAVPlayerControllerFullScreen.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
@@ -190,6 +191,7 @@
 		DE296635285F2862009F7093 /* TestSegmentedPickerHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSegmentedPickerHeight.swift; sourceTree = "<group>"; };
 		DE296637285F602E009F7093 /* Representables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representables.swift; sourceTree = "<group>"; };
 		DE296639285F769E009F7093 /* TestSingleRowActivation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSingleRowActivation.swift; sourceTree = "<group>"; };
+		DE2966402860C9CF009F7093 /* TestAVPlayerControllerFullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAVPlayerControllerFullScreen.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
@@ -386,6 +388,7 @@
 				DE296633285E5E57009F7093 /* TestVerticalTextWithFrame.swift */,
 				DE296608285C434C009F7093 /* TestExternalInternalFocusState.swift */,
 				DE29662F285D9D1F009F7093 /* TestUnlimitedScrollView.swift */,
+				DE2966402860C9CF009F7093 /* TestAVPlayerControllerFullScreen.swift */,
 				DE1B1A4C2857B61100FBEE96 /* TestTwoEdiatableLists.swift */,
 				DE1B1A64285B042800FBEE96 /* TestFillAsyncImagesInGrid.swift */,
 				DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */,
@@ -699,6 +702,7 @@
 				DE492ECD2845321D009C434F /* TestWindowFromScene.swift in Sources */,
 				DEC9E6BE2821C7A9001F0A1D /* TestWrappingUIView.swift in Sources */,
 				DEA09383283BC82800AEF697 /* TestModalTabViewSlideshow.swift in Sources */,
+				DE2966412860C9CF009F7093 /* TestAVPlayerControllerFullScreen.swift in Sources */,
 				DE570617282F83BE004014F8 /* TestTabBarShadow.swift in Sources */,
 				DE720BEE2826D4C600F38F39 /* TestDatePickerMinuteInterval.swift in Sources */,
 				DE5707ED2832DE85004014F8 /* TestInputViewGenerics.swift in Sources */,
@@ -929,9 +933,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PlayOn_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PlayOn-iOS-Info.plist";
@@ -947,6 +952,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.asperi.PlayOn-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -958,9 +964,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PlayOn_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PlayOn-iOS-Info.plist";
@@ -976,6 +983,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.asperi.PlayOn-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
