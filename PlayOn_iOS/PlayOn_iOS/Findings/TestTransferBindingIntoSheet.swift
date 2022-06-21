@@ -1,10 +1,3 @@
-//
-//  TestTransferBindingIntoSheet.swift
-//  PlayOn_iOS
-//
-//  Created by shki on 21.06.2022.
-//
-
 import SwiftUI
 
 struct TestTransferBindingIntoSheet: View {
