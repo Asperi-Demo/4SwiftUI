@@ -1,3 +1,11 @@
+```
+BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Grybov, Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 Q: Why does TabView shows blank screen if two views are the same? (by Adrian Le Roy Devezin)
 
 A: Just an idea - top level container view relies on uniquencess of content identity. So, assuming that your environment object for second 
