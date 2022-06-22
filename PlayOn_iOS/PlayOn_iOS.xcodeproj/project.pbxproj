@@ -48,6 +48,7 @@
 		DE2966412860C9CF009F7093 /* TestAVPlayerControllerFullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2966402860C9CF009F7093 /* TestAVPlayerControllerFullScreen.swift */; };
 		DE2966432861BE76009F7093 /* TestTransferBindingIntoSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2966422861BE76009F7093 /* TestTransferBindingIntoSheet.swift */; };
 		DE2966452862D54F009F7093 /* TestContinuousTextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2966442862D54F009F7093 /* TestContinuousTextAnimation.swift */; };
+		DE29668828637638009F7093 /* TestRoundTripText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29668728637638009F7093 /* TestRoundTripText.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
@@ -196,6 +197,7 @@
 		DE2966402860C9CF009F7093 /* TestAVPlayerControllerFullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAVPlayerControllerFullScreen.swift; sourceTree = "<group>"; };
 		DE2966422861BE76009F7093 /* TestTransferBindingIntoSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransferBindingIntoSheet.swift; sourceTree = "<group>"; };
 		DE2966442862D54F009F7093 /* TestContinuousTextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContinuousTextAnimation.swift; sourceTree = "<group>"; };
+		DE29668728637638009F7093 /* TestRoundTripText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoundTripText.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
@@ -386,6 +388,7 @@
 				8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */,
 				DE2966422861BE76009F7093 /* TestTransferBindingIntoSheet.swift */,
 				DE2966442862D54F009F7093 /* TestContinuousTextAnimation.swift */,
+				DE29668728637638009F7093 /* TestRoundTripText.swift */,
 				8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */,
 				DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */,
 				DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */,
@@ -696,6 +699,7 @@
 				DEF88267284E5B2A0039F5B1 /* TestHostingInViewController.swift in Sources */,
 				8AF3D8E728437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift in Sources */,
 				DEA09376283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift in Sources */,
+				DE29668828637638009F7093 /* TestRoundTripText.swift in Sources */,
 				DE296624285CB917009F7093 /* TestNavigateLazyGridView.swift in Sources */,
 				DE296638285F602E009F7093 /* Representables.swift in Sources */,
 				DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */,
