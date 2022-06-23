@@ -32,8 +32,8 @@ struct ContentView: View {
 
             if indices.last == index && index < max {
               let next = max - index
-              indices.append(contentsOf:
-                Array(index + 1..<index+(next > block ? block : next)))
+              let newIndices = Array(index + 1...index+(next > block ? block : next))
+              indices.append(contentsOf: newIndices)
             }
           }
       }
