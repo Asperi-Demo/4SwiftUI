@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DE1B19FD285225A900FBEE96 /* TestMultiWebViewScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B19FC285225A900FBEE96 /* TestMultiWebViewScroller.swift */; };
+		DE29668D2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29668C2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift */; };
 		DE5F36B92801CC880030FE37 /* PlayOn_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36B82801CC880030FE37 /* PlayOn_macOSApp.swift */; };
 		DE5F36BB2801CC880030FE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36BA2801CC880030FE37 /* ContentView.swift */; };
 		DE5F36BD2801CC890030FE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F36BC2801CC890030FE37 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		DE1B19FC285225A900FBEE96 /* TestMultiWebViewScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMultiWebViewScroller.swift; sourceTree = "<group>"; };
+		DE29668C2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOffsetPopoverAnchor.swift; sourceTree = "<group>"; };
 		DE5F36B52801CC880030FE37 /* PlayOn_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOn_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F36B82801CC880030FE37 /* PlayOn_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_macOSApp.swift; sourceTree = "<group>"; };
 		DE5F36BA2801CC880030FE37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				DEF4B745280EADEA0023ECBE /* TestScreenRecordingInView.swift */,
 				DEC9E6BB28218F0E001F0A1D /* TestTextFiledFocusOnLaunch.swift */,
 				DEC69D162838CB0500E70BB9 /* TestNonFocusableTextField.swift */,
+				DE29668C2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift */,
 				DEB68C35283CF04900507A4F /* TestSectionResultsExtension.swift */,
 				DEA09373283A157500AEF697 /* TestKeyShortcutsButtonStyle.swift */,
 				DE1B19FC285225A900FBEE96 /* TestMultiWebViewScroller.swift */,
@@ -343,6 +346,7 @@
 				DE5F36B92801CC880030FE37 /* PlayOn_macOSApp.swift in Sources */,
 				DEA09374283A157500AEF697 /* TestKeyShortcutsButtonStyle.swift in Sources */,
 				DE7DA389281466730071472E /* TestToggleSidebar.swift in Sources */,
+				DE29668D2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift in Sources */,
 				DEC9E6C028225A3F001F0A1D /* TestAsyncProgressInList.swift in Sources */,
 				DE5F36E62801CF280030FE37 /* TestTextFieldActivationEffect.swift in Sources */,
 			);
