@@ -16,28 +16,28 @@ Tested with Xcode 12 / iOS 14
 
 ```
 struct ContentView: View {
-	let max = 1000000 // even Int.max, if you want
-	let block = 10
+  let max = 1000000 // even Int.max, if you want
+  let block = 10
 
-	@State private var indices = [0]   // << initially loaded small part
+  @State private var indices = [0]   // << initially loaded small part
 
-	var body: some View {
-		List {
-			ForEach(indices, id: \.self) { index in
-				Text("Row \(index)")
-					.onAppear {
+  var body: some View {
+    List {
+      ForEach(indices, id: \.self) { index in
+        Text("Row \(index)")
+          .onAppear {
 
-                        // load next block when last row shown (or can be 
-                        // tuned to preload in avance)
+            // load next block when last row shown (or can be 
+            // tuned to preload in avance)
 
-						if indices.last == index && index < max {
-							let next = max - index
-							indices.append(contentsOf:
-								Array(index + 1..<index+(next > block ? block : next)))
-						}
-					}
-			}
-		}
-	}
+            if indices.last == index && index < max {
+              let next = max - index
+              indices.append(contentsOf:
+                Array(index + 1..<index+(next > block ? block : next)))
+            }
+          }
+      }
+    }
+  }
 }
 ``` 
