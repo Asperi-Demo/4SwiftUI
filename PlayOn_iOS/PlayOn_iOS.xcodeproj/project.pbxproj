@@ -81,6 +81,8 @@
 		DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */; };
 		DE5F36EE2803FD840030FE37 /* TestRotatingLineAndLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */; };
 		DE5F379C280545170030FE37 /* TestViewModelTaskBlocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */; };
+		DE5F55B528661FC00074A3F0 /* TestCombiningEnvValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F55B428661FC00074A3F0 /* TestCombiningEnvValues.swift */; };
+		DE5F55B7286622FF0074A3F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F55B6286622FF0074A3F0 /* Constants.swift */; };
 		DE603B39282D7794009D41D8 /* TestNumberOrEmptyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE603B38282D7794009D41D8 /* TestNumberOrEmptyTextField.swift */; };
 		DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */; };
 		DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */; };
@@ -235,6 +237,8 @@
 		DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlignWithCertainVStack.swift; sourceTree = "<group>"; };
 		DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRotatingLineAndLabel.swift; sourceTree = "<group>"; };
 		DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModelTaskBlocking.swift; sourceTree = "<group>"; };
+		DE5F55B428661FC00074A3F0 /* TestCombiningEnvValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCombiningEnvValues.swift; sourceTree = "<group>"; };
+		DE5F55B6286622FF0074A3F0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DE603B38282D7794009D41D8 /* TestNumberOrEmptyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNumberOrEmptyTextField.swift; sourceTree = "<group>"; };
 		DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBigToolbarItemCut.swift; sourceTree = "<group>"; };
 		DE720BEB2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationDetailsWithPersistedView.swift; sourceTree = "<group>"; };
@@ -395,6 +399,7 @@
 				DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */,
 				DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */,
 				DE296623285CB917009F7093 /* TestNavigateLazyGridView.swift */,
+				DE5F55B428661FC00074A3F0 /* TestCombiningEnvValues.swift */,
 				DE296635285F2862009F7093 /* TestSegmentedPickerHeight.swift */,
 				DE296633285E5E57009F7093 /* TestVerticalTextWithFrame.swift */,
 				DE296608285C434C009F7093 /* TestExternalInternalFocusState.swift */,
@@ -511,6 +516,7 @@
 			children = (
 				DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */,
 				DE296637285F602E009F7093 /* Representables.swift */,
+				DE5F55B6286622FF0074A3F0 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -696,6 +702,7 @@
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
 				DE296609285C434C009F7093 /* TestExternalInternalFocusState.swift in Sources */,
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
+				DE5F55B7286622FF0074A3F0 /* Constants.swift in Sources */,
 				DE5A18E828341C1B008DF951 /* TestCustomModal.swift in Sources */,
 				DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */,
 				DE492ECB284333FC009C434F /* TestTapableTextOnAnimate.swift in Sources */,
@@ -780,6 +787,7 @@
 				DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */,
 				DE296636285F2862009F7093 /* TestSegmentedPickerHeight.swift in Sources */,
 				DEA09387283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift in Sources */,
+				DE5F55B528661FC00074A3F0 /* TestCombiningEnvValues.swift in Sources */,
 				DE7DA3E42815B2480071472E /* TestCustomButtonInList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
