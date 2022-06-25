@@ -30,7 +30,7 @@ struct TestViewModelViaViewPreference: View {
 		}
 	}
 
-	struct NewValueKey: PreferenceKey {
+	fileprivate struct NewValueKey: PreferenceKey {
 		static var defaultValue: String? = nil
 		static func reduce(value: inout String?, nextValue: () -> String?) {  // << fix !!
 			value = nextValue()
