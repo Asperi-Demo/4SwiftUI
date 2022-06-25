@@ -17,6 +17,7 @@
 		DE5F36D52801CC890030FE37 /* PlayOn_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36D42801CC890030FE37 /* PlayOn_macOSUITests.swift */; };
 		DE5F36D72801CC890030FE37 /* PlayOn_macOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36D62801CC890030FE37 /* PlayOn_macOSUITestsLaunchTests.swift */; };
 		DE5F36E62801CF280030FE37 /* TestTextFieldActivationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36E52801CEA50030FE37 /* TestTextFieldActivationEffect.swift */; };
+		DE5F55BE2866E4520074A3F0 /* TestXcodeprojUTType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F55BD2866E4520074A3F0 /* TestXcodeprojUTType.swift */; };
 		DE7DA389281466730071472E /* TestToggleSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA388281466730071472E /* TestToggleSidebar.swift */; };
 		DE7DA38B281472CD0071472E /* SplitViewAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA38A281472CD0071472E /* SplitViewAccessor.swift */; };
 		DE7DA49628181DE00071472E /* TestBackgroundOfFocusedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA49528181DE00071472E /* TestBackgroundOfFocusedTextField.swift */; };
@@ -64,6 +65,7 @@
 		DE5F36D42801CC890030FE37 /* PlayOn_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_macOSUITests.swift; sourceTree = "<group>"; };
 		DE5F36D62801CC890030FE37 /* PlayOn_macOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOn_macOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE5F36E52801CEA50030FE37 /* TestTextFieldActivationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldActivationEffect.swift; sourceTree = "<group>"; };
+		DE5F55BD2866E4520074A3F0 /* TestXcodeprojUTType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXcodeprojUTType.swift; sourceTree = "<group>"; };
 		DE7DA388281466730071472E /* TestToggleSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestToggleSidebar.swift; sourceTree = "<group>"; };
 		DE7DA38A281472CD0071472E /* SplitViewAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewAccessor.swift; sourceTree = "<group>"; };
 		DE7DA49528181DE00071472E /* TestBackgroundOfFocusedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBackgroundOfFocusedTextField.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				DEC9E6BB28218F0E001F0A1D /* TestTextFiledFocusOnLaunch.swift */,
 				DEC69D162838CB0500E70BB9 /* TestNonFocusableTextField.swift */,
 				DE29668C2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift */,
+				DE5F55BD2866E4520074A3F0 /* TestXcodeprojUTType.swift */,
 				DEB68C35283CF04900507A4F /* TestSectionResultsExtension.swift */,
 				DEA09373283A157500AEF697 /* TestKeyShortcutsButtonStyle.swift */,
 				DE1B19FC285225A900FBEE96 /* TestMultiWebViewScroller.swift */,
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEB68C36283CF04900507A4F /* TestSectionResultsExtension.swift in Sources */,
+				DE5F55BE2866E4520074A3F0 /* TestXcodeprojUTType.swift in Sources */,
 				DEC69D172838CB0500E70BB9 /* TestNonFocusableTextField.swift in Sources */,
 				DE7DA38B281472CD0071472E /* SplitViewAccessor.swift in Sources */,
 				DEF4B74A280F05970023ECBE /* MyPreferenceKeys.swift in Sources */,
