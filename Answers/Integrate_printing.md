@@ -1,3 +1,11 @@
+```
+BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+«Русский военный корабль, иди на хуй!» (c) Grybov, Ukrainian Frontier Guard
+
+ATTENTION: By using this you agree do not repost any part of this code
+           on StackOverflow site. Thanks, Asperi.
+```
+
 Q: Get blank view before the printer selection (by Russ)
 
 A: Here is fixed variant. The main point is that `UIPrintInteractionController` shows own sheet, so it is not needed for it, and `updateUIViewController` is for different purpose - update content on external data change, so all preparations should be made in `makeUIViewController`.
