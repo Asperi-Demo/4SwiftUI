@@ -32,7 +32,11 @@ struct TestListBackgroundiOS16: View {
 extension UICollectionReusableView {
     override open var backgroundColor: UIColor? {
         get { .clear }
-        set { }
+        set {
+            // uncomment below to have same saparators
+            // color as background, they also uses this property
+            // super.backgroundColor = .red
+        }
     }
 }
 #endif

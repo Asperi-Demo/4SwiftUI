@@ -8,7 +8,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        EmptyView()        // << replace with test module to run !!
+        // Replace any below with test module to demo !!
+        if #available(iOS 16.0, *) {
+            EmptyView()
+        } else {
+            EmptyView()
+        }
     }
 }
 
