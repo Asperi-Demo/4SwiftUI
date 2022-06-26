@@ -102,6 +102,9 @@
 		DE7DA43D281704020071472E /* TestDragGestureDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA43C281704020071472E /* TestDragGestureDirection.swift */; };
 		DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */; };
 		DE7DA49C28186ABD0071472E /* TestNextTextFieldFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */; };
+		DE96BA4E2867855F005683AD /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4D2867855F005683AD /* Builders.swift */; };
+		DE96BA50286818EC005683AD /* TestTextFieldWordsHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */; };
+		DE96BA5228681B61005683AD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA5128681B61005683AD /* Functions.swift */; };
 		DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */; };
 		DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */; };
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
@@ -260,6 +263,9 @@
 		DE7DA43C281704020071472E /* TestDragGestureDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragGestureDirection.swift; sourceTree = "<group>"; };
 		DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPulseColorView.swift; sourceTree = "<group>"; };
 		DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNextTextFieldFocus.swift; sourceTree = "<group>"; };
+		DE96BA4D2867855F005683AD /* Builders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builders.swift; sourceTree = "<group>"; };
+		DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWordsHighlight.swift; sourceTree = "<group>"; };
+		DE96BA5128681B61005683AD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollDidEndDetect.swift; sourceTree = "<group>"; };
 		DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
@@ -396,6 +402,7 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DE296639285F769E009F7093 /* TestSingleRowActivation.swift */,
 				DE5F55BA2866D16E0074A3F0 /* TestTwoButtonsInList.swift */,
+				DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */,
 				8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */,
 				DE2966422861BE76009F7093 /* TestTransferBindingIntoSheet.swift */,
 				DE2966442862D54F009F7093 /* TestContinuousTextAnimation.swift */,
@@ -523,6 +530,8 @@
 				DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */,
 				DE296637285F602E009F7093 /* Representables.swift */,
 				DE5F55B6286622FF0074A3F0 /* Constants.swift */,
+				DE96BA4D2867855F005683AD /* Builders.swift */,
+				DE96BA5128681B61005683AD /* Functions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -761,6 +770,7 @@
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
 				DE1B1A602859BD4700FBEE96 /* TestRenewAsyncImageResult.swift in Sources */,
 				DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */,
+				DE96BA4E2867855F005683AD /* Builders.swift in Sources */,
 				DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */,
 				DEA09378283A68E400AEF697 /* TestControllerRepresentableDirectCall.swift in Sources */,
 				DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */,
@@ -774,6 +784,7 @@
 				DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */,
 				DE5F55B9286627D50074A3F0 /* TestBadgeCustomColor.swift in Sources */,
 				DE5F55BB2866D16E0074A3F0 /* TestTwoButtonsInList.swift in Sources */,
+				DE96BA5228681B61005683AD /* Functions.swift in Sources */,
 				DEB68C46283F46D400507A4F /* TestDropCancellingIntercept.swift in Sources */,
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
 				DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */,
@@ -783,6 +794,7 @@
 				DE240F49284F948300D82EC2 /* TestArcAnimation.swift in Sources */,
 				DE5A195B2835458F008DF951 /* TestScrollViewBouncing.swift in Sources */,
 				DECEDF612846A5B200457D78 /* TestInjectScenePhaseInModel.swift in Sources */,
+				DE96BA50286818EC005683AD /* TestTextFieldWordsHighlight.swift in Sources */,
 				DEA09385283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift in Sources */,
 				DE29662D285D81EC009F7093 /* TestLocalizationPicker.swift in Sources */,
 				DEB68C42283E23CA00507A4F /* TestBackgroundRendering.swift in Sources */,
