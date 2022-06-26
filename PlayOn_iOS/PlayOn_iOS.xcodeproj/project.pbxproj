@@ -105,6 +105,7 @@
 		DE96BA4E2867855F005683AD /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4D2867855F005683AD /* Builders.swift */; };
 		DE96BA50286818EC005683AD /* TestTextFieldWordsHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */; };
 		DE96BA5228681B61005683AD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA5128681B61005683AD /* Functions.swift */; };
+		DE96BA542868C361005683AD /* TestViewControllerWithBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA532868C361005683AD /* TestViewControllerWithBindingView.swift */; };
 		DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */; };
 		DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */; };
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
@@ -266,6 +267,7 @@
 		DE96BA4D2867855F005683AD /* Builders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builders.swift; sourceTree = "<group>"; };
 		DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWordsHighlight.swift; sourceTree = "<group>"; };
 		DE96BA5128681B61005683AD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		DE96BA532868C361005683AD /* TestViewControllerWithBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewControllerWithBindingView.swift; sourceTree = "<group>"; };
 		DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollDidEndDetect.swift; sourceTree = "<group>"; };
 		DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
@@ -404,6 +406,7 @@
 				DE5F55BA2866D16E0074A3F0 /* TestTwoButtonsInList.swift */,
 				DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */,
 				8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */,
+				DE96BA532868C361005683AD /* TestViewControllerWithBindingView.swift */,
 				DE2966422861BE76009F7093 /* TestTransferBindingIntoSheet.swift */,
 				DE2966442862D54F009F7093 /* TestContinuousTextAnimation.swift */,
 				DE5F55B8286627D50074A3F0 /* TestBadgeCustomColor.swift */,
@@ -777,6 +780,7 @@
 				DE1B19822850F04700FBEE96 /* TestEmitterView.swift in Sources */,
 				8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */,
 				DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */,
+				DE96BA542868C361005683AD /* TestViewControllerWithBindingView.swift in Sources */,
 				DE1B1A63285A004200FBEE96 /* TestEditModeInForm.swift in Sources */,
 				8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */,
 				DE1B198428512F5300FBEE96 /* TestTextEditorToFocus.swift in Sources */,
