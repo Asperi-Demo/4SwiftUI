@@ -8,9 +8,17 @@ import SwiftUI
 
 struct TestScrollViewRefreshable: View {
 	var body: some View {
-		ContentView()
+		NavigationView {
+			// Demo of variant to avoid stick navigation title to pull
+			VStack(spacing: 0) {
+				Rectangle().fill(.background).frame(height: 1)  // iOS 15+ !!
+				//Color(uiColor: UIColor.systemBackground).frame(height: 1)
+				ContentView()
+			}
+			.navigationTitle("Stop War")
+		}
 	}
-	
+
 	struct ContentView: View {
 		var body: some View {
 			ScrollView {
