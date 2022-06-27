@@ -12,7 +12,7 @@ A: Here is possible approach. I simplified it for a demo purpose and less postin
 
 Result demo (really it is much fluent than on gif):
 
-![OCEha](https://user-images.githubusercontent.com/62171579/175867731-a2f5ab27-cc03-45c5-9fec-16498da7c434.gif)
+![ezgif com-gif-maker-47](https://user-images.githubusercontent.com/62171579/175868380-3935e6bf-0db3-4b33-a7ea-e4f515501a22.gif)
 
 
 Modified model
@@ -63,7 +63,7 @@ Demo of usage
             VStack {
                 Color.clear // << just holder area
                     .modifier(SpeakerModifier(symbol: speaker))
-                    .frame(width: 80, height: 80)
+                    .frame(width: 60, height: 60, alignment: .leading)
                 Divider()
                 Button("Toggle") {
                     withAnimation { // animates between enum states
