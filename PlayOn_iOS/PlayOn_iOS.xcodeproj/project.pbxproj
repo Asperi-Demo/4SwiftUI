@@ -111,6 +111,7 @@
 		DE96BA8C286C06DD005683AD /* TestBoardAlignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA8B286C06DD005683AD /* TestBoardAlignments.swift */; };
 		DE96BABA286C495B005683AD /* TestTextWithButtonInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BAB9286C495B005683AD /* TestTextWithButtonInside.swift */; };
 		DE96BABC286C893B005683AD /* Section+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BABB286C893B005683AD /* Section+.swift */; };
+		DE96BABE286CC66E005683AD /* TestLimitSliderToSubrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BABD286CC66E005683AD /* TestLimitSliderToSubrange.swift */; };
 		DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */; };
 		DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */; };
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
@@ -278,6 +279,7 @@
 		DE96BA8B286C06DD005683AD /* TestBoardAlignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBoardAlignments.swift; sourceTree = "<group>"; };
 		DE96BAB9286C495B005683AD /* TestTextWithButtonInside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextWithButtonInside.swift; sourceTree = "<group>"; };
 		DE96BABB286C893B005683AD /* Section+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Section+.swift"; sourceTree = "<group>"; };
+		DE96BABD286CC66E005683AD /* TestLimitSliderToSubrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLimitSliderToSubrange.swift; sourceTree = "<group>"; };
 		DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollDidEndDetect.swift; sourceTree = "<group>"; };
 		DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
@@ -415,6 +417,7 @@
 				DE296639285F769E009F7093 /* TestSingleRowActivation.swift */,
 				DE5F55BA2866D16E0074A3F0 /* TestTwoButtonsInList.swift */,
 				DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */,
+				DE96BABD286CC66E005683AD /* TestLimitSliderToSubrange.swift */,
 				DE96BAB9286C495B005683AD /* TestTextWithButtonInside.swift */,
 				8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */,
 				DE96BA532868C361005683AD /* TestViewControllerWithBindingView.swift */,
@@ -821,6 +824,7 @@
 				DE29662D285D81EC009F7093 /* TestLocalizationPicker.swift in Sources */,
 				DEB68C42283E23CA00507A4F /* TestBackgroundRendering.swift in Sources */,
 				DE2966452862D54F009F7093 /* TestContinuousTextAnimation.swift in Sources */,
+				DE96BABE286CC66E005683AD /* TestLimitSliderToSubrange.swift in Sources */,
 				DEA09381283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift in Sources */,
 				DECEDF5F2845F99B00457D78 /* TestAlignmentAnimation.swift in Sources */,
 				DE5A196C283567CD008DF951 /* TestTextFieldMoveFocus.swift in Sources */,
