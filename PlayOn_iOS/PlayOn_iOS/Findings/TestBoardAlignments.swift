@@ -70,7 +70,7 @@ struct BoardView: View {
 		var body: some View {
 			RoundedRectangle(cornerRadius: 20)
 				.aspectRatio(contentMode: .fit)
-				.overlay(Text("\(number)"))
+				.overlay(Text("\(number)").foregroundColor(.white))
 				.onTapGesture {
 					selection = number
 				}
