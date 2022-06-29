@@ -110,6 +110,7 @@
 		DE96BA5F286AD362005683AD /* TestListEditModeSelectionMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA5E286AD362005683AD /* TestListEditModeSelectionMark.swift */; };
 		DE96BA8C286C06DD005683AD /* TestBoardAlignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA8B286C06DD005683AD /* TestBoardAlignments.swift */; };
 		DE96BABA286C495B005683AD /* TestTextWithButtonInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BAB9286C495B005683AD /* TestTextWithButtonInside.swift */; };
+		DE96BABC286C893B005683AD /* Section+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BABB286C893B005683AD /* Section+.swift */; };
 		DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */; };
 		DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */; };
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
@@ -276,6 +277,7 @@
 		DE96BA5E286AD362005683AD /* TestListEditModeSelectionMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListEditModeSelectionMark.swift; sourceTree = "<group>"; };
 		DE96BA8B286C06DD005683AD /* TestBoardAlignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBoardAlignments.swift; sourceTree = "<group>"; };
 		DE96BAB9286C495B005683AD /* TestTextWithButtonInside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextWithButtonInside.swift; sourceTree = "<group>"; };
+		DE96BABB286C893B005683AD /* Section+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Section+.swift"; sourceTree = "<group>"; };
 		DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollDidEndDetect.swift; sourceTree = "<group>"; };
 		DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
@@ -531,6 +533,7 @@
 			children = (
 				DE76E20C28094B15006EDA5A /* Button+.swift */,
 				DE76E212280AE709006EDA5A /* View+.swift */,
+				DE96BABB286C893B005683AD /* Section+.swift */,
 				DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */,
 				DE29668A2864965C009F7093 /* ForEach+.swift */,
 				DE1A4328282AAA360026319F /* Binding+.swift */,
@@ -735,6 +738,7 @@
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
 				DE5F55B7286622FF0074A3F0 /* Constants.swift in Sources */,
 				DE5A18E828341C1B008DF951 /* TestCustomModal.swift in Sources */,
+				DE96BABC286C893B005683AD /* Section+.swift in Sources */,
 				DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */,
 				DE492ECB284333FC009C434F /* TestTapableTextOnAnimate.swift in Sources */,
 				DEF88267284E5B2A0039F5B1 /* TestHostingInViewController.swift in Sources */,
