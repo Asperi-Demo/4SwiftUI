@@ -108,6 +108,7 @@
 		DE96BA542868C361005683AD /* TestViewControllerWithBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA532868C361005683AD /* TestViewControllerWithBindingView.swift */; };
 		DE96BA5628696771005683AD /* TestGeometryEffectOnPickerSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA5528696771005683AD /* TestGeometryEffectOnPickerSelection.swift */; };
 		DE96BA5F286AD362005683AD /* TestListEditModeSelectionMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA5E286AD362005683AD /* TestListEditModeSelectionMark.swift */; };
+		DE96BA8C286C06DD005683AD /* TestBoardAlignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA8B286C06DD005683AD /* TestBoardAlignments.swift */; };
 		DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */; };
 		DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */; };
 		DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */; };
@@ -272,6 +273,7 @@
 		DE96BA532868C361005683AD /* TestViewControllerWithBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewControllerWithBindingView.swift; sourceTree = "<group>"; };
 		DE96BA5528696771005683AD /* TestGeometryEffectOnPickerSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGeometryEffectOnPickerSelection.swift; sourceTree = "<group>"; };
 		DE96BA5E286AD362005683AD /* TestListEditModeSelectionMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListEditModeSelectionMark.swift; sourceTree = "<group>"; };
+		DE96BA8B286C06DD005683AD /* TestBoardAlignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBoardAlignments.swift; sourceTree = "<group>"; };
 		DE9EA2A0280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollDidEndDetect.swift; sourceTree = "<group>"; };
 		DE9EA2A3280C31AC007F5ED3 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		DE9EA2A5280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldCustomFormat.swift; sourceTree = "<group>"; };
@@ -495,6 +497,7 @@
 				DE1B19812850F04700FBEE96 /* TestEmitterView.swift */,
 				DE1A42C7282A29E20026319F /* TestDragDropInGrid.swift */,
 				DE720BE928263B9100F38F39 /* TestBigToolbarItemCut.swift */,
+				DE96BA8B286C06DD005683AD /* TestBoardAlignments.swift */,
 				DE57061A283126E8004014F8 /* TabViewDynamicHeight.swift */,
 				DE7DA43C281704020071472E /* TestDragGestureDirection.swift */,
 				DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */,
@@ -790,6 +793,7 @@
 				DE96BA542868C361005683AD /* TestViewControllerWithBindingView.swift in Sources */,
 				DE1B1A63285A004200FBEE96 /* TestEditModeInForm.swift in Sources */,
 				8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */,
+				DE96BA8C286C06DD005683AD /* TestBoardAlignments.swift in Sources */,
 				DE1B198428512F5300FBEE96 /* TestTextEditorToFocus.swift in Sources */,
 				DE1B1A4D2857B61100FBEE96 /* TestTwoEdiatableLists.swift in Sources */,
 				DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */,
