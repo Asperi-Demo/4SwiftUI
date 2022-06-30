@@ -7,15 +7,10 @@
 import SwiftUI
 
 #if canImport(Charts)
+@available (iOS 16, *)
 struct TestNavigationStackDynamicPath: View {
     var body: some View {
-        // Replace any below with test module to demo !!
-        if #available(iOS 16.0, *) {
-            //            LandingPageView(navigationState: NavState())
-            LandingPageView2(navigationState: LandingPageView2.NavState())
-        } else {
-            EmptyView()
-        }
+        LandingPageView2(navigationState: LandingPageView2.NavState())
     }
 }
 
@@ -108,6 +103,7 @@ struct LandingPageView2: View {
     }
 }
 
+@available (iOS 16, *)
 struct TestNavigationStackDynamicPath_Previews: PreviewProvider {
     static var previews: some View {
         TestNavigationStackDynamicPath()
