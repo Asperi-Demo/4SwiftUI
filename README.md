@@ -1,4 +1,4 @@
-**!!! BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR !!!**
+**🔥BOYCOTT on russia - terrorist must be punished!**
 
 
 # 4SwiftUI
