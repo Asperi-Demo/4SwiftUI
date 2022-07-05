@@ -29,7 +29,7 @@ protocol Provider {   // Provider<Value> is allowed by Xcode 14
 
 @available(iOS 16, *)
 struct S {
-    var stringProvider: any Provider<String>
+    var stringProvider: any Provider // Provider<String> is allowed by Xcode 14
 }
 
 @available(iOS 16, *)
