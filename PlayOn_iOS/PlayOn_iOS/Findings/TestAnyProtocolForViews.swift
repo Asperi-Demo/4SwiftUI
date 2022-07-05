@@ -33,11 +33,13 @@ struct S {
 }
 
 @available(iOS 16, *)
-struct ProviderView<P: Provider>: View {
-    let provider: P
-    
+struct ProviderView: View {
+    let provider: any Provider       // << existential !!
+    init(provider p: some Provider) { // << inferred !!
+        self.provider = p
+    }
     var body: some View {
-        Text(String(describing: type(of: provider.get())))
+        Text(String(describing: provider.get()))
     }
 }
 
@@ -59,13 +61,8 @@ struct TestConverter: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            
-//            converter(for: s.stringProvider) // Type 'any View' cannot conform to 'View'
+            ProviderView(provider: s.stringProvider)  // << works !!
         }
-    }
-    
-    func converter(for provider: some Provider<String>) -> some View {
-        AnyView(ProviderView(provider: provider))
     }
 }
 
