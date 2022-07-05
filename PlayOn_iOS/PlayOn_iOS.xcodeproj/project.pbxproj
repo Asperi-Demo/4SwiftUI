@@ -150,6 +150,7 @@
 		DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */; };
 		DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */; };
 		DECEDFBE2849E75300457D78 /* TestSomeViewFillInScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */; };
+		DEEFAFCA287473810023FC54 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFAFC9287473810023FC54 /* Color+.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 		DEF88210284AFADF0039F5B1 /* TestMixedGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */; };
 		DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */; };
@@ -326,6 +327,7 @@
 		DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollViewRefreshable.swift; sourceTree = "<group>"; };
 		DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragUnderScrollView.swift; sourceTree = "<group>"; };
 		DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSomeViewFillInScrollView.swift; sourceTree = "<group>"; };
+		DEEFAFC9287473810023FC54 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 		DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMixedGridLayout.swift; sourceTree = "<group>"; };
 		DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInternalTypeModifiers.swift; sourceTree = "<group>"; };
@@ -560,6 +562,7 @@
 				DE76E20C28094B15006EDA5A /* Button+.swift */,
 				DEA73E3C287401F6007E3D30 /* Swift+.swift */,
 				DE76E212280AE709006EDA5A /* View+.swift */,
+				DEEFAFC9287473810023FC54 /* Color+.swift */,
 				DE96BABB286C893B005683AD /* Section+.swift */,
 				DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */,
 				DE29668A2864965C009F7093 /* ForEach+.swift */,
@@ -773,6 +776,7 @@
 				8AF3D8E728437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift in Sources */,
 				DEA09376283A221800AEF697 /* TestUpdateOnPartOfModelChange.swift in Sources */,
 				DE29668828637638009F7093 /* TestRoundTripText.swift in Sources */,
+				DEEFAFCA287473810023FC54 /* Color+.swift in Sources */,
 				DE296624285CB917009F7093 /* TestNavigateLazyGridView.swift in Sources */,
 				DE296638285F602E009F7093 /* Representables.swift in Sources */,
 				DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */,
