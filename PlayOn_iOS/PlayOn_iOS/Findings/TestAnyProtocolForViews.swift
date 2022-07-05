@@ -21,7 +21,7 @@ struct TestAnyProtocolForViews_Previews: PreviewProvider {
 
 // MARK: - Test `any` with model for use in View
 @available(iOS 16, *)
-protocol Provider<Value> {
+protocol Provider {   // Provider<Value> is allowed by Xcode 14
     associatedtype Value
     
     func get() -> Value
