@@ -127,6 +127,8 @@
 		DEA09383283BC82800AEF697 /* TestModalTabViewSlideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09382283BC82800AEF697 /* TestModalTabViewSlideshow.swift */; };
 		DEA09385283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */; };
 		DEA09387283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */; };
+		DEA73DFB2871B397007E3D30 /* TestAnchorPrefInDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA73DFA2871B397007E3D30 /* TestAnchorPrefInDictionary.swift */; };
+		DEA73E3B28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA73E3A28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift */; };
 		DEB68C38283CFBA200507A4F /* document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DEB68C37283CFBA200507A4F /* document.pdf */; };
 		DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */; };
 		DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */; };
@@ -298,6 +300,8 @@
 		DEA09382283BC82800AEF697 /* TestModalTabViewSlideshow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModalTabViewSlideshow.swift; sourceTree = "<group>"; };
 		DEA09384283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservingAppStorageInVM.swift; sourceTree = "<group>"; };
 		DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatchedPersonDetailsFromGrid.swift; sourceTree = "<group>"; };
+		DEA73DFA2871B397007E3D30 /* TestAnchorPrefInDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnchorPrefInDictionary.swift; sourceTree = "<group>"; };
+		DEA73E3A28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomNonLinearScaleAnimation.swift; sourceTree = "<group>"; };
 		DEB68C37283CFBA200507A4F /* document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = document.pdf; sourceTree = "<group>"; };
 		DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPDFViewNavigation.swift; sourceTree = "<group>"; };
 		DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwitchSecureField.swift; sourceTree = "<group>"; };
@@ -420,10 +424,12 @@
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DEB68C41283E23CA00507A4F /* TestBackgroundRendering.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
+				DEA73E3A28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift */,
 				8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */,
 				DE296639285F769E009F7093 /* TestSingleRowActivation.swift */,
 				DE5F55BA2866D16E0074A3F0 /* TestTwoButtonsInList.swift */,
 				8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */,
+				DEA73DFA2871B397007E3D30 /* TestAnchorPrefInDictionary.swift */,
 				DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */,
 				DE96BABD286CC66E005683AD /* TestLimitSliderToSubrange.swift */,
 				DE96BAB9286C495B005683AD /* TestTextWithButtonInside.swift */,
@@ -782,6 +788,7 @@
 				DE492EC528414D96009C434F /* TestScreenJoystick.swift in Sources */,
 				DE29668B2864965C009F7093 /* ForEach+.swift in Sources */,
 				DE7DA38D28153FBC0071472E /* TestListNoPaddings.swift in Sources */,
+				DEA73E3B28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift in Sources */,
 				DE76E211280AA42D006EDA5A /* TestMixedHorizontalLayout.swift in Sources */,
 				DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */,
 				DE492EC72841F862009C434F /* TestReverseAnimationOnAppear.swift in Sources */,
@@ -798,6 +805,7 @@
 				DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */,
 				DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */,
 				DE1A4329282AAA360026319F /* Binding+.swift in Sources */,
+				DEA73DFB2871B397007E3D30 /* TestAnchorPrefInDictionary.swift in Sources */,
 				DE296632285E4FAB009F7093 /* TestMenuSortOrderChange.swift in Sources */,
 				DE1B1A5E2859A9A000FBEE96 /* TestMultiPickersInRow.swift in Sources */,
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
