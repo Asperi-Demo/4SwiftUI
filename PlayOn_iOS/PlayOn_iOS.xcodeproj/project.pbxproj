@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A2449E1286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */; };
 		8A2449E3286D924300F3C212 /* TestNavigationStackDynamicPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */; };
+		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
 		8AEA7AF12855093A000C3AF5 /* TestNavigationStackPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AF02855093A000C3AF5 /* TestNavigationStackPush.swift */; };
@@ -173,6 +174,7 @@
 /* Begin PBXFileReference section */
 		8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPolitypeNavigationPathView.swift; sourceTree = "<group>"; };
 		8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationStackDynamicPath.swift; sourceTree = "<group>"; };
+		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
 		8AEA7AF02855093A000C3AF5 /* TestNavigationStackPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationStackPush.swift; sourceTree = "<group>"; };
@@ -433,6 +435,7 @@
 				DE29668728637638009F7093 /* TestRoundTripText.swift */,
 				8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */,
 				DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */,
+				8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */,
 				DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */,
 				DE296623285CB917009F7093 /* TestNavigateLazyGridView.swift */,
 				DE5F55B428661FC00074A3F0 /* TestCombiningEnvValues.swift */,
@@ -805,6 +808,7 @@
 				DEA09378283A68E400AEF697 /* TestControllerRepresentableDirectCall.swift in Sources */,
 				DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */,
 				DE1B19822850F04700FBEE96 /* TestEmitterView.swift in Sources */,
+				8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */,
 				8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */,
 				DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */,
 				DE96BA542868C361005683AD /* TestViewControllerWithBindingView.swift in Sources */,
