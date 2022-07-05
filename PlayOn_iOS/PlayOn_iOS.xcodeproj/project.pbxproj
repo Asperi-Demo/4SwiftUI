@@ -129,6 +129,7 @@
 		DEA09387283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */; };
 		DEA73DFB2871B397007E3D30 /* TestAnchorPrefInDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA73DFA2871B397007E3D30 /* TestAnchorPrefInDictionary.swift */; };
 		DEA73E3B28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA73E3A28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift */; };
+		DEA73E3D287401F6007E3D30 /* Swift+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA73E3C287401F6007E3D30 /* Swift+.swift */; };
 		DEB68C38283CFBA200507A4F /* document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DEB68C37283CFBA200507A4F /* document.pdf */; };
 		DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */; };
 		DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */; };
@@ -302,6 +303,7 @@
 		DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatchedPersonDetailsFromGrid.swift; sourceTree = "<group>"; };
 		DEA73DFA2871B397007E3D30 /* TestAnchorPrefInDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnchorPrefInDictionary.swift; sourceTree = "<group>"; };
 		DEA73E3A28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomNonLinearScaleAnimation.swift; sourceTree = "<group>"; };
+		DEA73E3C287401F6007E3D30 /* Swift+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+.swift"; sourceTree = "<group>"; };
 		DEB68C37283CFBA200507A4F /* document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = document.pdf; sourceTree = "<group>"; };
 		DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPDFViewNavigation.swift; sourceTree = "<group>"; };
 		DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwitchSecureField.swift; sourceTree = "<group>"; };
@@ -550,6 +552,7 @@
 			isa = PBXGroup;
 			children = (
 				DE76E20C28094B15006EDA5A /* Button+.swift */,
+				DEA73E3C287401F6007E3D30 /* Swift+.swift */,
 				DE76E212280AE709006EDA5A /* View+.swift */,
 				DE96BABB286C893B005683AD /* Section+.swift */,
 				DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */,
@@ -855,6 +858,7 @@
 				DE296636285F2862009F7093 /* TestSegmentedPickerHeight.swift in Sources */,
 				DEA09387283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift in Sources */,
 				DE5F55B528661FC00074A3F0 /* TestCombiningEnvValues.swift in Sources */,
+				DEA73E3D287401F6007E3D30 /* Swift+.swift in Sources */,
 				DE96BA5628696771005683AD /* TestGeometryEffectOnPickerSelection.swift in Sources */,
 				DE7DA3E42815B2480071472E /* TestCustomButtonInList.swift in Sources */,
 			);
