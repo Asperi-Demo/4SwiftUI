@@ -6,6 +6,7 @@
 
 import SwiftUI
 
+@available (iOS 16, *)
 struct TestListBackgroundiOS16: View {
     var body: some View {
         ContentView()
@@ -13,7 +14,8 @@ struct TestListBackgroundiOS16: View {
     
     struct ContentView: View {
         init() {
-            UICollectionView.appearance().backgroundColor = .clear
+// [Legacy]
+//            UICollectionView.appearance().backgroundColor = .clear
         }
         var body: some View {
             ZStack {
@@ -23,26 +25,29 @@ struct TestListBackgroundiOS16: View {
                     Text("Item 2")
                     Text("Item 3")
                 }
+                .scrollContentBackground(Color.red) // Xcode 14b3+
             }
         }
     }
 }
 
 #if canImport(Charts)
-extension UICollectionReusableView {
-    override open var backgroundColor: UIColor? {
-        get { .clear }
-        set {
-            // uncomment below to have same saparators
-            // color as background, they also uses this property
-            // super.backgroundColor = .red
-        }
-    }
-}
-#endif
+// [Legacy]
+//extension UICollectionReusableView {
+//    override open var backgroundColor: UIColor? {
+//        get { .clear }
+//        set {
+//            // uncomment below to have same saparators
+//            // color as background, they also uses this property
+//            // super.backgroundColor = .red
+//        }
+//    }
+//}
 
+@available (iOS 16, *)
 struct TestListBackgroundiOS16_Previews: PreviewProvider {
     static var previews: some View {
         TestListBackgroundiOS16()
     }
 }
+#endif
