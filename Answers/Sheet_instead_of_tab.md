@@ -8,7 +8,11 @@ ATTENTION: By using this you agree do not repost any part of this code
 
 Q: SwiftUI tab view display sheet (by Oxford212)
 
-A: I assume you wanted this (tested with Xcode 12 / iOS 14)
+A: A possible solution is to use TabView selection to activate sheet programmatically, but do not actually allow this selection to be changed (tested with Xcode 12 / iOS 14).
+
+Update: retested with Xcode 13.4 / iOS 15.5
+
+![ezgif com-gif-maker-60](https://user-images.githubusercontent.com/62171579/177689230-e8b80abd-7a07-408f-b3b1-841c43f98740.gif)
 
 ```
 struct ContentView: View {
