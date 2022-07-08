@@ -6,6 +6,7 @@
 
 import SwiftUI
 
+#if canImport(Charts)
 @available (iOS 16, *)
 struct TestListBackgroundiOS16: View {
     var body: some View {
@@ -31,7 +32,6 @@ struct TestListBackgroundiOS16: View {
     }
 }
 
-#if canImport(Charts)
 // [Legacy]
 //extension UICollectionReusableView {
 //    override open var backgroundColor: UIColor? {
