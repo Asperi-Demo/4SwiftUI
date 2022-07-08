@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A2449E1286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */; };
 		8A2449E3286D924300F3C212 /* TestNavigationStackDynamicPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */; };
+		8A2A03B028787E7600F33FD8 /* TestChartYCustomMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */; };
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
@@ -182,6 +183,7 @@
 /* Begin PBXFileReference section */
 		8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPolitypeNavigationPathView.swift; sourceTree = "<group>"; };
 		8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationStackDynamicPath.swift; sourceTree = "<group>"; };
+		8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChartYCustomMarks.swift; sourceTree = "<group>"; };
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
@@ -443,6 +445,7 @@
 				DE296639285F769E009F7093 /* TestSingleRowActivation.swift */,
 				DEA73E3E28745CD4007E3D30 /* TestAnimatableBinding.swift */,
 				DE5F55BA2866D16E0074A3F0 /* TestTwoButtonsInList.swift */,
+				8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */,
 				DEEFAFCB28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift */,
 				8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */,
 				DEA73DFA2871B397007E3D30 /* TestAnchorPrefInDictionary.swift */,
@@ -847,6 +850,7 @@
 				DE1B198428512F5300FBEE96 /* TestTextEditorToFocus.swift in Sources */,
 				DE1B1A4D2857B61100FBEE96 /* TestTwoEdiatableLists.swift in Sources */,
 				DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */,
+				8A2A03B028787E7600F33FD8 /* TestChartYCustomMarks.swift in Sources */,
 				DEEFAFCC28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift in Sources */,
 				DE5F55B9286627D50074A3F0 /* TestBadgeCustomColor.swift in Sources */,
 				DE5F55BB2866D16E0074A3F0 /* TestTwoButtonsInList.swift in Sources */,
