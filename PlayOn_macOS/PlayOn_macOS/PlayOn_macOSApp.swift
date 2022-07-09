@@ -11,7 +11,7 @@ struct PlayOn_macOSApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().frame(minWidth: 200, minHeight: 100)
         }
 		 // needed because WindowGroup scene seems have default
 		 // handler for external events, so opens new scene even
