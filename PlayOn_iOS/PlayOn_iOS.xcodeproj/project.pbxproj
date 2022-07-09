@@ -10,6 +10,7 @@
 		8A2449E1286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */; };
 		8A2449E3286D924300F3C212 /* TestNavigationStackDynamicPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */; };
 		8A2A03B028787E7600F33FD8 /* TestChartYCustomMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */; };
+		8A2A03B32879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A03B22879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift */; };
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
@@ -186,6 +187,7 @@
 		8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPolitypeNavigationPathView.swift; sourceTree = "<group>"; };
 		8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationStackDynamicPath.swift; sourceTree = "<group>"; };
 		8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChartYCustomMarks.swift; sourceTree = "<group>"; };
+		8A2A03B22879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTwoLinksInRowNavigationStack.swift; sourceTree = "<group>"; };
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
@@ -372,6 +374,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A2A03B12879D79400F33FD8 /* iOS16 */ = {
+			isa = PBXGroup;
+			children = (
+				8A2A03B22879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift */,
+				8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */,
+				8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */,
+				8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */,
+				8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */,
+				8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */,
+				8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */,
+				8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */,
+				8AEA7AF02855093A000C3AF5 /* TestNavigationStackPush.swift */,
+			);
+			path = iOS16;
+			sourceTree = "<group>";
+		};
 		DE5F366F280173030030FE37 = {
 			isa = PBXGroup;
 			children = (
@@ -436,6 +454,7 @@
 		DE5F36E82802AB5C0030FE37 /* Findings */ = {
 			isa = PBXGroup;
 			children = (
+				8A2A03B12879D79400F33FD8 /* iOS16 */,
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
 				DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */,
 				DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */,
@@ -444,29 +463,23 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEEFB05C28797D700023FC54 /* TestDismissAffectsView.swift */,
 				DEA73E3A28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift */,
-				8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */,
 				DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */,
 				DEA73E4028746779007E3D30 /* TestHideNavigationBarOnSwipe.swift */,
 				DE296639285F769E009F7093 /* TestSingleRowActivation.swift */,
 				DEA73E3E28745CD4007E3D30 /* TestAnimatableBinding.swift */,
 				DE5F55BA2866D16E0074A3F0 /* TestTwoButtonsInList.swift */,
-				8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */,
 				DEEFAFCB28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift */,
-				8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */,
 				DEA73DFA2871B397007E3D30 /* TestAnchorPrefInDictionary.swift */,
 				DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */,
 				DE96BABD286CC66E005683AD /* TestLimitSliderToSubrange.swift */,
 				DEEFB05A28789B150023FC54 /* TestTabViewExtraSelectionImage.swift */,
 				DE96BAB9286C495B005683AD /* TestTextWithButtonInside.swift */,
-				8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */,
 				DE96BA532868C361005683AD /* TestViewControllerWithBindingView.swift */,
 				DE2966422861BE76009F7093 /* TestTransferBindingIntoSheet.swift */,
 				DE2966442862D54F009F7093 /* TestContinuousTextAnimation.swift */,
 				DE5F55B8286627D50074A3F0 /* TestBadgeCustomColor.swift */,
 				DE29668728637638009F7093 /* TestRoundTripText.swift */,
-				8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */,
 				DE296631285E4FAB009F7093 /* TestMenuSortOrderChange.swift */,
-				8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */,
 				DE1B198328512F5300FBEE96 /* TestTextEditorToFocus.swift */,
 				DE296623285CB917009F7093 /* TestNavigateLazyGridView.swift */,
 				DE5F55B428661FC00074A3F0 /* TestCombiningEnvValues.swift */,
@@ -485,8 +498,6 @@
 				DE296606285B8D40009F7093 /* TestStyleOfHeaderIfPinned.swift */,
 				DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */,
 				DE1B1A5D2859A99F00FBEE96 /* TestMultiPickersInRow.swift */,
-				8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */,
-				8AEA7AF02855093A000C3AF5 /* TestNavigationStackPush.swift */,
 				DEF88213284C74DB0039F5B1 /* TestProminentInsideStyle.swift */,
 				DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */,
 				DE1B1A432855F5B100FBEE96 /* TestCustomProcessingProgress.swift */,
@@ -861,6 +872,7 @@
 				8A2A03B028787E7600F33FD8 /* TestChartYCustomMarks.swift in Sources */,
 				DEEFAFCC28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift in Sources */,
 				DE5F55B9286627D50074A3F0 /* TestBadgeCustomColor.swift in Sources */,
+				8A2A03B32879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift in Sources */,
 				DE5F55BB2866D16E0074A3F0 /* TestTwoButtonsInList.swift in Sources */,
 				DE96BA5228681B61005683AD /* Functions.swift in Sources */,
 				DEB68C46283F46D400507A4F /* TestDropCancellingIntercept.swift in Sources */,
