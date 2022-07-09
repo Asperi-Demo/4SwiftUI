@@ -12,12 +12,12 @@ struct TestTwoLinksInRowNavigationStack: View {
     struct Tweet: Identifiable, Hashable {
         var id: String { userID }
         let userID = "1"
-        let text = "Hello world!"
+        let text = "Stop russia NOW!"
     }
     struct User: Identifiable, Hashable {
         let id = "1"
         let name = "Asperi"
-        let color = Color.yellow
+        let color = Color.red
     }
     let tweets: [Tweet] = [Tweet()]
     let users: [User] = [User()]
@@ -29,9 +29,10 @@ struct TestTwoLinksInRowNavigationStack: View {
                 let user = users.first { $0.id == tweet.userID }!
                 
                 HStack {
-                    Image(systemName: "person")
+                    Image(systemName: "flame")
                         .foregroundStyle(user.color)
-                        .padding(4)
+                        .padding(8)
+                        .border(.red)
                         .highPriorityGesture(TapGesture().onEnded {
                             path.append(user)
                         })
