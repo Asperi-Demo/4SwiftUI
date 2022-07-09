@@ -157,6 +157,7 @@
 		DEEFB059287870DA0023FC54 /* TestValueLabelWithSliderNob.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */; };
 		DEEFB05B28789B150023FC54 /* TestTabViewExtraSelectionImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB05A28789B150023FC54 /* TestTabViewExtraSelectionImage.swift */; };
 		DEEFB05D28797D700023FC54 /* TestDismissAffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB05C28797D700023FC54 /* TestDismissAffectsView.swift */; };
+		DEEFB05F287A10220023FC54 /* TestIndicatorControlLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB05E287A10220023FC54 /* TestIndicatorControlLines.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 		DEF88210284AFADF0039F5B1 /* TestMixedGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */; };
 		DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */; };
@@ -340,6 +341,7 @@
 		DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestValueLabelWithSliderNob.swift; sourceTree = "<group>"; };
 		DEEFB05A28789B150023FC54 /* TestTabViewExtraSelectionImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabViewExtraSelectionImage.swift; sourceTree = "<group>"; };
 		DEEFB05C28797D700023FC54 /* TestDismissAffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDismissAffectsView.swift; sourceTree = "<group>"; };
+		DEEFB05E287A10220023FC54 /* TestIndicatorControlLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIndicatorControlLines.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 		DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMixedGridLayout.swift; sourceTree = "<group>"; };
 		DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInternalTypeModifiers.swift; sourceTree = "<group>"; };
@@ -490,6 +492,7 @@
 				DE29662F285D9D1F009F7093 /* TestUnlimitedScrollView.swift */,
 				DE2966402860C9CF009F7093 /* TestAVPlayerControllerFullScreen.swift */,
 				DE1B1A4C2857B61100FBEE96 /* TestTwoEdiatableLists.swift */,
+				DEEFB05E287A10220023FC54 /* TestIndicatorControlLines.swift */,
 				DE1B1A64285B042800FBEE96 /* TestFillAsyncImagesInGrid.swift */,
 				DEA09386283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift */,
 				DE1B1A62285A004200FBEE96 /* TestEditModeInForm.swift */,
@@ -772,6 +775,7 @@
 				DE9EA2A6280C7F52007F5ED3 /* TestTextFieldCustomFormat.swift in Sources */,
 				DECEDFBE2849E75300457D78 /* TestSomeViewFillInScrollView.swift in Sources */,
 				DE5707F12833E8D0004014F8 /* TestWeirdReferenceInjector.swift in Sources */,
+				DEEFB05F287A10220023FC54 /* TestIndicatorControlLines.swift in Sources */,
 				DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */,
 				DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */,
 				DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */,
