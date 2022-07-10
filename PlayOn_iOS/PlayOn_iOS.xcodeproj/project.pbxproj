@@ -158,6 +158,7 @@
 		DEEFB05B28789B150023FC54 /* TestTabViewExtraSelectionImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB05A28789B150023FC54 /* TestTabViewExtraSelectionImage.swift */; };
 		DEEFB05D28797D700023FC54 /* TestDismissAffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB05C28797D700023FC54 /* TestDismissAffectsView.swift */; };
 		DEEFB05F287A10220023FC54 /* TestIndicatorControlLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB05E287A10220023FC54 /* TestIndicatorControlLines.swift */; };
+		DEEFB061287A933D0023FC54 /* TestNoNavigationBarTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB060287A933D0023FC54 /* TestNoNavigationBarTabView.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 		DEF88210284AFADF0039F5B1 /* TestMixedGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */; };
 		DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */; };
@@ -342,6 +343,7 @@
 		DEEFB05A28789B150023FC54 /* TestTabViewExtraSelectionImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabViewExtraSelectionImage.swift; sourceTree = "<group>"; };
 		DEEFB05C28797D700023FC54 /* TestDismissAffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDismissAffectsView.swift; sourceTree = "<group>"; };
 		DEEFB05E287A10220023FC54 /* TestIndicatorControlLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIndicatorControlLines.swift; sourceTree = "<group>"; };
+		DEEFB060287A933D0023FC54 /* TestNoNavigationBarTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNoNavigationBarTabView.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 		DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMixedGridLayout.swift; sourceTree = "<group>"; };
 		DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInternalTypeModifiers.swift; sourceTree = "<group>"; };
@@ -475,6 +477,7 @@
 				DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */,
 				DE96BABD286CC66E005683AD /* TestLimitSliderToSubrange.swift */,
 				DEEFB05A28789B150023FC54 /* TestTabViewExtraSelectionImage.swift */,
+				DEEFB060287A933D0023FC54 /* TestNoNavigationBarTabView.swift */,
 				DE96BAB9286C495B005683AD /* TestTextWithButtonInside.swift */,
 				DE96BA532868C361005683AD /* TestViewControllerWithBindingView.swift */,
 				DE2966422861BE76009F7093 /* TestTransferBindingIntoSheet.swift */,
@@ -894,6 +897,7 @@
 				DEA09385283BE4FB00AEF697 /* TestObservingAppStorageInVM.swift in Sources */,
 				DE29662D285D81EC009F7093 /* TestLocalizationPicker.swift in Sources */,
 				DEB68C42283E23CA00507A4F /* TestBackgroundRendering.swift in Sources */,
+				DEEFB061287A933D0023FC54 /* TestNoNavigationBarTabView.swift in Sources */,
 				DE2966452862D54F009F7093 /* TestContinuousTextAnimation.swift in Sources */,
 				DE96BABE286CC66E005683AD /* TestLimitSliderToSubrange.swift in Sources */,
 				DEA09381283BA89100AEF697 /* TestButtonContextMenu_vs_Menu.swift in Sources */,
