@@ -36,11 +36,19 @@ struct ContentView: View {
         })
     }
 
+  struct redCircleView: View {
+    var body: some View {
+      Circle()
+      .frame(width: 100, height: 100)
+       .foregroundColor(Color.red)
+    }
+  }
+
     var body: some View {
         GeometryReader { usa in
             ZStack{
                 VStack{
-                	Spacer()
+                  Spacer()
                     HStack{
                         self.generateBox(in: usa)
                         Spacer()
@@ -52,7 +60,7 @@ struct ContentView: View {
                         Spacer()
                         self.generateBox(in: usa)
                     }
-                	Spacer()
+                  Spacer()
                 }
                 //end of VStack
                 redCircleView()
