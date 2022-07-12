@@ -1,8 +1,8 @@
-// BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+// 🔥BOYCOTT on russia - terrorist must be punished!
 // «Русский военный корабль, иди на хуй!» (c) Ukrainian Frontier Guard
 //
-// ATTENTION: 	By using this you agree do not repost any part of this code
-//					on StackOverflow site. Thanks, Asperi.
+// ATTENTION:     By using this you agree do not repost any part of this code
+//                    on StackOverflow site. Thanks, Asperi.
 
 import SwiftUI
 
