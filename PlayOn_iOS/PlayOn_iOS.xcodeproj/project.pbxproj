@@ -160,6 +160,7 @@
 		DEEFB05F287A10220023FC54 /* TestIndicatorControlLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB05E287A10220023FC54 /* TestIndicatorControlLines.swift */; };
 		DEEFB061287A933D0023FC54 /* TestNoNavigationBarTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB060287A933D0023FC54 /* TestNoNavigationBarTabView.swift */; };
 		DEEFB07C287BFF490023FC54 /* TestShapeAnimationAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB07B287BFF490023FC54 /* TestShapeAnimationAlignment.swift */; };
+		DEEFB07E287D91210023FC54 /* TestFontParamsUsageInStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB07D287D91210023FC54 /* TestFontParamsUsageInStyle.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 		DEF88210284AFADF0039F5B1 /* TestMixedGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */; };
 		DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */; };
@@ -346,6 +347,7 @@
 		DEEFB05E287A10220023FC54 /* TestIndicatorControlLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIndicatorControlLines.swift; sourceTree = "<group>"; };
 		DEEFB060287A933D0023FC54 /* TestNoNavigationBarTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNoNavigationBarTabView.swift; sourceTree = "<group>"; };
 		DEEFB07B287BFF490023FC54 /* TestShapeAnimationAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShapeAnimationAlignment.swift; sourceTree = "<group>"; };
+		DEEFB07D287D91210023FC54 /* TestFontParamsUsageInStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFontParamsUsageInStyle.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 		DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMixedGridLayout.swift; sourceTree = "<group>"; };
 		DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInternalTypeModifiers.swift; sourceTree = "<group>"; };
@@ -469,6 +471,7 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEEFB05C28797D700023FC54 /* TestDismissAffectsView.swift */,
 				DEA73E3A28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift */,
+				DEEFB07D287D91210023FC54 /* TestFontParamsUsageInStyle.swift */,
 				DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */,
 				DEA73E4028746779007E3D30 /* TestHideNavigationBarOnSwipe.swift */,
 				DEEFB07B287BFF490023FC54 /* TestShapeAnimationAlignment.swift */,
@@ -836,6 +839,7 @@
 				DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */,
 				DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */,
 				DE1B1A442855F5B100FBEE96 /* TestCustomProcessingProgress.swift in Sources */,
+				DEEFB07E287D91210023FC54 /* TestFontParamsUsageInStyle.swift in Sources */,
 				DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */,
 				DE492EC528414D96009C434F /* TestScreenJoystick.swift in Sources */,
 				DE29668B2864965C009F7093 /* ForEach+.swift in Sources */,
