@@ -20,3 +20,11 @@ public func hilightedText(str: String, searched: String, color: Color = .red) ->
 	}
 	return result ?? Text(str)
 }
+
+public func isInWidget() -> Bool {
+    guard let extesion = Bundle.main.infoDictionary?["NSExtension"]
+    	as? [String: String] else { return false }
+    guard let widget = extesion["NSExtensionPointIdentifier"]
+    	else { return false }
+    return widget == "com.apple.widgetkit-extension"
+}
