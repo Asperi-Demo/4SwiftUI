@@ -28,7 +28,7 @@ struct TestGradientBorder: View {
         ZStack {
 //            Color.red   // uncomment to test transparency
             let borderWidth = 2.0
-            Text("Abc")
+            Text("STOP russia NOW").foregroundColor(.red)
                 .frame(maxWidth: .infinity)
                 .padding()
                 .background(
