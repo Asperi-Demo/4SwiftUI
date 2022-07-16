@@ -12,6 +12,7 @@
 		8A2A03B028787E7600F33FD8 /* TestChartYCustomMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */; };
 		8A2A03B32879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A03B22879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift */; };
 		8A2CF183287F47E200ED859E /* TestCustomConfirmationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */; };
+		8A2CF1852882BB8F00ED859E /* TestNavigationStackReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF1842882BB8F00ED859E /* TestNavigationStackReset.swift */; };
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
@@ -198,6 +199,7 @@
 		8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChartYCustomMarks.swift; sourceTree = "<group>"; };
 		8A2A03B22879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTwoLinksInRowNavigationStack.swift; sourceTree = "<group>"; };
 		8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomConfirmationModifier.swift; sourceTree = "<group>"; };
+		8A2CF1842882BB8F00ED859E /* TestNavigationStackReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationStackReset.swift; sourceTree = "<group>"; };
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
@@ -398,6 +400,7 @@
 				8A2A03B22879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift */,
 				8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */,
 				8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */,
+				8A2CF1842882BB8F00ED859E /* TestNavigationStackReset.swift */,
 				8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */,
 				8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */,
 				8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */,
@@ -838,6 +841,7 @@
 				DE296638285F602E009F7093 /* Representables.swift in Sources */,
 				DE720BEA28263B9100F38F39 /* TestBigToolbarItemCut.swift in Sources */,
 				DE5F367C280173030030FE37 /* PlayOn_iOSApp.swift in Sources */,
+				8A2CF1852882BB8F00ED859E /* TestNavigationStackReset.swift in Sources */,
 				DE296607285B8D40009F7093 /* TestStyleOfHeaderIfPinned.swift in Sources */,
 				DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */,
 				DE29663A285F769E009F7093 /* TestSingleRowActivation.swift in Sources */,
