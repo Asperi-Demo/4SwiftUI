@@ -13,6 +13,7 @@
 		8A2A03B32879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A03B22879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift */; };
 		8A2CF183287F47E200ED859E /* TestCustomConfirmationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */; };
 		8A2CF1852882BB8F00ED859E /* TestNavigationStackReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF1842882BB8F00ED859E /* TestNavigationStackReset.swift */; };
+		8A2CF1872883511600ED859E /* TestGradientBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF1862883511600ED859E /* TestGradientBorder.swift */; };
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
@@ -200,6 +201,7 @@
 		8A2A03B22879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTwoLinksInRowNavigationStack.swift; sourceTree = "<group>"; };
 		8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomConfirmationModifier.swift; sourceTree = "<group>"; };
 		8A2CF1842882BB8F00ED859E /* TestNavigationStackReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationStackReset.swift; sourceTree = "<group>"; };
+		8A2CF1862883511600ED859E /* TestGradientBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGradientBorder.swift; sourceTree = "<group>"; };
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
@@ -482,6 +484,7 @@
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DEB68C41283E23CA00507A4F /* TestBackgroundRendering.swift */,
 				8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */,
+				8A2CF1862883511600ED859E /* TestGradientBorder.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEEFB07F287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift */,
 				DEEFB05C28797D700023FC54 /* TestDismissAffectsView.swift */,
@@ -886,6 +889,7 @@
 				DEA73DFB2871B397007E3D30 /* TestAnchorPrefInDictionary.swift in Sources */,
 				DE296632285E4FAB009F7093 /* TestMenuSortOrderChange.swift in Sources */,
 				DE1B1A5E2859A9A000FBEE96 /* TestMultiPickersInRow.swift in Sources */,
+				8A2CF1872883511600ED859E /* TestGradientBorder.swift in Sources */,
 				DEEFB05B28789B150023FC54 /* TestTabViewExtraSelectionImage.swift in Sources */,
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
 				DE1B1A602859BD4700FBEE96 /* TestRenewAsyncImageResult.swift in Sources */,
