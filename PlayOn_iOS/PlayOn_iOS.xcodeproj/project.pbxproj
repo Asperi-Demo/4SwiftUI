@@ -168,6 +168,7 @@
 		DEF3CA9B288065C500B26796 /* TestStopRepeatingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CA9A288065C500B26796 /* TestStopRepeatingAnimation.swift */; };
 		DEF3CA9D288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CA9C288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift */; };
 		DEF3CA9F28815DBC00B26796 /* TestCancelAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CA9E28815DBC00B26796 /* TestCancelAnimation.swift */; };
+		DEF3CAAF2884228E00B26796 /* TestBlockAutorotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CAAE2884228E00B26796 /* TestBlockAutorotation.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 		DEF88210284AFADF0039F5B1 /* TestMixedGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */; };
 		DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */; };
@@ -362,6 +363,7 @@
 		DEF3CA9A288065C500B26796 /* TestStopRepeatingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStopRepeatingAnimation.swift; sourceTree = "<group>"; };
 		DEF3CA9C288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForDrawingGroupOnAnimation.swift; sourceTree = "<group>"; };
 		DEF3CA9E28815DBC00B26796 /* TestCancelAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCancelAnimation.swift; sourceTree = "<group>"; };
+		DEF3CAAE2884228E00B26796 /* TestBlockAutorotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBlockAutorotation.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 		DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMixedGridLayout.swift; sourceTree = "<group>"; };
 		DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInternalTypeModifiers.swift; sourceTree = "<group>"; };
@@ -487,6 +489,7 @@
 				8A2CF1862883511600ED859E /* TestGradientBorder.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEEFB07F287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift */,
+				DEF3CAAE2884228E00B26796 /* TestBlockAutorotation.swift */,
 				DEEFB05C28797D700023FC54 /* TestDismissAffectsView.swift */,
 				DEA73E3A28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift */,
 				DEEFB07D287D91210023FC54 /* TestFontParamsUsageInStyle.swift */,
@@ -853,6 +856,7 @@
 				DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */,
 				DE492ECD2845321D009C434F /* TestWindowFromScene.swift in Sources */,
 				DEC9E6BE2821C7A9001F0A1D /* TestWrappingUIView.swift in Sources */,
+				DEF3CAAF2884228E00B26796 /* TestBlockAutorotation.swift in Sources */,
 				DEA09383283BC82800AEF697 /* TestModalTabViewSlideshow.swift in Sources */,
 				DE2966412860C9CF009F7093 /* TestAVPlayerControllerFullScreen.swift in Sources */,
 				DE570617282F83BE004014F8 /* TestTabBarShadow.swift in Sources */,
@@ -1127,6 +1131,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1158,6 +1163,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
