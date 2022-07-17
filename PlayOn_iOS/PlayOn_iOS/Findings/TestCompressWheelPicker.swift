@@ -17,10 +17,10 @@ struct TestCompressWheelPicker: View {
             ForEach(["Appricot", "Carrot", "Potato"], id: \.self) {
 				Text($0)
                 .background(GeometryReader {
-                    Color.clear.preference(key: ViewHeightKey.self,
+                    Color.clear.preference(key: ViewSideLengthKey.self,
                         value: $0.frame(in: .local).size.width)
                 })
-                .onPreferenceChange(ViewHeightKey.self) {
+                .onPreferenceChange(ViewSideLengthKey.self) {
                     self.maxWidth = max($0, maxWidth)
                 	width = self.maxWidth
                 }

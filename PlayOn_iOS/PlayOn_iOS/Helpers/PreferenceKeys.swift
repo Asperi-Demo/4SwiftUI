@@ -15,8 +15,8 @@ public struct ViewOffsetKey: PreferenceKey {
     }
 }
 
-/// A preference key to store a view's height
-public struct ViewHeightKey: PreferenceKey {
+/// A preference key to store a view's height or width
+public struct ViewSideLengthKey: PreferenceKey {
     public typealias Value = CGFloat
     public static var defaultValue: CGFloat = .zero
     public static func reduce(value: inout Value, nextValue: () -> Value) {
