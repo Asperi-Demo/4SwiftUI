@@ -14,6 +14,7 @@
 		8A2CF183287F47E200ED859E /* TestCustomConfirmationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */; };
 		8A2CF1852882BB8F00ED859E /* TestNavigationStackReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF1842882BB8F00ED859E /* TestNavigationStackReset.swift */; };
 		8A2CF1872883511600ED859E /* TestGradientBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF1862883511600ED859E /* TestGradientBorder.swift */; };
+		8A2CF1892886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF1882886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift */; };
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
@@ -204,6 +205,7 @@
 		8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomConfirmationModifier.swift; sourceTree = "<group>"; };
 		8A2CF1842882BB8F00ED859E /* TestNavigationStackReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationStackReset.swift; sourceTree = "<group>"; };
 		8A2CF1862883511600ED859E /* TestGradientBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGradientBorder.swift; sourceTree = "<group>"; };
+		8A2CF1882886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBackgroundTaskWithLegacyOSSupport.swift; sourceTree = "<group>"; };
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
@@ -406,6 +408,7 @@
 				8A2A03B22879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift */,
 				8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */,
 				8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */,
+				8A2CF1882886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift */,
 				8A2CF1842882BB8F00ED859E /* TestNavigationStackReset.swift */,
 				8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */,
 				8AEA7B26285BA867000C3AF5 /* TestListBackgroundiOS16.swift */,
@@ -837,6 +840,7 @@
 				DE296609285C434C009F7093 /* TestExternalInternalFocusState.swift in Sources */,
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
 				DE5F55B7286622FF0074A3F0 /* Constants.swift in Sources */,
+				8A2CF1892886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift in Sources */,
 				DE5A18E828341C1B008DF951 /* TestCustomModal.swift in Sources */,
 				DE96BABC286C893B005683AD /* Section+.swift in Sources */,
 				DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */,
