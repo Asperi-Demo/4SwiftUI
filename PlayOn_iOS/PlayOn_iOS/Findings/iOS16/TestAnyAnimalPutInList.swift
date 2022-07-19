@@ -6,6 +6,7 @@
 
 import SwiftUI
 
+#if canImport(Charts)
 fileprivate protocol Animal: Hashable, Identifiable {
     var id: UUID { get }
     var name: String { get }
@@ -45,3 +46,4 @@ struct TestAnyAnimalPutInList_Previews: PreviewProvider {
         TestAnyAnimalPutInList()
     }
 }
+#endif
