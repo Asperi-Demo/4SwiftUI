@@ -13,7 +13,7 @@ struct TestViewModelViaViewPreference: View {
 			ChildView()
 			Text("Received: \(childValue ?? "none")")
 		}
-		.onPreferenceChange(NewValueKey.self) {
+		.onPreferenceChange(GeneratedValueKey.self) {
 			childValue = $0
 		}
 	}
@@ -26,11 +26,11 @@ struct TestViewModelViaViewPreference: View {
 			Button("Generate") {
 				vm.value = String(Int.random(in: 0...9))
 			}
-			.preference(key: NewValueKey.self, value: vm.value)
+			.preference(key: GeneratedValueKey.self, value: vm.value)
 		}
 	}
 
-	fileprivate struct NewValueKey: PreferenceKey {
+	fileprivate struct GeneratedValueKey: PreferenceKey {
 		static var defaultValue: String? = nil
 		static func reduce(value: inout String?, nextValue: () -> String?) {  // << fix !!
 			value = nextValue()

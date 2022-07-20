@@ -174,6 +174,7 @@
 		DEF3CAB12884836900B26796 /* TestCompressWheelPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CAB02884836900B26796 /* TestCompressWheelPicker.swift */; };
 		DEF3CAC12887094400B26796 /* TestAnimationReplacementInTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CAC02887094400B26796 /* TestAnimationReplacementInTransaction.swift */; };
 		DEF3CAC32887142200B26796 /* TestTextUpToBoxLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CAC22887142200B26796 /* TestTextUpToBoxLimit.swift */; };
+		DEF3CAF428881F1F00B26796 /* TestTransitionDifferentAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CAF328881F1F00B26796 /* TestTransitionDifferentAnimations.swift */; };
 		DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */; };
 		DEF88210284AFADF0039F5B1 /* TestMixedGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */; };
 		DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */; };
@@ -374,6 +375,7 @@
 		DEF3CAB02884836900B26796 /* TestCompressWheelPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCompressWheelPicker.swift; sourceTree = "<group>"; };
 		DEF3CAC02887094400B26796 /* TestAnimationReplacementInTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimationReplacementInTransaction.swift; sourceTree = "<group>"; };
 		DEF3CAC22887142200B26796 /* TestTextUpToBoxLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextUpToBoxLimit.swift; sourceTree = "<group>"; };
+		DEF3CAF328881F1F00B26796 /* TestTransitionDifferentAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTransitionDifferentAnimations.swift; sourceTree = "<group>"; };
 		DEF72BBB281BAAF1002D978E /* TestCustomShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShapeStyle.swift; sourceTree = "<group>"; };
 		DEF8820F284AFADF0039F5B1 /* TestMixedGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMixedGridLayout.swift; sourceTree = "<group>"; };
 		DEF88211284B06130039F5B1 /* TestInternalTypeModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInternalTypeModifiers.swift; sourceTree = "<group>"; };
@@ -506,6 +508,7 @@
 				DEEFB05C28797D700023FC54 /* TestDismissAffectsView.swift */,
 				DEF3CAC22887142200B26796 /* TestTextUpToBoxLimit.swift */,
 				DEA73E3A28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift */,
+				DEF3CAF328881F1F00B26796 /* TestTransitionDifferentAnimations.swift */,
 				DEEFB07D287D91210023FC54 /* TestFontParamsUsageInStyle.swift */,
 				DEF3CAC02887094400B26796 /* TestAnimationReplacementInTransaction.swift */,
 				DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */,
@@ -923,6 +926,7 @@
 				DE720BEC2826CC8E00F38F39 /* TestNavigationDetailsWithPersistedView.swift in Sources */,
 				DE1B19822850F04700FBEE96 /* TestEmitterView.swift in Sources */,
 				DEEFB07C287BFF490023FC54 /* TestShapeAnimationAlignment.swift in Sources */,
+				DEF3CAF428881F1F00B26796 /* TestTransitionDifferentAnimations.swift in Sources */,
 				8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */,
 				8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */,
 				DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */,
