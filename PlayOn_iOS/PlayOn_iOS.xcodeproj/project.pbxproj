@@ -16,6 +16,7 @@
 		8A2CF1872883511600ED859E /* TestGradientBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF1862883511600ED859E /* TestGradientBorder.swift */; };
 		8A2CF1892886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF1882886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift */; };
 		8A2CF18B2886EE3A00ED859E /* TestAnyAnimalPutInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF18A2886EE3A00ED859E /* TestAnyAnimalPutInList.swift */; };
+		8A310924288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */; };
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
@@ -211,6 +212,7 @@
 		8A2CF1862883511600ED859E /* TestGradientBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGradientBorder.swift; sourceTree = "<group>"; };
 		8A2CF1882886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBackgroundTaskWithLegacyOSSupport.swift; sourceTree = "<group>"; };
 		8A2CF18A2886EE3A00ED859E /* TestAnyAnimalPutInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyAnimalPutInList.swift; sourceTree = "<group>"; };
+		8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimationForClipShapeInModifier.swift; sourceTree = "<group>"; };
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
@@ -501,6 +503,7 @@
 				DEB68C41283E23CA00507A4F /* TestBackgroundRendering.swift */,
 				8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */,
 				8A2CF1862883511600ED859E /* TestGradientBorder.swift */,
+				8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEEFB07F287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift */,
 				DEF3CAB02884836900B26796 /* TestCompressWheelPicker.swift */,
@@ -849,6 +852,7 @@
 				DEF88214284C74DB0039F5B1 /* TestProminentInsideStyle.swift in Sources */,
 				DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */,
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
+				8A310924288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift in Sources */,
 				DEEFB05D28797D700023FC54 /* TestDismissAffectsView.swift in Sources */,
 				DE296609285C434C009F7093 /* TestExternalInternalFocusState.swift in Sources */,
 				DE5F36EA2802AB930030FE37 /* TestAlignWithCertainVStack.swift in Sources */,
