@@ -17,6 +17,8 @@
 		8A2CF1892886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF1882886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift */; };
 		8A2CF18B2886EE3A00ED859E /* TestAnyAnimalPutInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CF18A2886EE3A00ED859E /* TestAnyAnimalPutInList.swift */; };
 		8A310924288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */; };
+		8A310926288D3154002AB3CD /* TestAvoidLabelTextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310925288D3154002AB3CD /* TestAvoidLabelTextAnimation.swift */; };
+		8A310928288D31A4002AB3CD /* TestColorProgressOnStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310927288D31A4002AB3CD /* TestColorProgressOnStart.swift */; };
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
@@ -213,6 +215,8 @@
 		8A2CF1882886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBackgroundTaskWithLegacyOSSupport.swift; sourceTree = "<group>"; };
 		8A2CF18A2886EE3A00ED859E /* TestAnyAnimalPutInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyAnimalPutInList.swift; sourceTree = "<group>"; };
 		8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimationForClipShapeInModifier.swift; sourceTree = "<group>"; };
+		8A310925288D3154002AB3CD /* TestAvoidLabelTextAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAvoidLabelTextAnimation.swift; sourceTree = "<group>"; };
+		8A310927288D31A4002AB3CD /* TestColorProgressOnStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestColorProgressOnStart.swift; sourceTree = "<group>"; };
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
@@ -507,6 +511,8 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				DEEFB07F287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift */,
 				DEF3CAB02884836900B26796 /* TestCompressWheelPicker.swift */,
+				8A310925288D3154002AB3CD /* TestAvoidLabelTextAnimation.swift */,
+				8A310927288D31A4002AB3CD /* TestColorProgressOnStart.swift */,
 				DEF3CAAE2884228E00B26796 /* TestBlockAutorotation.swift */,
 				DEEFB05C28797D700023FC54 /* TestDismissAffectsView.swift */,
 				DEF3CAC22887142200B26796 /* TestTextUpToBoxLimit.swift */,
@@ -946,6 +952,7 @@
 				DE5F55B9286627D50074A3F0 /* TestBadgeCustomColor.swift in Sources */,
 				8A2A03B32879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift in Sources */,
 				DE5F55BB2866D16E0074A3F0 /* TestTwoButtonsInList.swift in Sources */,
+				8A310926288D3154002AB3CD /* TestAvoidLabelTextAnimation.swift in Sources */,
 				DE96BA5228681B61005683AD /* Functions.swift in Sources */,
 				DEB68C46283F46D400507A4F /* TestDropCancellingIntercept.swift in Sources */,
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
@@ -957,6 +964,7 @@
 				DE240F49284F948300D82EC2 /* TestArcAnimation.swift in Sources */,
 				DE5A195B2835458F008DF951 /* TestScrollViewBouncing.swift in Sources */,
 				DECEDF612846A5B200457D78 /* TestInjectScenePhaseInModel.swift in Sources */,
+				8A310928288D31A4002AB3CD /* TestColorProgressOnStart.swift in Sources */,
 				DE96BA50286818EC005683AD /* TestTextFieldWordsHighlight.swift in Sources */,
 				8A2449E3286D924300F3C212 /* TestNavigationStackDynamicPath.swift in Sources */,
 				8A2CF183287F47E200ED859E /* TestCustomConfirmationModifier.swift in Sources */,
