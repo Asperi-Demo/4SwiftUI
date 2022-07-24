@@ -19,6 +19,7 @@
 		8A310924288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */; };
 		8A310926288D3154002AB3CD /* TestAvoidLabelTextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310925288D3154002AB3CD /* TestAvoidLabelTextAnimation.swift */; };
 		8A310928288D31A4002AB3CD /* TestColorProgressOnStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310927288D31A4002AB3CD /* TestColorProgressOnStart.swift */; };
+		8A31092A288D594F002AB3CD /* TestHypocycloidAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310929288D594F002AB3CD /* TestHypocycloidAnimation.swift */; };
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
@@ -217,6 +218,7 @@
 		8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimationForClipShapeInModifier.swift; sourceTree = "<group>"; };
 		8A310925288D3154002AB3CD /* TestAvoidLabelTextAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAvoidLabelTextAnimation.swift; sourceTree = "<group>"; };
 		8A310927288D31A4002AB3CD /* TestColorProgressOnStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestColorProgressOnStart.swift; sourceTree = "<group>"; };
+		8A310929288D594F002AB3CD /* TestHypocycloidAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHypocycloidAnimation.swift; sourceTree = "<group>"; };
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
@@ -509,6 +511,7 @@
 				8A2CF1862883511600ED859E /* TestGradientBorder.swift */,
 				8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
+				8A310929288D594F002AB3CD /* TestHypocycloidAnimation.swift */,
 				DEEFB07F287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift */,
 				DEF3CAB02884836900B26796 /* TestCompressWheelPicker.swift */,
 				8A310925288D3154002AB3CD /* TestAvoidLabelTextAnimation.swift */,
@@ -906,6 +909,7 @@
 				DE7DA38D28153FBC0071472E /* TestListNoPaddings.swift in Sources */,
 				DEA73E3B28736D7D007E3D30 /* TestCustomNonLinearScaleAnimation.swift in Sources */,
 				DE76E211280AA42D006EDA5A /* TestMixedHorizontalLayout.swift in Sources */,
+				8A31092A288D594F002AB3CD /* TestHypocycloidAnimation.swift in Sources */,
 				DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */,
 				DE492EC72841F862009C434F /* TestReverseAnimationOnAppear.swift in Sources */,
 				DE1B1A65285B042800FBEE96 /* TestFillAsyncImagesInGrid.swift in Sources */,
