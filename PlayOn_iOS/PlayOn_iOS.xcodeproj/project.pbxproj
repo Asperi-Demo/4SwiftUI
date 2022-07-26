@@ -116,6 +116,7 @@
 		DE7DA43D281704020071472E /* TestDragGestureDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA43C281704020071472E /* TestDragGestureDirection.swift */; };
 		DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */; };
 		DE7DA49C28186ABD0071472E /* TestNextTextFieldFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */; };
+		DE88F882288FC631002C2604 /* TestLazyGridTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F881288FC631002C2604 /* TestLazyGridTransformation.swift */; };
 		DE96BA4E2867855F005683AD /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4D2867855F005683AD /* Builders.swift */; };
 		DE96BA50286818EC005683AD /* TestTextFieldWordsHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */; };
 		DE96BA5228681B61005683AD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA5128681B61005683AD /* Functions.swift */; };
@@ -321,6 +322,7 @@
 		DE7DA43C281704020071472E /* TestDragGestureDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragGestureDirection.swift; sourceTree = "<group>"; };
 		DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPulseColorView.swift; sourceTree = "<group>"; };
 		DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNextTextFieldFocus.swift; sourceTree = "<group>"; };
+		DE88F881288FC631002C2604 /* TestLazyGridTransformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLazyGridTransformation.swift; sourceTree = "<group>"; };
 		DE96BA4D2867855F005683AD /* Builders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builders.swift; sourceTree = "<group>"; };
 		DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWordsHighlight.swift; sourceTree = "<group>"; };
 		DE96BA5128681B61005683AD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -513,6 +515,7 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				8A310929288D594F002AB3CD /* TestHypocycloidAnimation.swift */,
 				DEEFB07F287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift */,
+				DE88F881288FC631002C2604 /* TestLazyGridTransformation.swift */,
 				DEF3CAB02884836900B26796 /* TestCompressWheelPicker.swift */,
 				8A310925288D3154002AB3CD /* TestAvoidLabelTextAnimation.swift */,
 				8A310927288D31A4002AB3CD /* TestColorProgressOnStart.swift */,
@@ -883,6 +886,7 @@
 				8A2CF1852882BB8F00ED859E /* TestNavigationStackReset.swift in Sources */,
 				DE296607285B8D40009F7093 /* TestStyleOfHeaderIfPinned.swift in Sources */,
 				DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */,
+				DE88F882288FC631002C2604 /* TestLazyGridTransformation.swift in Sources */,
 				DE29663A285F769E009F7093 /* TestSingleRowActivation.swift in Sources */,
 				DEEFB059287870DA0023FC54 /* TestValueLabelWithSliderNob.swift in Sources */,
 				DE5A19572835186F008DF951 /* TestAppStorageInVM.swift in Sources */,
