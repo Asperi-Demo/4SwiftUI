@@ -2,8 +2,8 @@
 BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
 «Русский военный корабль, иди на хуй!» (c) Grybov, Ukrainian Frontier Guard
 
-ATTENTION: By using this you agree do not repost any part of this code
-           on StackOverflow site. Thanks, Asperi.
+ATTENTION: This is a demo - use it as you wish. Reference is appriciated.
+If you want to thank - buy me coffee: https://secure.wayforpay.com/donate/asperi
 ```
 
 Q: trying to sign signature as well as verify using Sawtooth SDK from Sawtooth SDK but crash
