@@ -122,6 +122,7 @@
 		DE88F8D02891A68A002C2604 /* carbon.dae in Resources */ = {isa = PBXBuildFile; fileRef = DE88F8CF2891A68A002C2604 /* carbon.dae */; };
 		DE88F8D22891A86F002C2604 /* model.dae in Resources */ = {isa = PBXBuildFile; fileRef = DE88F8D12891A86F002C2604 /* model.dae */; };
 		DE88F8D42891AD96002C2604 /* TestResetTimerInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F8D32891AD96002C2604 /* TestResetTimerInButton.swift */; };
+		DE88F8D62891B7C3002C2604 /* TestSeparatedTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F8D52891B7C3002C2604 /* TestSeparatedTransitions.swift */; };
 		DE96BA4E2867855F005683AD /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4D2867855F005683AD /* Builders.swift */; };
 		DE96BA50286818EC005683AD /* TestTextFieldWordsHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */; };
 		DE96BA5228681B61005683AD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA5128681B61005683AD /* Functions.swift */; };
@@ -333,6 +334,7 @@
 		DE88F8CF2891A68A002C2604 /* carbon.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = carbon.dae; sourceTree = "<group>"; };
 		DE88F8D12891A86F002C2604 /* model.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = model.dae; sourceTree = "<group>"; };
 		DE88F8D32891AD96002C2604 /* TestResetTimerInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResetTimerInButton.swift; sourceTree = "<group>"; };
+		DE88F8D52891B7C3002C2604 /* TestSeparatedTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSeparatedTransitions.swift; sourceTree = "<group>"; };
 		DE96BA4D2867855F005683AD /* Builders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builders.swift; sourceTree = "<group>"; };
 		DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWordsHighlight.swift; sourceTree = "<group>"; };
 		DE96BA5128681B61005683AD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -532,6 +534,7 @@
 				DE88F881288FC631002C2604 /* TestLazyGridTransformation.swift */,
 				DE88F885289023B6002C2604 /* TestReorderTabItemsPerSelection.swift */,
 				DEF3CAB02884836900B26796 /* TestCompressWheelPicker.swift */,
+				DE88F8D52891B7C3002C2604 /* TestSeparatedTransitions.swift */,
 				8A310925288D3154002AB3CD /* TestAvoidLabelTextAnimation.swift */,
 				8A310927288D31A4002AB3CD /* TestColorProgressOnStart.swift */,
 				DEF3CAAE2884228E00B26796 /* TestBlockAutorotation.swift */,
@@ -925,6 +928,7 @@
 				DEEFB080287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift in Sources */,
 				DEEFB07E287D91210023FC54 /* TestFontParamsUsageInStyle.swift in Sources */,
 				DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */,
+				DE88F8D62891B7C3002C2604 /* TestSeparatedTransitions.swift in Sources */,
 				DE492EC528414D96009C434F /* TestScreenJoystick.swift in Sources */,
 				DE29668B2864965C009F7093 /* ForEach+.swift in Sources */,
 				DE7DA38D28153FBC0071472E /* TestListNoPaddings.swift in Sources */,
