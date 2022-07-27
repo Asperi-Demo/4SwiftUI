@@ -24,12 +24,13 @@ A: Here is a solution (updated `body` w/o `GeometryReader`). Tested with Xcode 1
                     ScrollView {
                         Rectangle()
                             .aspectRatio(1, contentMode: .fit)
-                            .animation(nil)     // << here !!
+                    //        .animation(nil)              // << iOS 13 solution !!
                     } // ScrollView
                         .transition(.move(edge: .bottom))
-                        .animation(.easeOut)
+                    //    .animation(.easeOut)             // << iOS 13 solution !!
                 }
             } // ZStack
+            .animation(.easeOut, value: isShown)           // << iOS 14+ solution !!
 
             // Button to show / hide the content
             Button(action: {
