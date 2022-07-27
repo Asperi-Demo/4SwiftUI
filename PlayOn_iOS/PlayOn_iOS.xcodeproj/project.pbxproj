@@ -119,6 +119,9 @@
 		DE88F882288FC631002C2604 /* TestLazyGridTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F881288FC631002C2604 /* TestLazyGridTransformation.swift */; };
 		DE88F884288FE268002C2604 /* TestButtonActionWhilePressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F883288FE268002C2604 /* TestButtonActionWhilePressed.swift */; };
 		DE88F886289023B6002C2604 /* TestReorderTabItemsPerSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F885289023B6002C2604 /* TestReorderTabItemsPerSelection.swift */; };
+		DE88F8D02891A68A002C2604 /* carbon.dae in Resources */ = {isa = PBXBuildFile; fileRef = DE88F8CF2891A68A002C2604 /* carbon.dae */; };
+		DE88F8D22891A86F002C2604 /* model.dae in Resources */ = {isa = PBXBuildFile; fileRef = DE88F8D12891A86F002C2604 /* model.dae */; };
+		DE88F8D42891AD96002C2604 /* TestResetTimerInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F8D32891AD96002C2604 /* TestResetTimerInButton.swift */; };
 		DE96BA4E2867855F005683AD /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4D2867855F005683AD /* Builders.swift */; };
 		DE96BA50286818EC005683AD /* TestTextFieldWordsHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */; };
 		DE96BA5228681B61005683AD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA5128681B61005683AD /* Functions.swift */; };
@@ -327,6 +330,9 @@
 		DE88F881288FC631002C2604 /* TestLazyGridTransformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLazyGridTransformation.swift; sourceTree = "<group>"; };
 		DE88F883288FE268002C2604 /* TestButtonActionWhilePressed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonActionWhilePressed.swift; sourceTree = "<group>"; };
 		DE88F885289023B6002C2604 /* TestReorderTabItemsPerSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReorderTabItemsPerSelection.swift; sourceTree = "<group>"; };
+		DE88F8CF2891A68A002C2604 /* carbon.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = carbon.dae; sourceTree = "<group>"; };
+		DE88F8D12891A86F002C2604 /* model.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = model.dae; sourceTree = "<group>"; };
+		DE88F8D32891AD96002C2604 /* TestResetTimerInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResetTimerInButton.swift; sourceTree = "<group>"; };
 		DE96BA4D2867855F005683AD /* Builders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builders.swift; sourceTree = "<group>"; };
 		DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWordsHighlight.swift; sourceTree = "<group>"; };
 		DE96BA5128681B61005683AD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -468,6 +474,8 @@
 			children = (
 				DE570613282F7167004014F8 /* PlayOn-iOS-Info.plist */,
 				DE5F367B280173030030FE37 /* PlayOn_iOSApp.swift */,
+				DE88F8CF2891A68A002C2604 /* carbon.dae */,
+				DE88F8D12891A86F002C2604 /* model.dae */,
 				DE5F367D280173030030FE37 /* ContentView.swift */,
 				DE9EA2A2280C3187007F5ED3 /* Helpers */,
 				DE76E20B28094AD6006EDA5A /* Extensions */,
@@ -519,6 +527,7 @@
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				8A310929288D594F002AB3CD /* TestHypocycloidAnimation.swift */,
 				DE88F883288FE268002C2604 /* TestButtonActionWhilePressed.swift */,
+				DE88F8D32891AD96002C2604 /* TestResetTimerInButton.swift */,
 				DEEFB07F287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift */,
 				DE88F881288FC631002C2604 /* TestLazyGridTransformation.swift */,
 				DE88F885289023B6002C2604 /* TestReorderTabItemsPerSelection.swift */,
@@ -804,9 +813,11 @@
 			files = (
 				DEF88269284E61B90039F5B1 /* panorama.jpeg in Resources */,
 				DE296627285D803B009F7093 /* Localizable.strings in Resources */,
+				DE88F8D22891A86F002C2604 /* model.dae in Resources */,
 				DE5F3683280173040030FE37 /* Preview Assets.xcassets in Resources */,
 				DE5F3680280173040030FE37 /* Assets.xcassets in Resources */,
 				DEA0937B283A75BC00AEF697 /* demo.png in Resources */,
+				DE88F8D02891A68A002C2604 /* carbon.dae in Resources */,
 				DEB68C38283CFBA200507A4F /* document.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -978,6 +989,7 @@
 				DE2966432861BE76009F7093 /* TestTransferBindingIntoSheet.swift in Sources */,
 				DE240F49284F948300D82EC2 /* TestArcAnimation.swift in Sources */,
 				DE5A195B2835458F008DF951 /* TestScrollViewBouncing.swift in Sources */,
+				DE88F8D42891AD96002C2604 /* TestResetTimerInButton.swift in Sources */,
 				DECEDF612846A5B200457D78 /* TestInjectScenePhaseInModel.swift in Sources */,
 				8A310928288D31A4002AB3CD /* TestColorProgressOnStart.swift in Sources */,
 				DE96BA50286818EC005683AD /* TestTextFieldWordsHighlight.swift in Sources */,
