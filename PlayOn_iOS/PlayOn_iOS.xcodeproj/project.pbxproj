@@ -127,6 +127,7 @@
 		DE88F8D22891A86F002C2604 /* model.dae in Resources */ = {isa = PBXBuildFile; fileRef = DE88F8D12891A86F002C2604 /* model.dae */; };
 		DE88F8D42891AD96002C2604 /* TestResetTimerInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F8D32891AD96002C2604 /* TestResetTimerInButton.swift */; };
 		DE88F8D62891B7C3002C2604 /* TestSeparatedTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F8D52891B7C3002C2604 /* TestSeparatedTransitions.swift */; };
+		DE88F96828941615002C2604 /* TestInjectingAlertInPickerChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F96728941615002C2604 /* TestInjectingAlertInPickerChanges.swift */; };
 		DE96BA4E2867855F005683AD /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4D2867855F005683AD /* Builders.swift */; };
 		DE96BA50286818EC005683AD /* TestTextFieldWordsHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */; };
 		DE96BA5228681B61005683AD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA5128681B61005683AD /* Functions.swift */; };
@@ -343,6 +344,7 @@
 		DE88F8D12891A86F002C2604 /* model.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = model.dae; sourceTree = "<group>"; };
 		DE88F8D32891AD96002C2604 /* TestResetTimerInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResetTimerInButton.swift; sourceTree = "<group>"; };
 		DE88F8D52891B7C3002C2604 /* TestSeparatedTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSeparatedTransitions.swift; sourceTree = "<group>"; };
+		DE88F96728941615002C2604 /* TestInjectingAlertInPickerChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInjectingAlertInPickerChanges.swift; sourceTree = "<group>"; };
 		DE96BA4D2867855F005683AD /* Builders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builders.swift; sourceTree = "<group>"; };
 		DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWordsHighlight.swift; sourceTree = "<group>"; };
 		DE96BA5128681B61005683AD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -536,6 +538,7 @@
 				8A31092F28925568002AB3CD /* TestCustomAnyViewWrapper.swift */,
 				8A2CF1862883511600ED859E /* TestGradientBorder.swift */,
 				8A31092B28925286002AB3CD /* TestCustomViewProtocol.swift */,
+				DE88F96728941615002C2604 /* TestInjectingAlertInPickerChanges.swift */,
 				8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				8A3F09862893BB39005FD72F /* TestSeparationDependentNavigationViewTabView.swift */,
@@ -941,6 +944,7 @@
 				DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */,
 				DE1B1A442855F5B100FBEE96 /* TestCustomProcessingProgress.swift in Sources */,
 				DEEFB080287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift in Sources */,
+				DE88F96828941615002C2604 /* TestInjectingAlertInPickerChanges.swift in Sources */,
 				DEEFB07E287D91210023FC54 /* TestFontParamsUsageInStyle.swift in Sources */,
 				DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */,
 				DE88F8D62891B7C3002C2604 /* TestSeparatedTransitions.swift in Sources */,
