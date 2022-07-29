@@ -22,6 +22,8 @@
 		8A31092A288D594F002AB3CD /* TestHypocycloidAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A310929288D594F002AB3CD /* TestHypocycloidAnimation.swift */; };
 		8A31092C28925286002AB3CD /* TestCustomViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A31092B28925286002AB3CD /* TestCustomViewProtocol.swift */; };
 		8A31092E28925421002AB3CD /* TestColorSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A31092D28925421002AB3CD /* TestColorSelector.swift */; };
+		8A31093028925568002AB3CD /* TestCustomAnyViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A31092F28925568002AB3CD /* TestCustomAnyViewWrapper.swift */; };
+		8A3F09872893BB39005FD72F /* TestSeparationDependentNavigationViewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F09862893BB39005FD72F /* TestSeparationDependentNavigationViewTabView.swift */; };
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
@@ -230,6 +232,8 @@
 		8A310929288D594F002AB3CD /* TestHypocycloidAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHypocycloidAnimation.swift; sourceTree = "<group>"; };
 		8A31092B28925286002AB3CD /* TestCustomViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomViewProtocol.swift; sourceTree = "<group>"; };
 		8A31092D28925421002AB3CD /* TestColorSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorSelector.swift; sourceTree = "<group>"; };
+		8A31092F28925568002AB3CD /* TestCustomAnyViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomAnyViewWrapper.swift; sourceTree = "<group>"; };
+		8A3F09862893BB39005FD72F /* TestSeparationDependentNavigationViewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSeparationDependentNavigationViewTabView.swift; sourceTree = "<group>"; };
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
@@ -529,10 +533,12 @@
 				DEB68C41283E23CA00507A4F /* TestBackgroundRendering.swift */,
 				8A31092D28925421002AB3CD /* TestColorSelector.swift */,
 				8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */,
+				8A31092F28925568002AB3CD /* TestCustomAnyViewWrapper.swift */,
 				8A2CF1862883511600ED859E /* TestGradientBorder.swift */,
 				8A31092B28925286002AB3CD /* TestCustomViewProtocol.swift */,
 				8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
+				8A3F09862893BB39005FD72F /* TestSeparationDependentNavigationViewTabView.swift */,
 				8A310929288D594F002AB3CD /* TestHypocycloidAnimation.swift */,
 				DE88F883288FE268002C2604 /* TestButtonActionWhilePressed.swift */,
 				DE88F8D32891AD96002C2604 /* TestResetTimerInButton.swift */,
@@ -868,10 +874,12 @@
 				DECEDFBE2849E75300457D78 /* TestSomeViewFillInScrollView.swift in Sources */,
 				DE5707F12833E8D0004014F8 /* TestWeirdReferenceInjector.swift in Sources */,
 				DEEFB05F287A10220023FC54 /* TestIndicatorControlLines.swift in Sources */,
+				8A31093028925568002AB3CD /* TestCustomAnyViewWrapper.swift in Sources */,
 				DEF3CA9B288065C500B26796 /* TestStopRepeatingAnimation.swift in Sources */,
 				DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */,
 				DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */,
 				DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */,
+				8A3F09872893BB39005FD72F /* TestSeparationDependentNavigationViewTabView.swift in Sources */,
 				DE1B1A40285491A200FBEE96 /* TestButtonBlinkForcing.swift in Sources */,
 				DEA73E4128746779007E3D30 /* TestHideNavigationBarOnSwipe.swift in Sources */,
 				DEF3CA9F28815DBC00B26796 /* TestCancelAnimation.swift in Sources */,
