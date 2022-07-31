@@ -8,7 +8,7 @@
 
 Q: Why isn't my SwiftUI transition animating? (by Ferdz)
 
-A: Here is possible solution - make views independent. Tested with Xcode 12 / iOS 14.
+A: Here is possible solution - make dynamic and static views independent in `LazyVStack`. Tested with Xcode 12 / iOS 14.
 
 ![LJXGj](https://user-images.githubusercontent.com/62171579/182015902-4fb3ab76-dba3-47d1-a314-1cf9bd51b9a1.gif)
 
