@@ -9,7 +9,7 @@ import SwiftUI
 struct TestConvenienceInitWithConstrains: View {
 	var body: some View {
 		VStack {
-			SwiftUIView(data: ["1", "2", "3"].indices, selection: .constant(0)) { Text("\($0)")
+			ForEachKeypath(data: ["1", "2", "3"].indices, selection: .constant(0)) { Text("\($0)")
 			}
 		}
 	}
@@ -21,7 +21,7 @@ struct TestConvenienceInitWithConstrains_Previews: PreviewProvider {
 	}
 }
 
-struct SwiftUIView<T: RandomAccessCollection, ElementView: View, ID: Hashable>: View {
+struct ForEachKeypath<T: RandomAccessCollection, ElementView: View, ID: Hashable>: View {
 	
 	@Binding var selection: T.Element
 	let keyPath: KeyPath<T.Element, ID>
@@ -42,7 +42,7 @@ struct SwiftUIView<T: RandomAccessCollection, ElementView: View, ID: Hashable>: 
 	}
 }
 
-extension SwiftUIView {
+extension ForEachKeypath {
 	init(data: T, selection: Binding<T.Element>, @ViewBuilder content: @escaping (T.Element) -> ElementView) where ID == T.Element {
 		self.init(data: data, id: \.self, selection: selection, content: content)
 	}
