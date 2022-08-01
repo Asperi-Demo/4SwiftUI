@@ -19,15 +19,13 @@ struct TestListBackgroundiOS16: View {
 //            UICollectionView.appearance().backgroundColor = .clear
         }
         var body: some View {
-            ZStack {
-                Color.red
-                List {
-                    Text("Item 1")
-                    Text("Item 2")
-                    Text("Item 3")
-                }
-                .scrollContentBackground(Color.red) // Xcode 14b3+
+            List {
+                Text("Item 1")
+                Text("Item 2")
+                Text("Item 3")
             }
+            .scrollContentBackground(.hidden) // Xcode 14b4+
+            .background(Color.blue)
         }
     }
 }
