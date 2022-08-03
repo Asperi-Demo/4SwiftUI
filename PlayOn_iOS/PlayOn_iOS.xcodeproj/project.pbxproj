@@ -199,6 +199,7 @@
 		DEF88267284E5B2A0039F5B1 /* TestHostingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88266284E5B2A0039F5B1 /* TestHostingInViewController.swift */; };
 		DEF88269284E61B90039F5B1 /* panorama.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DEF88268284E61B90039F5B1 /* panorama.jpeg */; };
 		DEF8829F284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8829E284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift */; };
+		DEFC512D289A5E8F00989CE2 /* TestCustomStepperAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC512C289A5E8F00989CE2 /* TestCustomStepperAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -417,6 +418,7 @@
 		DEF88266284E5B2A0039F5B1 /* TestHostingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHostingInViewController.swift; sourceTree = "<group>"; };
 		DEF88268284E61B90039F5B1 /* panorama.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panorama.jpeg; sourceTree = "<group>"; };
 		DEF8829E284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBackgroundInHalfSheet.swift; sourceTree = "<group>"; };
+		DEFC512C289A5E8F00989CE2 /* TestCustomStepperAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomStepperAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -541,6 +543,7 @@
 				8A2CF1862883511600ED859E /* TestGradientBorder.swift */,
 				DE88F96928969B65002C2604 /* TestSearchableScrollViewAnimation.swift */,
 				8A31092B28925286002AB3CD /* TestCustomViewProtocol.swift */,
+				DEFC512C289A5E8F00989CE2 /* TestCustomStepperAnimation.swift */,
 				DE88F96728941615002C2604 /* TestInjectingAlertInPickerChanges.swift */,
 				8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
@@ -946,6 +949,7 @@
 				DEF3CAB12884836900B26796 /* TestCompressWheelPicker.swift in Sources */,
 				DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */,
 				DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */,
+				DEFC512D289A5E8F00989CE2 /* TestCustomStepperAnimation.swift in Sources */,
 				DE1B1A442855F5B100FBEE96 /* TestCustomProcessingProgress.swift in Sources */,
 				DEEFB080287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift in Sources */,
 				DE88F96828941615002C2604 /* TestInjectingAlertInPickerChanges.swift in Sources */,
