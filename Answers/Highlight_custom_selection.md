@@ -1,3 +1,11 @@
+>
+> 🔥BOYCOTT on russia - terrorist must be punished!<br>
+> «Русский военный корабль, иди на хуй!» (c) Ukrainian Frontier Guard
+> 
+> ATTENTION: This is a demo - use it as you wish. Reference is appriciated.<br>
+> If you want to thank - buy me coffee: [Coffee for Asperi](https://secure.wayforpay.com/donate/asperi)
+>
+
 Q: SwiftUI ternary conditional bug?
 
 A: Not sure where is the problem, but the following test code works here. Tested with Xcode 11.2 / iOS 13.2.
