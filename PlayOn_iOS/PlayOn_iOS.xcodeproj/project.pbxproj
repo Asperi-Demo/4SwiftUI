@@ -200,6 +200,7 @@
 		DEF88269284E61B90039F5B1 /* panorama.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DEF88268284E61B90039F5B1 /* panorama.jpeg */; };
 		DEF8829F284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8829E284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift */; };
 		DEFC512D289A5E8F00989CE2 /* TestCustomStepperAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC512C289A5E8F00989CE2 /* TestCustomStepperAnimation.swift */; };
+		DEFC5150289B8F4C00989CE2 /* TestRoutePathStrokeAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC514F289B8F4C00989CE2 /* TestRoutePathStrokeAnimate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -419,6 +420,7 @@
 		DEF88268284E61B90039F5B1 /* panorama.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panorama.jpeg; sourceTree = "<group>"; };
 		DEF8829E284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBackgroundInHalfSheet.swift; sourceTree = "<group>"; };
 		DEFC512C289A5E8F00989CE2 /* TestCustomStepperAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomStepperAnimation.swift; sourceTree = "<group>"; };
+		DEFC514F289B8F4C00989CE2 /* TestRoutePathStrokeAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoutePathStrokeAnimate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -543,6 +545,7 @@
 				8A2CF1862883511600ED859E /* TestGradientBorder.swift */,
 				DE88F96928969B65002C2604 /* TestSearchableScrollViewAnimation.swift */,
 				8A31092B28925286002AB3CD /* TestCustomViewProtocol.swift */,
+				DEFC514F289B8F4C00989CE2 /* TestRoutePathStrokeAnimate.swift */,
 				DEFC512C289A5E8F00989CE2 /* TestCustomStepperAnimation.swift */,
 				DE88F96728941615002C2604 /* TestInjectingAlertInPickerChanges.swift */,
 				8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */,
@@ -887,6 +890,7 @@
 				DEF3CA9B288065C500B26796 /* TestStopRepeatingAnimation.swift in Sources */,
 				DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */,
 				DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */,
+				DEFC5150289B8F4C00989CE2 /* TestRoutePathStrokeAnimate.swift in Sources */,
 				DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */,
 				8A3F09872893BB39005FD72F /* TestSeparationDependentNavigationViewTabView.swift in Sources */,
 				DE1B1A40285491A200FBEE96 /* TestButtonBlinkForcing.swift in Sources */,
