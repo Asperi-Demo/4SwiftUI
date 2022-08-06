@@ -24,6 +24,7 @@
 		8A31092E28925421002AB3CD /* TestColorSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A31092D28925421002AB3CD /* TestColorSelector.swift */; };
 		8A31093028925568002AB3CD /* TestCustomAnyViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A31092F28925568002AB3CD /* TestCustomAnyViewWrapper.swift */; };
 		8A3F09872893BB39005FD72F /* TestSeparationDependentNavigationViewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F09862893BB39005FD72F /* TestSeparationDependentNavigationViewTabView.swift */; };
+		8A54CC57289E6212009B99F2 /* TestShowNavBarWhenScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A54CC56289E6212009B99F2 /* TestShowNavBarWhenScrolling.swift */; };
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
@@ -238,6 +239,7 @@
 		8A31092D28925421002AB3CD /* TestColorSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorSelector.swift; sourceTree = "<group>"; };
 		8A31092F28925568002AB3CD /* TestCustomAnyViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomAnyViewWrapper.swift; sourceTree = "<group>"; };
 		8A3F09862893BB39005FD72F /* TestSeparationDependentNavigationViewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSeparationDependentNavigationViewTabView.swift; sourceTree = "<group>"; };
+		8A54CC56289E6212009B99F2 /* TestShowNavBarWhenScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShowNavBarWhenScrolling.swift; sourceTree = "<group>"; };
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
@@ -455,6 +457,7 @@
 				8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */,
 				8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */,
 				8A2CF1882886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift */,
+				8A54CC56289E6212009B99F2 /* TestShowNavBarWhenScrolling.swift */,
 				8A2CF1842882BB8F00ED859E /* TestNavigationStackReset.swift */,
 				8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */,
 				8A2CF18A2886EE3A00ED859E /* TestAnyAnimalPutInList.swift */,
@@ -952,6 +955,7 @@
 				DE1B1A612859FC6A00FBEE96 /* TestTextStyleRestriction.swift in Sources */,
 				DEF3CAB12884836900B26796 /* TestCompressWheelPicker.swift in Sources */,
 				DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */,
+				8A54CC57289E6212009B99F2 /* TestShowNavBarWhenScrolling.swift in Sources */,
 				DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */,
 				DEFC512D289A5E8F00989CE2 /* TestCustomStepperAnimation.swift in Sources */,
 				DE1B1A442855F5B100FBEE96 /* TestCustomProcessingProgress.swift in Sources */,

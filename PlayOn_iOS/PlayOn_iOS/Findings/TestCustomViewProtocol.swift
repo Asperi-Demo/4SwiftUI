@@ -10,22 +10,22 @@ struct TestCustomViewProtocol: View {
     var body: some View {
         TestView()
     }
+
+    fileprivate struct TestView: CombinedView {
+        typealias AView = Text
+        
+        var viewB: some View {
+            Image(systemName: "car")
+        }
+        
+        var dataForViewA: String = "Hello"
+    }
 }
 
 struct TestCustomViewProtocol_Previews: PreviewProvider {
     static var previews: some View {
         TestCustomViewProtocol()
     }
-}
-
-fileprivate struct TestView: CombinedView {
-    typealias AView = Text
-    
-    var viewB: some View {
-        Image(systemName: "car")
-    }
-    
-    var dataForViewA: String = "Hello"
 }
 
 fileprivate protocol CombinedView: View {
