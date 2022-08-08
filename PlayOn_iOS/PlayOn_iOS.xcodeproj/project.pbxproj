@@ -187,6 +187,7 @@
 		DEEFB080287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB07F287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift */; };
 		DEF2A5CF289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A5CE289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift */; };
 		DEF2A5D128A0FF88003FAB67 /* TestNumericFractionByLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A5D028A0FF88003FAB67 /* TestNumericFractionByLayout.swift */; };
+		DEF2A5F028A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A5EF28A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift */; };
 		DEF3CA9B288065C500B26796 /* TestStopRepeatingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CA9A288065C500B26796 /* TestStopRepeatingAnimation.swift */; };
 		DEF3CA9D288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CA9C288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift */; };
 		DEF3CA9F28815DBC00B26796 /* TestCancelAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CA9E28815DBC00B26796 /* TestCancelAnimation.swift */; };
@@ -410,6 +411,7 @@
 		DEEFB07F287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomBadgeOnToolbar.swift; sourceTree = "<group>"; };
 		DEF2A5CE289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlignmentGuideReplacement.swift; sourceTree = "<group>"; };
 		DEF2A5D028A0FF88003FAB67 /* TestNumericFractionByLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNumericFractionByLayout.swift; sourceTree = "<group>"; };
+		DEF2A5EF28A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListRefreshOnBindingChanged.swift; sourceTree = "<group>"; };
 		DEF3CA9A288065C500B26796 /* TestStopRepeatingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStopRepeatingAnimation.swift; sourceTree = "<group>"; };
 		DEF3CA9C288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForDrawingGroupOnAnimation.swift; sourceTree = "<group>"; };
 		DEF3CA9E28815DBC00B26796 /* TestCancelAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCancelAnimation.swift; sourceTree = "<group>"; };
@@ -547,6 +549,7 @@
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DEB68C41283E23CA00507A4F /* TestBackgroundRendering.swift */,
 				8A31092D28925421002AB3CD /* TestColorSelector.swift */,
+				DEF2A5EF28A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift */,
 				8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */,
 				DEF2A5CE289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift */,
 				DEF2A5D028A0FF88003FAB67 /* TestNumericFractionByLayout.swift */,
@@ -1009,6 +1012,7 @@
 				DE1B19822850F04700FBEE96 /* TestEmitterView.swift in Sources */,
 				DEEFB07C287BFF490023FC54 /* TestShapeAnimationAlignment.swift in Sources */,
 				DEF3CAF428881F1F00B26796 /* TestTransitionDifferentAnimations.swift in Sources */,
+				DEF2A5F028A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift in Sources */,
 				8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */,
 				8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */,
 				DE88F886289023B6002C2604 /* TestReorderTabItemsPerSelection.swift in Sources */,
