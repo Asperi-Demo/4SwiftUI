@@ -188,6 +188,7 @@
 		DEF2A5CF289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A5CE289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift */; };
 		DEF2A5D128A0FF88003FAB67 /* TestNumericFractionByLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A5D028A0FF88003FAB67 /* TestNumericFractionByLayout.swift */; };
 		DEF2A5F028A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A5EF28A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift */; };
+		DEF2A63328A22C8C003FAB67 /* TestMatchInNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2A63228A22C8C003FAB67 /* TestMatchInNavigationView.swift */; };
 		DEF3CA9B288065C500B26796 /* TestStopRepeatingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CA9A288065C500B26796 /* TestStopRepeatingAnimation.swift */; };
 		DEF3CA9D288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CA9C288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift */; };
 		DEF3CA9F28815DBC00B26796 /* TestCancelAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CA9E28815DBC00B26796 /* TestCancelAnimation.swift */; };
@@ -412,6 +413,7 @@
 		DEF2A5CE289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlignmentGuideReplacement.swift; sourceTree = "<group>"; };
 		DEF2A5D028A0FF88003FAB67 /* TestNumericFractionByLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNumericFractionByLayout.swift; sourceTree = "<group>"; };
 		DEF2A5EF28A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListRefreshOnBindingChanged.swift; sourceTree = "<group>"; };
+		DEF2A63228A22C8C003FAB67 /* TestMatchInNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatchInNavigationView.swift; sourceTree = "<group>"; };
 		DEF3CA9A288065C500B26796 /* TestStopRepeatingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStopRepeatingAnimation.swift; sourceTree = "<group>"; };
 		DEF3CA9C288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForDrawingGroupOnAnimation.swift; sourceTree = "<group>"; };
 		DEF3CA9E28815DBC00B26796 /* TestCancelAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCancelAnimation.swift; sourceTree = "<group>"; };
@@ -560,6 +562,7 @@
 				DEFC514F289B8F4C00989CE2 /* TestRoutePathStrokeAnimate.swift */,
 				DEFC512C289A5E8F00989CE2 /* TestCustomStepperAnimation.swift */,
 				DE88F96728941615002C2604 /* TestInjectingAlertInPickerChanges.swift */,
+				DEF2A63228A22C8C003FAB67 /* TestMatchInNavigationView.swift */,
 				8A310923288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift */,
 				DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */,
 				8A3F09862893BB39005FD72F /* TestSeparationDependentNavigationViewTabView.swift */,
@@ -991,6 +994,7 @@
 				DE1B1A46285637AE00FBEE96 /* TestDataDrivenScreenContruction.swift in Sources */,
 				DEA0937D283ABC3800AEF697 /* TestAnimationFromActionForEach.swift in Sources */,
 				DEF3CAC32887142200B26796 /* TestTextUpToBoxLimit.swift in Sources */,
+				DEF2A63328A22C8C003FAB67 /* TestMatchInNavigationView.swift in Sources */,
 				DE5706192830CCB9004014F8 /* TestMasonry.swift in Sources */,
 				8A2449E1286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift in Sources */,
 				DE603B39282D7794009D41D8 /* TestNumberOrEmptyTextField.swift in Sources */,
