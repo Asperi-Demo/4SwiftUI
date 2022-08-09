@@ -77,6 +77,7 @@
 		DE492EC9284264E1009C434F /* TestToggledReppeatingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE492EC8284264E1009C434F /* TestToggledReppeatingAnimation.swift */; };
 		DE492ECB284333FC009C434F /* TestTapableTextOnAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE492ECA284333FC009C434F /* TestTapableTextOnAnimate.swift */; };
 		DE492ECD2845321D009C434F /* TestWindowFromScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE492ECC2845321D009C434F /* TestWindowFromScene.swift */; };
+		DE4A5E6A28A2B612001E472F /* TestShapeStyleHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A5E6928A2B612001E472F /* TestShapeStyleHolder.swift */; };
 		DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570614282F7850004014F8 /* TestTextWithURL.swift */; };
 		DE570617282F83BE004014F8 /* TestTabBarShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570616282F83BE004014F8 /* TestTabBarShadow.swift */; };
 		DE5706192830CCB9004014F8 /* TestMasonry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5706182830CCB9004014F8 /* TestMasonry.swift */; };
@@ -298,6 +299,7 @@
 		DE492EC8284264E1009C434F /* TestToggledReppeatingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestToggledReppeatingAnimation.swift; sourceTree = "<group>"; };
 		DE492ECA284333FC009C434F /* TestTapableTextOnAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTapableTextOnAnimate.swift; sourceTree = "<group>"; };
 		DE492ECC2845321D009C434F /* TestWindowFromScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWindowFromScene.swift; sourceTree = "<group>"; };
+		DE4A5E6928A2B612001E472F /* TestShapeStyleHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShapeStyleHolder.swift; sourceTree = "<group>"; };
 		DE570613282F7167004014F8 /* PlayOn-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PlayOn-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DE570614282F7850004014F8 /* TestTextWithURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextWithURL.swift; sourceTree = "<group>"; };
 		DE570616282F83BE004014F8 /* TestTabBarShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabBarShadow.swift; sourceTree = "<group>"; };
@@ -558,6 +560,7 @@
 				8A31092F28925568002AB3CD /* TestCustomAnyViewWrapper.swift */,
 				8A2CF1862883511600ED859E /* TestGradientBorder.swift */,
 				DE88F96928969B65002C2604 /* TestSearchableScrollViewAnimation.swift */,
+				DE4A5E6928A2B612001E472F /* TestShapeStyleHolder.swift */,
 				8A31092B28925286002AB3CD /* TestCustomViewProtocol.swift */,
 				DEFC514F289B8F4C00989CE2 /* TestRoutePathStrokeAnimate.swift */,
 				DEFC512C289A5E8F00989CE2 /* TestCustomStepperAnimation.swift */,
@@ -987,6 +990,7 @@
 				DE76E2062807F9B5006EDA5A /* TestPersistentOpaqueNavBar.swift in Sources */,
 				DE492EC72841F862009C434F /* TestReverseAnimationOnAppear.swift in Sources */,
 				DE1B1A65285B042800FBEE96 /* TestFillAsyncImagesInGrid.swift in Sources */,
+				DE4A5E6A28A2B612001E472F /* TestShapeStyleHolder.swift in Sources */,
 				DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */,
 				DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */,
 				DEF8829F284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift in Sources */,
