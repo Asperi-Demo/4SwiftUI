@@ -78,6 +78,7 @@
 		DE492ECB284333FC009C434F /* TestTapableTextOnAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE492ECA284333FC009C434F /* TestTapableTextOnAnimate.swift */; };
 		DE492ECD2845321D009C434F /* TestWindowFromScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE492ECC2845321D009C434F /* TestWindowFromScene.swift */; };
 		DE4A5E6A28A2B612001E472F /* TestShapeStyleHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A5E6928A2B612001E472F /* TestShapeStyleHolder.swift */; };
+		DE4A5E7328A385FD001E472F /* TestDynamicSelectionAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A5E7228A385FD001E472F /* TestDynamicSelectionAlignment.swift */; };
 		DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570614282F7850004014F8 /* TestTextWithURL.swift */; };
 		DE570617282F83BE004014F8 /* TestTabBarShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE570616282F83BE004014F8 /* TestTabBarShadow.swift */; };
 		DE5706192830CCB9004014F8 /* TestMasonry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5706182830CCB9004014F8 /* TestMasonry.swift */; };
@@ -300,6 +301,7 @@
 		DE492ECA284333FC009C434F /* TestTapableTextOnAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTapableTextOnAnimate.swift; sourceTree = "<group>"; };
 		DE492ECC2845321D009C434F /* TestWindowFromScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWindowFromScene.swift; sourceTree = "<group>"; };
 		DE4A5E6928A2B612001E472F /* TestShapeStyleHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShapeStyleHolder.swift; sourceTree = "<group>"; };
+		DE4A5E7228A385FD001E472F /* TestDynamicSelectionAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDynamicSelectionAlignment.swift; sourceTree = "<group>"; };
 		DE570613282F7167004014F8 /* PlayOn-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PlayOn-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DE570614282F7850004014F8 /* TestTextWithURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextWithURL.swift; sourceTree = "<group>"; };
 		DE570616282F83BE004014F8 /* TestTabBarShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabBarShadow.swift; sourceTree = "<group>"; };
@@ -555,6 +557,7 @@
 				8A31092D28925421002AB3CD /* TestColorSelector.swift */,
 				DEF2A5EF28A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift */,
 				8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */,
+				DE4A5E7228A385FD001E472F /* TestDynamicSelectionAlignment.swift */,
 				DEF2A5CE289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift */,
 				DEF2A5D028A0FF88003FAB67 /* TestNumericFractionByLayout.swift */,
 				8A31092F28925568002AB3CD /* TestCustomAnyViewWrapper.swift */,
@@ -996,6 +999,7 @@
 				DEF8829F284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift in Sources */,
 				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
 				DE1B1A46285637AE00FBEE96 /* TestDataDrivenScreenContruction.swift in Sources */,
+				DE4A5E7328A385FD001E472F /* TestDynamicSelectionAlignment.swift in Sources */,
 				DEA0937D283ABC3800AEF697 /* TestAnimationFromActionForEach.swift in Sources */,
 				DEF3CAC32887142200B26796 /* TestTextUpToBoxLimit.swift in Sources */,
 				DEF2A63328A22C8C003FAB67 /* TestMatchInNavigationView.swift in Sources */,
