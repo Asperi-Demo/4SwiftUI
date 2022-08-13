@@ -72,6 +72,7 @@
 		DE328DB728A691920083BEB3 /* TestPieProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE328DB628A691920083BEB3 /* TestPieProgress.swift */; };
 		DE328DB928A6E1C20083BEB3 /* TestEnvironmentDepenencyInjectionIinternalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE328DB828A6E1C20083BEB3 /* TestEnvironmentDepenencyInjectionIinternalView.swift */; };
 		DE328DEF28A796230083BEB3 /* TestFileExporterJSON2CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE328DEE28A796230083BEB3 /* TestFileExporterJSON2CSV.swift */; };
+		DE328DF128A7A1050083BEB3 /* TestAsyncUpdateSelectionMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE328DF028A7A1050083BEB3 /* TestAsyncUpdateSelectionMatching.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
@@ -299,6 +300,7 @@
 		DE328DB628A691920083BEB3 /* TestPieProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPieProgress.swift; sourceTree = "<group>"; };
 		DE328DB828A6E1C20083BEB3 /* TestEnvironmentDepenencyInjectionIinternalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEnvironmentDepenencyInjectionIinternalView.swift; sourceTree = "<group>"; };
 		DE328DEE28A796230083BEB3 /* TestFileExporterJSON2CSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFileExporterJSON2CSV.swift; sourceTree = "<group>"; };
+		DE328DF028A7A1050083BEB3 /* TestAsyncUpdateSelectionMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncUpdateSelectionMatching.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
@@ -567,6 +569,7 @@
 				8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */,
 				DE328DB628A691920083BEB3 /* TestPieProgress.swift */,
 				DE4A5E7228A385FD001E472F /* TestDynamicSelectionAlignment.swift */,
+				DE328DF028A7A1050083BEB3 /* TestAsyncUpdateSelectionMatching.swift */,
 				DE328DEE28A796230083BEB3 /* TestFileExporterJSON2CSV.swift */,
 				DEF2A5CE289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift */,
 				DE4A5EA528A63BCE001E472F /* TestDifferentFontsAlignments.swift */,
@@ -1052,6 +1055,7 @@
 				DE1B198428512F5300FBEE96 /* TestTextEditorToFocus.swift in Sources */,
 				8A31092E28925421002AB3CD /* TestColorSelector.swift in Sources */,
 				DE1B1A4D2857B61100FBEE96 /* TestTwoEdiatableLists.swift in Sources */,
+				DE328DF128A7A1050083BEB3 /* TestAsyncUpdateSelectionMatching.swift in Sources */,
 				DE9EA2A1280C2DFB007F5ED3 /* TestScrollDidEndDetect.swift in Sources */,
 				8A2A03B028787E7600F33FD8 /* TestChartYCustomMarks.swift in Sources */,
 				DEEFAFCC28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift in Sources */,
