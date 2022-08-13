@@ -71,6 +71,7 @@
 		DE29668B2864965C009F7093 /* ForEach+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29668A2864965C009F7093 /* ForEach+.swift */; };
 		DE328DB728A691920083BEB3 /* TestPieProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE328DB628A691920083BEB3 /* TestPieProgress.swift */; };
 		DE328DB928A6E1C20083BEB3 /* TestEnvironmentDepenencyInjectionIinternalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE328DB828A6E1C20083BEB3 /* TestEnvironmentDepenencyInjectionIinternalView.swift */; };
+		DE328DEF28A796230083BEB3 /* TestFileExporterJSON2CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE328DEE28A796230083BEB3 /* TestFileExporterJSON2CSV.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
@@ -297,6 +298,7 @@
 		DE29668A2864965C009F7093 /* ForEach+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForEach+.swift"; sourceTree = "<group>"; };
 		DE328DB628A691920083BEB3 /* TestPieProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPieProgress.swift; sourceTree = "<group>"; };
 		DE328DB828A6E1C20083BEB3 /* TestEnvironmentDepenencyInjectionIinternalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEnvironmentDepenencyInjectionIinternalView.swift; sourceTree = "<group>"; };
+		DE328DEE28A796230083BEB3 /* TestFileExporterJSON2CSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFileExporterJSON2CSV.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
@@ -565,6 +567,7 @@
 				8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */,
 				DE328DB628A691920083BEB3 /* TestPieProgress.swift */,
 				DE4A5E7228A385FD001E472F /* TestDynamicSelectionAlignment.swift */,
+				DE328DEE28A796230083BEB3 /* TestFileExporterJSON2CSV.swift */,
 				DEF2A5CE289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift */,
 				DE4A5EA528A63BCE001E472F /* TestDifferentFontsAlignments.swift */,
 				DE328DB828A6E1C20083BEB3 /* TestEnvironmentDepenencyInjectionIinternalView.swift */,
@@ -994,6 +997,7 @@
 				DEEFB080287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift in Sources */,
 				DE88F96828941615002C2604 /* TestInjectingAlertInPickerChanges.swift in Sources */,
 				DEEFB07E287D91210023FC54 /* TestFontParamsUsageInStyle.swift in Sources */,
+				DE328DEF28A796230083BEB3 /* TestFileExporterJSON2CSV.swift in Sources */,
 				DE9EA2A4280C31AC007F5ED3 /* PreferenceKeys.swift in Sources */,
 				DE88F8D62891B7C3002C2604 /* TestSeparatedTransitions.swift in Sources */,
 				DE492EC528414D96009C434F /* TestScreenJoystick.swift in Sources */,
