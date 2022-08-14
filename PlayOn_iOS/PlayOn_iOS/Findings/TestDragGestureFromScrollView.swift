@@ -23,7 +23,7 @@ struct TestDragGestureFromScrollView: View {
 					.aspectRatio(1, contentMode: .fit)
 					.frame(width: gr.size.width)
 					.overlay(GeometryReader { gp in
-						
+
 						if let current = selection, gp.frame(in: .named("demo")).contains(current.location) {
 							Text("\(current.index)").bold().font(.largeTitle)
 								.frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -69,8 +69,10 @@ struct TestDragGestureFromScrollView: View {
 				.gesture(
 					DragGesture(coordinateSpace: .named("demo"))
 						.onChanged {
-							self.dragAmount = CGSize(width: $0.translation.width, height: $0.translation.height)
-							self.selection = Selection(index: index, location: $0.location)
+							if abs($0.translation.height) > abs($0.translation.width) || self.dragAmount != .zero {
+								self.dragAmount = CGSize(width: $0.translation.width, height: $0.translation.height)
+								self.selection = Selection(index: index, location: $0.location)
+							}
 						}
 						.onEnded { _ in
 							self.dragAmount = .zero
