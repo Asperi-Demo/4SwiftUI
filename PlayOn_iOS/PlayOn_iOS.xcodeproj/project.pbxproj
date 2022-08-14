@@ -73,6 +73,7 @@
 		DE328DB928A6E1C20083BEB3 /* TestEnvironmentDepenencyInjectionIinternalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE328DB828A6E1C20083BEB3 /* TestEnvironmentDepenencyInjectionIinternalView.swift */; };
 		DE328DEF28A796230083BEB3 /* TestFileExporterJSON2CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE328DEE28A796230083BEB3 /* TestFileExporterJSON2CSV.swift */; };
 		DE328DF128A7A1050083BEB3 /* TestAsyncUpdateSelectionMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE328DF028A7A1050083BEB3 /* TestAsyncUpdateSelectionMatching.swift */; };
+		DE328E1328A8FE3B0083BEB3 /* TestDragGestureFromScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE328E1228A8FE3B0083BEB3 /* TestDragGestureFromScrollView.swift */; };
 		DE3D9398281A523500A2C842 /* TestCycleClockAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */; };
 		DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */; };
 		DE3D93F1281AFAC200A2C842 /* TestMatrialInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */; };
@@ -301,6 +302,7 @@
 		DE328DB828A6E1C20083BEB3 /* TestEnvironmentDepenencyInjectionIinternalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEnvironmentDepenencyInjectionIinternalView.swift; sourceTree = "<group>"; };
 		DE328DEE28A796230083BEB3 /* TestFileExporterJSON2CSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFileExporterJSON2CSV.swift; sourceTree = "<group>"; };
 		DE328DF028A7A1050083BEB3 /* TestAsyncUpdateSelectionMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncUpdateSelectionMatching.swift; sourceTree = "<group>"; };
+		DE328E1228A8FE3B0083BEB3 /* TestDragGestureFromScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragGestureFromScrollView.swift; sourceTree = "<group>"; };
 		DE3D9397281A523500A2C842 /* TestCycleClockAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCycleClockAnimation.swift; sourceTree = "<group>"; };
 		DE3D93EE281A5BEB00A2C842 /* Geometry+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometry+.swift"; sourceTree = "<group>"; };
 		DE3D93F0281AFAC200A2C842 /* TestMatrialInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrialInShape.swift; sourceTree = "<group>"; };
@@ -570,6 +572,7 @@
 				DE328DB628A691920083BEB3 /* TestPieProgress.swift */,
 				DE4A5E7228A385FD001E472F /* TestDynamicSelectionAlignment.swift */,
 				DE328DF028A7A1050083BEB3 /* TestAsyncUpdateSelectionMatching.swift */,
+				DE328E1228A8FE3B0083BEB3 /* TestDragGestureFromScrollView.swift */,
 				DE328DEE28A796230083BEB3 /* TestFileExporterJSON2CSV.swift */,
 				DEF2A5CE289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift */,
 				DE4A5EA528A63BCE001E472F /* TestDifferentFontsAlignments.swift */,
@@ -995,6 +998,7 @@
 				DE57061B283126E8004014F8 /* TabViewDynamicHeight.swift in Sources */,
 				8A54CC57289E6212009B99F2 /* TestShowNavBarWhenScrolling.swift in Sources */,
 				DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */,
+				DE328E1328A8FE3B0083BEB3 /* TestDragGestureFromScrollView.swift in Sources */,
 				DEFC512D289A5E8F00989CE2 /* TestCustomStepperAnimation.swift in Sources */,
 				DE1B1A442855F5B100FBEE96 /* TestCustomProcessingProgress.swift in Sources */,
 				DEEFB080287DD0010023FC54 /* TestCustomBadgeOnToolbar.swift in Sources */,

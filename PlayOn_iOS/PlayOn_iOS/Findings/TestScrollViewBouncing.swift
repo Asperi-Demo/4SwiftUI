@@ -27,18 +27,6 @@ struct TestScrollViewBouncing: View {
 		}
 	}
 
-	struct ScrollViewConfigurator: UIViewRepresentable {
-		let configure: (UIScrollView?) -> ()
-		func makeUIView(context: Context) -> UIView {
-			let view = UIView()
-			DispatchQueue.main.async {
-				configure(view.enclosingScrollView())
-			}
-			return view
-		}
-
-		func updateUIView(_ uiView: UIView, context: Context) {}
-	}
 }
 
 struct TestScrollViewBouncing_Previews: PreviewProvider {
