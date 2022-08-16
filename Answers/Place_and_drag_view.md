@@ -1,3 +1,11 @@
+>
+> 🔥BOYCOTT on russia - terrorist must be punished!<br>
+> «Русский военный корабль, иди на хуй!» (c) Ukrainian Frontier Guard
+> 
+> ATTENTION: This is a demo - use it as you wish. Reference is appriciated.<br>
+> If you want to thank - buy me coffee: [Coffee for Asperi](https://secure.wayforpay.com/donate/asperi)
+>
+
 Q: SwiftUI: Place and drag object immediately (by Pete)
 
 A: A possible approach is to handle drag and creation in "area" (background container), while "item" views are just rendered at the place where needed.
