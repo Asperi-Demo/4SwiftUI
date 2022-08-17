@@ -29,7 +29,7 @@ struct TestAsyncProgressInList: View {
 	struct AsyncDataView: View {
 		@StateObject private var vm = ViewModel()
 
-		class ViewModel: ObservableObject {
+		fileprivate class ViewModel: ObservableObject {
 			@Published var data: String?
 
 			init() {
