@@ -24,6 +24,8 @@
 		DE7DA49628181DE00071472E /* TestBackgroundOfFocusedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA49528181DE00071472E /* TestBackgroundOfFocusedTextField.swift */; };
 		DE7DA498281827B70071472E /* Text+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA497281827B70071472E /* Text+.swift */; };
 		DEA09374283A157500AEF697 /* TestKeyShortcutsButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA09373283A157500AEF697 /* TestKeyShortcutsButtonStyle.swift */; };
+		DEA24C2E28AE7FD50005E963 /* Test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DEA24C2D28AE7FD50005E963 /* Test.pdf */; };
+		DEA24C3028AE90CF0005E963 /* TestPDFFileModification.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA24C2F28AE90CF0005E963 /* TestPDFFileModification.swift */; };
 		DEB68C36283CF04900507A4F /* TestSectionResultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C35283CF04900507A4F /* TestSectionResultsExtension.swift */; };
 		DEC69D172838CB0500E70BB9 /* TestNonFocusableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D162838CB0500E70BB9 /* TestNonFocusableTextField.swift */; };
 		DEC9E6BC28218F0E001F0A1D /* TestTextFiledFocusOnLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E6BB28218F0E001F0A1D /* TestTextFiledFocusOnLaunch.swift */; };
@@ -73,6 +75,8 @@
 		DE7DA49528181DE00071472E /* TestBackgroundOfFocusedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBackgroundOfFocusedTextField.swift; sourceTree = "<group>"; };
 		DE7DA497281827B70071472E /* Text+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+.swift"; sourceTree = "<group>"; };
 		DEA09373283A157500AEF697 /* TestKeyShortcutsButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKeyShortcutsButtonStyle.swift; sourceTree = "<group>"; };
+		DEA24C2D28AE7FD50005E963 /* Test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Test.pdf; sourceTree = "<group>"; };
+		DEA24C2F28AE90CF0005E963 /* TestPDFFileModification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPDFFileModification.swift; sourceTree = "<group>"; };
 		DEB68C35283CF04900507A4F /* TestSectionResultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSectionResultsExtension.swift; sourceTree = "<group>"; };
 		DEC69D162838CB0500E70BB9 /* TestNonFocusableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNonFocusableTextField.swift; sourceTree = "<group>"; };
 		DEC9E6BB28218F0E001F0A1D /* TestTextFiledFocusOnLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFiledFocusOnLaunch.swift; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 				DEF4B742280EA4080023ECBE /* Helpers */,
 				DE5F36E42801CE760030FE37 /* Findings */,
 				DE5F36BC2801CC890030FE37 /* Assets.xcassets */,
+				DEA24C2D28AE7FD50005E963 /* Test.pdf */,
 				DE5F36C12801CC890030FE37 /* PlayOn_macOS.entitlements */,
 				DE5F36BE2801CC890030FE37 /* Preview Content */,
 			);
@@ -176,6 +181,7 @@
 				DEC9E6BB28218F0E001F0A1D /* TestTextFiledFocusOnLaunch.swift */,
 				DEC69D162838CB0500E70BB9 /* TestNonFocusableTextField.swift */,
 				DE6EF67C289C5449000ABB9B /* TestCustomSheet.swift */,
+				DEA24C2F28AE90CF0005E963 /* TestPDFFileModification.swift */,
 				DE29668C2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift */,
 				DE5F55BD2866E4520074A3F0 /* TestXcodeprojUTType.swift */,
 				DEB68C35283CF04900507A4F /* TestSectionResultsExtension.swift */,
@@ -311,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA24C2E28AE7FD50005E963 /* Test.pdf in Resources */,
 				DE5F36C02801CC890030FE37 /* Preview Assets.xcassets in Resources */,
 				DE5F36BD2801CC890030FE37 /* Assets.xcassets in Resources */,
 			);
@@ -346,6 +353,7 @@
 				DEF4B746280EADEA0023ECBE /* TestScreenRecordingInView.swift in Sources */,
 				DE5F36BB2801CC880030FE37 /* ContentView.swift in Sources */,
 				DEF4B744280EA41B0023ECBE /* ScreenRecorder.swift in Sources */,
+				DEA24C3028AE90CF0005E963 /* TestPDFFileModification.swift in Sources */,
 				DEF4B74D280F14F30023ECBE /* View+.swift in Sources */,
 				DE1B19FD285225A900FBEE96 /* TestMultiWebViewScroller.swift in Sources */,
 				DE7DA498281827B70071472E /* Text+.swift in Sources */,

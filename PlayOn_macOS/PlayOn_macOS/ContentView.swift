@@ -1,4 +1,4 @@
-// BOYCOTT on russia! Don't buy, sell, support - HELP TO STOP WAR!
+// 🔥BOYCOTT on russia - terrorist must be punished!
 // «Русский военный корабль, иди на хуй!» (c) Ukrainian Frontier Guard
 //
 // ATTENTION: This is a demo - use it as you wish. Reference is appriciated.
