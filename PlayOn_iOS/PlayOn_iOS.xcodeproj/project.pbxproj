@@ -27,6 +27,7 @@
 		8A54CC57289E6212009B99F2 /* TestShowNavBarWhenScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A54CC56289E6212009B99F2 /* TestShowNavBarWhenScrolling.swift */; };
 		8A5AA71628AD7442000BCF77 /* TestScrollToNewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AA71528AD7442000BCF77 /* TestScrollToNewItem.swift */; };
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
+		8A88B08728AFB0580077BD98 /* TestMenuCheckmarkInToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A88B08628AFB0580077BD98 /* TestMenuCheckmarkInToolbar.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
 		8AEA7AF12855093A000C3AF5 /* TestNavigationStackPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AF02855093A000C3AF5 /* TestNavigationStackPush.swift */; };
@@ -257,6 +258,7 @@
 		8A54CC56289E6212009B99F2 /* TestShowNavBarWhenScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShowNavBarWhenScrolling.swift; sourceTree = "<group>"; };
 		8A5AA71528AD7442000BCF77 /* TestScrollToNewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollToNewItem.swift; sourceTree = "<group>"; };
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
+		8A88B08628AFB0580077BD98 /* TestMenuCheckmarkInToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMenuCheckmarkInToolbar.swift; sourceTree = "<group>"; };
 		8AE47CD628A43CCE005C9335 /* iOS_Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS_Debug.xcconfig; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
@@ -487,6 +489,7 @@
 				8A2A03B22879D7B900F33FD8 /* TestTwoLinksInRowNavigationStack.swift */,
 				8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */,
 				8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */,
+				8A88B08628AFB0580077BD98 /* TestMenuCheckmarkInToolbar.swift */,
 				8A2CF1882886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift */,
 				8A5AA71528AD7442000BCF77 /* TestScrollToNewItem.swift */,
 				8A54CC56289E6212009B99F2 /* TestShowNavBarWhenScrolling.swift */,
@@ -1061,6 +1064,7 @@
 				DEF3CAF428881F1F00B26796 /* TestTransitionDifferentAnimations.swift in Sources */,
 				DEF2A5F028A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift in Sources */,
 				8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */,
+				8A88B08728AFB0580077BD98 /* TestMenuCheckmarkInToolbar.swift in Sources */,
 				8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */,
 				DE88F886289023B6002C2604 /* TestReorderTabItemsPerSelection.swift in Sources */,
 				DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */,
