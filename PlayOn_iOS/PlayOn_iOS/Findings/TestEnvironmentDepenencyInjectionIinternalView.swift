@@ -6,6 +6,46 @@
 
 import SwiftUI
 
+// Variant 2
+struct TestEnvironmentDepenencyInjectionIinternalView2: View {
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+
+    struct MainView: View {
+        @StateObject var settings: Settings
+
+        init(isVisible: Bool) {
+        	// initialized only once(!), so concequent changes via init will be ignored
+        	_settings = StateObject(wrappedValue: Settings(isVisible: isVisible))
+		}
+
+        var body: some View {
+            VStack {
+                Button("Toggle Visibility") {
+                    settings.isVisible.toggle()
+                }
+                Rectangle()
+                    .frame(width: 100, height: 100)
+                    .foregroundColor(.blue)
+                    .opacity(settings.isVisible ? 1 : 0)
+            }
+            .animation(.linear(duration: 2.0), value: settings.isVisible)
+        }
+    }
+
+    var body: some View {
+        MainView(isVisible: horizontalSizeClass == .regular) // << inject initial state
+    }
+
+	class Settings: ObservableObject {
+		@Published var isVisible: Bool
+
+		init(isVisible: Bool) {
+			self.isVisible = isVisible
+		}
+	}
+}
+
+// Variant 1
 struct TestEnvironmentDepenencyInjectionIinternalView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
 
@@ -44,6 +84,7 @@ struct TestEnvironmentDepenencyInjectionIinternalView: View {
 
 struct Environment_Depenency_injection_internal_view_Previews: PreviewProvider {
     static var previews: some View {
+        TestEnvironmentDepenencyInjectionIinternalView2()
         TestEnvironmentDepenencyInjectionIinternalView()
     }
 }
