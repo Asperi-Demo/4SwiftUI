@@ -189,6 +189,7 @@
 		DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */; };
 		DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */; };
 		DECEDFBE2849E75300457D78 /* TestSomeViewFillInScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */; };
+		DED3B5F728B3482000469C6A /* TestOuterFrameHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3B5F628B3482000469C6A /* TestOuterFrameHandling.swift */; };
 		DEEFAFCA287473810023FC54 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFAFC9287473810023FC54 /* Color+.swift */; };
 		DEEFAFCC28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFAFCB28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift */; };
 		DEEFB059287870DA0023FC54 /* TestValueLabelWithSliderNob.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */; };
@@ -428,6 +429,7 @@
 		DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollViewRefreshable.swift; sourceTree = "<group>"; };
 		DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragUnderScrollView.swift; sourceTree = "<group>"; };
 		DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSomeViewFillInScrollView.swift; sourceTree = "<group>"; };
+		DED3B5F628B3482000469C6A /* TestOuterFrameHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOuterFrameHandling.swift; sourceTree = "<group>"; };
 		DEEFAFC9287473810023FC54 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		DEEFAFCB28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWButtonKeyboard.swift; sourceTree = "<group>"; };
 		DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestValueLabelWithSliderNob.swift; sourceTree = "<group>"; };
@@ -589,6 +591,7 @@
 				DE4A5E7228A385FD001E472F /* TestDynamicSelectionAlignment.swift */,
 				DE328E1B28AA8DC50083BEB3 /* TestFlexibleStickyHeader.swift */,
 				DE328DF028A7A1050083BEB3 /* TestAsyncUpdateSelectionMatching.swift */,
+				DED3B5F628B3482000469C6A /* TestOuterFrameHandling.swift */,
 				DE328E1228A8FE3B0083BEB3 /* TestDragGestureFromScrollView.swift */,
 				DE328DEE28A796230083BEB3 /* TestFileExporterJSON2CSV.swift */,
 				DEF2A5CE289FAF02003FAB67 /* TestAlignmentGuideReplacement.swift */,
@@ -1043,6 +1046,7 @@
 				DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */,
 				DEF8829F284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift in Sources */,
 				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
+				DED3B5F728B3482000469C6A /* TestOuterFrameHandling.swift in Sources */,
 				DE1B1A46285637AE00FBEE96 /* TestDataDrivenScreenContruction.swift in Sources */,
 				DE4A5E7328A385FD001E472F /* TestDynamicSelectionAlignment.swift in Sources */,
 				DEA0937D283ABC3800AEF697 /* TestAnimationFromActionForEach.swift in Sources */,

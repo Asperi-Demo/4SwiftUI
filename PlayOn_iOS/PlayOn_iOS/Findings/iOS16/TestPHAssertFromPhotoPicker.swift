@@ -20,7 +20,7 @@ struct TestPHAssertFromPhotoPicker: View {
         }
         .disabled(!enabled)
         .onChange(of: selectedPhotosPickerItem) { newItem in
-            if let newItem, let localID = newItem.itemIdentifier {
+            if let newItem = newItem, let localID = newItem.itemIdentifier {
                 let result = PHAsset.fetchAssets(withLocalIdentifiers: [localID], options: nil)
                 if let asset = result.firstObject {
                     print("Got " + asset.debugDescription)
