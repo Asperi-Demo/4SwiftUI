@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A1AF7A328B54F9A0032876B /* TestAssingEnumKeypath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1AF7A228B54F9A0032876B /* TestAssingEnumKeypath.swift */; };
 		8A2449E1286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */; };
 		8A2449E3286D924300F3C212 /* TestNavigationStackDynamicPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */; };
 		8A2A03B028787E7600F33FD8 /* TestChartYCustomMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */; };
@@ -241,6 +242,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A1AF7A228B54F9A0032876B /* TestAssingEnumKeypath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAssingEnumKeypath.swift; sourceTree = "<group>"; };
 		8A2449E0286CDD2E00F3C212 /* TestPolitypeNavigationPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPolitypeNavigationPathView.swift; sourceTree = "<group>"; };
 		8A2449E2286D924300F3C212 /* TestNavigationStackDynamicPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationStackDynamicPath.swift; sourceTree = "<group>"; };
 		8A2A03AF28787E7600F33FD8 /* TestChartYCustomMarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChartYCustomMarks.swift; sourceTree = "<group>"; };
@@ -587,6 +589,7 @@
 				DEF2A5EF28A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift */,
 				8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */,
 				DEA24C3B28B010DA0005E963 /* TestColorPickerOnButton.swift */,
+				8A1AF7A228B54F9A0032876B /* TestAssingEnumKeypath.swift */,
 				DE328DB628A691920083BEB3 /* TestPieProgress.swift */,
 				DE4A5E7228A385FD001E472F /* TestDynamicSelectionAlignment.swift */,
 				DE328E1B28AA8DC50083BEB3 /* TestFlexibleStickyHeader.swift */,
@@ -1124,6 +1127,7 @@
 				DE5A196C283567CD008DF951 /* TestTextFieldMoveFocus.swift in Sources */,
 				DE240F7A2850DE3900D82EC2 /* TestPanoramaImageView.swift in Sources */,
 				DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */,
+				8A1AF7A328B54F9A0032876B /* TestAssingEnumKeypath.swift in Sources */,
 				DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */,
 				DEF3CA9D288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift in Sources */,
 				DE96BABA286C495B005683AD /* TestTextWithButtonInside.swift in Sources */,
