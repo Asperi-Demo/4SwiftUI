@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A1AF7A528B553BB0032876B /* TestInterceptMouseDownSKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1AF7A428B553BB0032876B /* TestInterceptMouseDownSKScene.swift */; };
 		DE1B19FD285225A900FBEE96 /* TestMultiWebViewScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B19FC285225A900FBEE96 /* TestMultiWebViewScroller.swift */; };
 		DE29668D2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29668C2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift */; };
 		DE5F36B92801CC880030FE37 /* PlayOn_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F36B82801CC880030FE37 /* PlayOn_macOSApp.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A1AF7A428B553BB0032876B /* TestInterceptMouseDownSKScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInterceptMouseDownSKScene.swift; sourceTree = "<group>"; };
 		DE1B19FC285225A900FBEE96 /* TestMultiWebViewScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMultiWebViewScroller.swift; sourceTree = "<group>"; };
 		DE29668C2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOffsetPopoverAnchor.swift; sourceTree = "<group>"; };
 		DE5F36B52801CC880030FE37 /* PlayOn_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOn_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +186,7 @@
 				DEA24C2F28AE90CF0005E963 /* TestPDFFileModification.swift */,
 				DE29668C2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift */,
 				DE5F55BD2866E4520074A3F0 /* TestXcodeprojUTType.swift */,
+				8A1AF7A428B553BB0032876B /* TestInterceptMouseDownSKScene.swift */,
 				DEB68C35283CF04900507A4F /* TestSectionResultsExtension.swift */,
 				DEA09373283A157500AEF697 /* TestKeyShortcutsButtonStyle.swift */,
 				DE1B19FC285225A900FBEE96 /* TestMultiWebViewScroller.swift */,
@@ -363,6 +366,7 @@
 				DEA09374283A157500AEF697 /* TestKeyShortcutsButtonStyle.swift in Sources */,
 				DE7DA389281466730071472E /* TestToggleSidebar.swift in Sources */,
 				DE29668D2864A8E3009F7093 /* TestOffsetPopoverAnchor.swift in Sources */,
+				8A1AF7A528B553BB0032876B /* TestInterceptMouseDownSKScene.swift in Sources */,
 				DEC9E6C028225A3F001F0A1D /* TestAsyncProgressInList.swift in Sources */,
 				DE5F36E62801CF280030FE37 /* TestTextFieldActivationEffect.swift in Sources */,
 			);
