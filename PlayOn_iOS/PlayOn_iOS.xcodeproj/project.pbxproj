@@ -30,6 +30,7 @@
 		8A6517C82873ECB200234DA6 /* TestAnyProtocolForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */; };
 		8A88B08728AFB0580077BD98 /* TestMenuCheckmarkInToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A88B08628AFB0580077BD98 /* TestMenuCheckmarkInToolbar.swift */; };
 		8AA93EB428B0C6C100347A5F /* TestPHAssertFromPhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA93EB328B0C6C100347A5F /* TestPHAssertFromPhotoPicker.swift */; };
+		8ADA2C4D28B62B2000B8D5BB /* TestLazynessOfLazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA2C4C28B62B2000B8D5BB /* TestLazynessOfLazyVStack.swift */; };
 		8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */; };
 		8AEA7AEF2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */; };
 		8AEA7AF12855093A000C3AF5 /* TestNavigationStackPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA7AF02855093A000C3AF5 /* TestNavigationStackPush.swift */; };
@@ -266,6 +267,7 @@
 		8A6517C72873ECB200234DA6 /* TestAnyProtocolForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnyProtocolForViews.swift; sourceTree = "<group>"; };
 		8A88B08628AFB0580077BD98 /* TestMenuCheckmarkInToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMenuCheckmarkInToolbar.swift; sourceTree = "<group>"; };
 		8AA93EB328B0C6C100347A5F /* TestPHAssertFromPhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPHAssertFromPhotoPicker.swift; sourceTree = "<group>"; };
+		8ADA2C4C28B62B2000B8D5BB /* TestLazynessOfLazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLazynessOfLazyVStack.swift; sourceTree = "<group>"; };
 		8AEA7AEC2852013A000C3AF5 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
 		8AEA7AEE2854CD74000C3AF5 /* TestBindingDestinationNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBindingDestinationNavigationStack.swift; sourceTree = "<group>"; };
 		8AEA7AF02855093A000C3AF5 /* TestNavigationStackPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationStackPush.swift; sourceTree = "<group>"; };
@@ -593,6 +595,7 @@
 				DEA24C3B28B010DA0005E963 /* TestColorPickerOnButton.swift */,
 				8A1AF7A228B54F9A0032876B /* TestAssingEnumKeypath.swift */,
 				DE328DB628A691920083BEB3 /* TestPieProgress.swift */,
+				8ADA2C4C28B62B2000B8D5BB /* TestLazynessOfLazyVStack.swift */,
 				DE4A5E7228A385FD001E472F /* TestDynamicSelectionAlignment.swift */,
 				DE328E1B28AA8DC50083BEB3 /* TestFlexibleStickyHeader.swift */,
 				DE328DF028A7A1050083BEB3 /* TestAsyncUpdateSelectionMatching.swift */,
@@ -1065,6 +1068,7 @@
 				DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */,
 				DE1A4329282AAA360026319F /* Binding+.swift in Sources */,
 				DEA73DFB2871B397007E3D30 /* TestAnchorPrefInDictionary.swift in Sources */,
+				8ADA2C4D28B62B2000B8D5BB /* TestLazynessOfLazyVStack.swift in Sources */,
 				DE296632285E4FAB009F7093 /* TestMenuSortOrderChange.swift in Sources */,
 				DE1B1A5E2859A9A000FBEE96 /* TestMultiPickersInRow.swift in Sources */,
 				8A2CF1872883511600ED859E /* TestGradientBorder.swift in Sources */,
