@@ -191,6 +191,7 @@
 		DECEDF982848B95E00457D78 /* TestDragUnderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */; };
 		DECEDFBE2849E75300457D78 /* TestSomeViewFillInScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */; };
 		DED3B5F728B3482000469C6A /* TestOuterFrameHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3B5F628B3482000469C6A /* TestOuterFrameHandling.swift */; };
+		DED3B61C28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3B61B28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift */; };
 		DEEFAFCA287473810023FC54 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFAFC9287473810023FC54 /* Color+.swift */; };
 		DEEFAFCC28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFAFCB28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift */; };
 		DEEFB059287870DA0023FC54 /* TestValueLabelWithSliderNob.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */; };
@@ -432,6 +433,7 @@
 		DECEDF972848B95E00457D78 /* TestDragUnderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragUnderScrollView.swift; sourceTree = "<group>"; };
 		DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSomeViewFillInScrollView.swift; sourceTree = "<group>"; };
 		DED3B5F628B3482000469C6A /* TestOuterFrameHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOuterFrameHandling.swift; sourceTree = "<group>"; };
+		DED3B61B28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPersonAnnotationOnMap.swift; sourceTree = "<group>"; };
 		DEEFAFC9287473810023FC54 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		DEEFAFCB28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWButtonKeyboard.swift; sourceTree = "<group>"; };
 		DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestValueLabelWithSliderNob.swift; sourceTree = "<group>"; };
@@ -602,6 +604,7 @@
 				DE328DB828A6E1C20083BEB3 /* TestEnvironmentDepenencyInjectionIinternalView.swift */,
 				DEF2A5D028A0FF88003FAB67 /* TestNumericFractionByLayout.swift */,
 				8A31092F28925568002AB3CD /* TestCustomAnyViewWrapper.swift */,
+				DED3B61B28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift */,
 				DE328E3328AE54B10083BEB3 /* TestPencilToolPicker.swift */,
 				8A2CF1862883511600ED859E /* TestGradientBorder.swift */,
 				DE88F96928969B65002C2604 /* TestSearchableScrollViewAnimation.swift */,
@@ -1109,6 +1112,7 @@
 				DE240F49284F948300D82EC2 /* TestArcAnimation.swift in Sources */,
 				DE5A195B2835458F008DF951 /* TestScrollViewBouncing.swift in Sources */,
 				DE88F8D42891AD96002C2604 /* TestResetTimerInButton.swift in Sources */,
+				DED3B61C28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift in Sources */,
 				DECEDF612846A5B200457D78 /* TestInjectScenePhaseInModel.swift in Sources */,
 				8A310928288D31A4002AB3CD /* TestColorProgressOnStart.swift in Sources */,
 				DE96BA50286818EC005683AD /* TestTextFieldWordsHighlight.swift in Sources */,
