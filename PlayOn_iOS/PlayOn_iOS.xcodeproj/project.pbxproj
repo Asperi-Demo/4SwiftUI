@@ -193,6 +193,7 @@
 		DECEDFBE2849E75300457D78 /* TestSomeViewFillInScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */; };
 		DED3B5F728B3482000469C6A /* TestOuterFrameHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3B5F628B3482000469C6A /* TestOuterFrameHandling.swift */; };
 		DED3B61C28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3B61B28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift */; };
+		DED3B61E28B62CF400469C6A /* TestBadgeCardAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3B61D28B62CF400469C6A /* TestBadgeCardAlignment.swift */; };
 		DEEFAFCA287473810023FC54 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFAFC9287473810023FC54 /* Color+.swift */; };
 		DEEFAFCC28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFAFCB28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift */; };
 		DEEFB059287870DA0023FC54 /* TestValueLabelWithSliderNob.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */; };
@@ -436,6 +437,7 @@
 		DECEDFBD2849E75300457D78 /* TestSomeViewFillInScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSomeViewFillInScrollView.swift; sourceTree = "<group>"; };
 		DED3B5F628B3482000469C6A /* TestOuterFrameHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOuterFrameHandling.swift; sourceTree = "<group>"; };
 		DED3B61B28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPersonAnnotationOnMap.swift; sourceTree = "<group>"; };
+		DED3B61D28B62CF400469C6A /* TestBadgeCardAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBadgeCardAlignment.swift; sourceTree = "<group>"; };
 		DEEFAFC9287473810023FC54 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		DEEFAFCB28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWButtonKeyboard.swift; sourceTree = "<group>"; };
 		DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestValueLabelWithSliderNob.swift; sourceTree = "<group>"; };
@@ -594,6 +596,7 @@
 				8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */,
 				DEA24C3B28B010DA0005E963 /* TestColorPickerOnButton.swift */,
 				8A1AF7A228B54F9A0032876B /* TestAssingEnumKeypath.swift */,
+				DED3B61D28B62CF400469C6A /* TestBadgeCardAlignment.swift */,
 				DE328DB628A691920083BEB3 /* TestPieProgress.swift */,
 				8ADA2C4C28B62B2000B8D5BB /* TestLazynessOfLazyVStack.swift */,
 				DE4A5E7228A385FD001E472F /* TestDynamicSelectionAlignment.swift */,
@@ -1115,6 +1118,7 @@
 				DE2966432861BE76009F7093 /* TestTransferBindingIntoSheet.swift in Sources */,
 				DE240F49284F948300D82EC2 /* TestArcAnimation.swift in Sources */,
 				DE5A195B2835458F008DF951 /* TestScrollViewBouncing.swift in Sources */,
+				DED3B61E28B62CF400469C6A /* TestBadgeCardAlignment.swift in Sources */,
 				DE88F8D42891AD96002C2604 /* TestResetTimerInButton.swift in Sources */,
 				DED3B61C28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift in Sources */,
 				DECEDF612846A5B200457D78 /* TestInjectScenePhaseInModel.swift in Sources */,
