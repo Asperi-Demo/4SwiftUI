@@ -78,8 +78,16 @@ struct TextBox: View {
         return text
     }
 
+    private var rootAlignment: Alignment {
+        if #available(iOS 16, *) {
+            return Alignment.trailingLastTextBaseline
+        } else {
+            return Alignment(horizontal: .trailing, vertical: .lastTextBaseline)
+        }
+    }
+    
     var body: some View {
-        ZStack(alignment: .trailingLastTextBaseline) {
+        ZStack(alignment: rootAlignment) {
 // 2) to test calculable bounds of Text only
 //            Text(calculate(text, ending, bounds))
             Text(calculate(text, ending, CGRect(origin: .zero, size: size)))
