@@ -40,7 +40,8 @@ struct TextBox: View {
         self.ending = ending
     }
 
-    //
+    // try to detect part of main string that are not overlapped with second
+    // string and cut it explicitly
     func calculate(_ text: String, _ suffix: String, _ bounds: CGRect?) -> String {
         guard let size = bounds?.size else { return text }
         
