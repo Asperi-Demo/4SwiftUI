@@ -80,7 +80,11 @@ struct TextBox: View {
 
     private var rootAlignment: Alignment {
         if #available(iOS 16, *) {
+#if canImport(Charts)
             return Alignment.trailingLastTextBaseline
+#else
+            return Alignment(horizontal: .trailing, vertical: .lastTextBaseline)
+#endif
         } else {
             return Alignment(horizontal: .trailing, vertical: .lastTextBaseline)
         }
