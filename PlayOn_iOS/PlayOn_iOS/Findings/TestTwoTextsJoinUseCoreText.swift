@@ -40,6 +40,17 @@ struct TextBox: View {
         self.ending = ending
     }
 
+    var body: some View {
+        ZStack(alignment: rootAlignment) {
+            Text(calculate(text, ending, CGRect(origin: .zero, size: size)))
+                .multilineTextAlignment(.leading)
+                .frame(maxWidth: .infinity, alignment: .leading)
+            Text(ending)
+                .bold().foregroundColor(.red)
+        }
+        .frame(width: size.width, height: size.height, alignment: .trailing)
+    }
+
     // try to detect part of main string that are not overlapped with second
     // string and cut it explicitly
     func calculate(_ text: String, _ suffix: String, _ bounds: CGRect?) -> String {
@@ -91,7 +102,7 @@ struct TextBox: View {
         }
     }
     
-    var body: some View {
+    var experimental_body: some View {
         ZStack(alignment: rootAlignment) {
 // 2) to test calculable bounds of Text only
 //            Text(calculate(text, ending, bounds))
