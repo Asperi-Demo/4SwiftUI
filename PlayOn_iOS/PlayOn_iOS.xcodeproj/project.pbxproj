@@ -137,6 +137,7 @@
 		DE7DA43D281704020071472E /* TestDragGestureDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA43C281704020071472E /* TestDragGestureDirection.swift */; };
 		DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */; };
 		DE7DA49C28186ABD0071472E /* TestNextTextFieldFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */; };
+		DE88E4DC28B8AD4800C4F64F /* TestAlternateDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88E4DB28B8AD4800C4F64F /* TestAlternateDestinations.swift */; };
 		DE88F882288FC631002C2604 /* TestLazyGridTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F881288FC631002C2604 /* TestLazyGridTransformation.swift */; };
 		DE88F884288FE268002C2604 /* TestButtonActionWhilePressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F883288FE268002C2604 /* TestButtonActionWhilePressed.swift */; };
 		DE88F886289023B6002C2604 /* TestReorderTabItemsPerSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F885289023B6002C2604 /* TestReorderTabItemsPerSelection.swift */; };
@@ -382,6 +383,7 @@
 		DE7DA43C281704020071472E /* TestDragGestureDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragGestureDirection.swift; sourceTree = "<group>"; };
 		DE7DA43E2817BE4F0071472E /* TestPulseColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPulseColorView.swift; sourceTree = "<group>"; };
 		DE7DA49B28186ABD0071472E /* TestNextTextFieldFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNextTextFieldFocus.swift; sourceTree = "<group>"; };
+		DE88E4DB28B8AD4800C4F64F /* TestAlternateDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlternateDestinations.swift; sourceTree = "<group>"; };
 		DE88F881288FC631002C2604 /* TestLazyGridTransformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLazyGridTransformation.swift; sourceTree = "<group>"; };
 		DE88F883288FE268002C2604 /* TestButtonActionWhilePressed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonActionWhilePressed.swift; sourceTree = "<group>"; };
 		DE88F885289023B6002C2604 /* TestReorderTabItemsPerSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReorderTabItemsPerSelection.swift; sourceTree = "<group>"; };
@@ -599,6 +601,7 @@
 				DEA24C3B28B010DA0005E963 /* TestColorPickerOnButton.swift */,
 				8A1AF7A228B54F9A0032876B /* TestAssingEnumKeypath.swift */,
 				DED3B61D28B62CF400469C6A /* TestBadgeCardAlignment.swift */,
+				DE88E4DB28B8AD4800C4F64F /* TestAlternateDestinations.swift */,
 				8A299F0028B73DCE00A1CCC8 /* TestTwoTextsJoinUseCoreText.swift */,
 				DE328DB628A691920083BEB3 /* TestPieProgress.swift */,
 				8ADA2C4C28B62B2000B8D5BB /* TestLazynessOfLazyVStack.swift */,
@@ -1100,6 +1103,7 @@
 				DE1B1A63285A004200FBEE96 /* TestEditModeInForm.swift in Sources */,
 				8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */,
 				DE96BA8C286C06DD005683AD /* TestBoardAlignments.swift in Sources */,
+				DE88E4DC28B8AD4800C4F64F /* TestAlternateDestinations.swift in Sources */,
 				DE1B198428512F5300FBEE96 /* TestTextEditorToFocus.swift in Sources */,
 				8A31092E28925421002AB3CD /* TestColorSelector.swift in Sources */,
 				DE1B1A4D2857B61100FBEE96 /* TestTwoEdiatableLists.swift in Sources */,
