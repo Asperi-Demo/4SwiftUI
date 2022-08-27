@@ -185,6 +185,7 @@
 		DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */; };
 		DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */; };
 		DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */; };
+		DEC7990528B9F11200C5DBC8 /* TestDynamicHeaderOnOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC7990428B9F11200C5DBC8 /* TestDynamicHeaderOnOffset.swift */; };
 		DEC9E6BE2821C7A9001F0A1D /* TestWrappingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */; };
 		DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */; };
 		DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */; };
@@ -431,6 +432,7 @@
 		DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservableInsideObservable.swift; sourceTree = "<group>"; };
 		DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCenterInputInForm.swift; sourceTree = "<group>"; };
 		DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoundedSelectionList.swift; sourceTree = "<group>"; };
+		DEC7990428B9F11200C5DBC8 /* TestDynamicHeaderOnOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDynamicHeaderOnOffset.swift; sourceTree = "<group>"; };
 		DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappingUIView.swift; sourceTree = "<group>"; };
 		DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridNonClip.swift; sourceTree = "<group>"; };
 		DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageRectCornersGet.swift; sourceTree = "<group>"; };
@@ -599,6 +601,7 @@
 				DEF2A5EF28A1483B003FAB67 /* TestListRefreshOnBindingChanged.swift */,
 				8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */,
 				DEA24C3B28B010DA0005E963 /* TestColorPickerOnButton.swift */,
+				DEC7990428B9F11200C5DBC8 /* TestDynamicHeaderOnOffset.swift */,
 				8A1AF7A228B54F9A0032876B /* TestAssingEnumKeypath.swift */,
 				DED3B61D28B62CF400469C6A /* TestBadgeCardAlignment.swift */,
 				DE88E4DB28B8AD4800C4F64F /* TestAlternateDestinations.swift */,
@@ -994,6 +997,7 @@
 				DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */,
 				DE5F367E280173030030FE37 /* ContentView.swift in Sources */,
 				8A310924288B2D02002AB3CD /* TestAnimationForClipShapeInModifier.swift in Sources */,
+				DEC7990528B9F11200C5DBC8 /* TestDynamicHeaderOnOffset.swift in Sources */,
 				DE88F96A28969B65002C2604 /* TestSearchableScrollViewAnimation.swift in Sources */,
 				DEEFB05D28797D700023FC54 /* TestDismissAffectsView.swift in Sources */,
 				DE296609285C434C009F7093 /* TestExternalInternalFocusState.swift in Sources */,
