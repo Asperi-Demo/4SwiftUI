@@ -187,6 +187,7 @@
 		DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */; };
 		DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */; };
 		DEC7990528B9F11200C5DBC8 /* TestDynamicHeaderOnOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC7990428B9F11200C5DBC8 /* TestDynamicHeaderOnOffset.swift */; };
+		DEC7990728BB603B00C5DBC8 /* TestDetectNearestToDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC7990628BB603B00C5DBC8 /* TestDetectNearestToDrag.swift */; };
 		DEC9E6BE2821C7A9001F0A1D /* TestWrappingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */; };
 		DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */; };
 		DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */; };
@@ -435,6 +436,7 @@
 		DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCenterInputInForm.swift; sourceTree = "<group>"; };
 		DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoundedSelectionList.swift; sourceTree = "<group>"; };
 		DEC7990428B9F11200C5DBC8 /* TestDynamicHeaderOnOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDynamicHeaderOnOffset.swift; sourceTree = "<group>"; };
+		DEC7990628BB603B00C5DBC8 /* TestDetectNearestToDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetectNearestToDrag.swift; sourceTree = "<group>"; };
 		DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappingUIView.swift; sourceTree = "<group>"; };
 		DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridNonClip.swift; sourceTree = "<group>"; };
 		DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageRectCornersGet.swift; sourceTree = "<group>"; };
@@ -604,6 +606,7 @@
 				8AF812F328BA4B8100D9CA3F /* TestDisableBuiltInAnimation.swift */,
 				8A2CF182287F47E200ED859E /* TestCustomConfirmationModifier.swift */,
 				DEA24C3B28B010DA0005E963 /* TestColorPickerOnButton.swift */,
+				DEC7990628BB603B00C5DBC8 /* TestDetectNearestToDrag.swift */,
 				DEC7990428B9F11200C5DBC8 /* TestDynamicHeaderOnOffset.swift */,
 				8A1AF7A228B54F9A0032876B /* TestAssingEnumKeypath.swift */,
 				DED3B61D28B62CF400469C6A /* TestBadgeCardAlignment.swift */,
@@ -1094,6 +1097,7 @@
 				DEF72BBC281BAAF1002D978E /* TestCustomShapeStyle.swift in Sources */,
 				DE1B1A602859BD4700FBEE96 /* TestRenewAsyncImageResult.swift in Sources */,
 				DE3D93EF281A5BEB00A2C842 /* Geometry+.swift in Sources */,
+				DEC7990728BB603B00C5DBC8 /* TestDetectNearestToDrag.swift in Sources */,
 				DE96BA4E2867855F005683AD /* Builders.swift in Sources */,
 				DE76E215280AFCFD006EDA5A /* TestDetectListBeginToScroll.swift in Sources */,
 				DEA09378283A68E400AEF697 /* TestControllerRepresentableDirectCall.swift in Sources */,
