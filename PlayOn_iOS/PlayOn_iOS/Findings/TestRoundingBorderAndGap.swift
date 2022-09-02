@@ -8,14 +8,15 @@ import SwiftUI
 
 struct TestRoundingBorderAndGap: View {
 
-	var size: CGFloat = 200
-	var radius: CGFloat = 24
-	var border: CGFloat = 18
-	var gap: CGFloat = 2
+	var size: CGFloat = 200     // << any !!
+	var radius: CGFloat = 24     // << any !!
+	var border: CGFloat = 18     // << any !!
+	var gap: CGFloat = 2     // << any !!
 
 	var body: some View {
 		Image("picture").resizable()
-			.frame(width:size * 1.5, height: size)
+			.frame(width:size * 1.5, height: size)     // << any !!
+		        // below is calculable alignment for corners
 			.clipShape(
 				RoundedRectangle(cornerRadius: radius + border/2 - gap)
 			)
