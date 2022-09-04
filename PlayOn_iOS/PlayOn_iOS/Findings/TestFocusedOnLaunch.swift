@@ -7,7 +7,7 @@
 import SwiftUI
 
 struct TestFocusedOnLaunch: View {
-	@State private var text = "Hello World"
+	@State private var text = "BOYCOTT on russia!"
 
 	enum Value: Hashable {
 		case one
@@ -36,7 +36,7 @@ struct TestFocusedOnLaunch: View {
 			Button {
 				focused = .one
 			} label: {
-				Text("Select")
+				Text("Force Focus")
 			}
 		}
 	}
