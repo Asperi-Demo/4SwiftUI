@@ -180,6 +180,7 @@
 		DEAB536828C28AB700C50151 /* TestRoundingBorderAndGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB536728C28AB700C50151 /* TestRoundingBorderAndGap.swift */; };
 		DEAB536A28C33B6E00C50151 /* TestOverrideFontCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB536928C33B6E00C50151 /* TestOverrideFontCustomView.swift */; };
 		DEAB536C28C47EBB00C50151 /* TestFocusedOnLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB536B28C47EBB00C50151 /* TestFocusedOnLaunch.swift */; };
+		DEAB536E28C4AAA500C50151 /* TestInterpolatedStringMarkDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB536D28C4AAA500C50151 /* TestInterpolatedStringMarkDown.swift */; };
 		DEB68C38283CFBA200507A4F /* document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DEB68C37283CFBA200507A4F /* document.pdf */; };
 		DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */; };
 		DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */; };
@@ -433,6 +434,7 @@
 		DEAB536728C28AB700C50151 /* TestRoundingBorderAndGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoundingBorderAndGap.swift; sourceTree = "<group>"; };
 		DEAB536928C33B6E00C50151 /* TestOverrideFontCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOverrideFontCustomView.swift; sourceTree = "<group>"; };
 		DEAB536B28C47EBB00C50151 /* TestFocusedOnLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFocusedOnLaunch.swift; sourceTree = "<group>"; };
+		DEAB536D28C4AAA500C50151 /* TestInterpolatedStringMarkDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInterpolatedStringMarkDown.swift; sourceTree = "<group>"; };
 		DEB68C37283CFBA200507A4F /* document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = document.pdf; sourceTree = "<group>"; };
 		DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPDFViewNavigation.swift; sourceTree = "<group>"; };
 		DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwitchSecureField.swift; sourceTree = "<group>"; };
@@ -606,6 +608,7 @@
 				8A2A03B12879D79400F33FD8 /* iOS16 */,
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
 				DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */,
+				DEAB536D28C4AAA500C50151 /* TestInterpolatedStringMarkDown.swift */,
 				DE5F379B280545170030FE37 /* TestViewModelTaskBlocking.swift */,
 				DE570614282F7850004014F8 /* TestTextWithURL.swift */,
 				DEB68C41283E23CA00507A4F /* TestBackgroundRendering.swift */,
@@ -1180,6 +1183,7 @@
 				DEF3CA9D288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift in Sources */,
 				DE96BABA286C495B005683AD /* TestTextWithButtonInside.swift in Sources */,
 				DE296636285F2862009F7093 /* TestSegmentedPickerHeight.swift in Sources */,
+				DEAB536E28C4AAA500C50151 /* TestInterpolatedStringMarkDown.swift in Sources */,
 				DEA09387283C12A200AEF697 /* TestMatchedPersonDetailsFromGrid.swift in Sources */,
 				DE5F55B528661FC00074A3F0 /* TestCombiningEnvValues.swift in Sources */,
 				DEA73E3D287401F6007E3D30 /* Swift+.swift in Sources */,
