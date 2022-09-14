@@ -197,6 +197,7 @@
 		DEC9E6BE2821C7A9001F0A1D /* TestWrappingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */; };
 		DEC9E7CA2824CBAD001F0A1D /* TestGridNonClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */; };
 		DEC9E82A28256650001F0A1D /* TestImageRectCornersGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */; };
+		DECC1C9D28D18F72008C6630 /* TestNoViewGenericTypeInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECC1C9C28D18F72008C6630 /* TestNoViewGenericTypeInit.swift */; };
 		DECEDF5F2845F99B00457D78 /* TestAlignmentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */; };
 		DECEDF612846A5B200457D78 /* TestInjectScenePhaseInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */; };
 		DECEDF632846A69C00457D78 /* TestScrollViewRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */; };
@@ -452,6 +453,7 @@
 		DEC9E6BD2821C7A9001F0A1D /* TestWrappingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappingUIView.swift; sourceTree = "<group>"; };
 		DEC9E7C92824CBAD001F0A1D /* TestGridNonClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridNonClip.swift; sourceTree = "<group>"; };
 		DEC9E82928256650001F0A1D /* TestImageRectCornersGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageRectCornersGet.swift; sourceTree = "<group>"; };
+		DECC1C9C28D18F72008C6630 /* TestNoViewGenericTypeInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNoViewGenericTypeInit.swift; sourceTree = "<group>"; };
 		DECEDF5E2845F99B00457D78 /* TestAlignmentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlignmentAnimation.swift; sourceTree = "<group>"; };
 		DECEDF602846A5B200457D78 /* TestInjectScenePhaseInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInjectScenePhaseInModel.swift; sourceTree = "<group>"; };
 		DECEDF622846A69C00457D78 /* TestScrollViewRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollViewRefreshable.swift; sourceTree = "<group>"; };
@@ -609,6 +611,7 @@
 			children = (
 				8A2A03B12879D79400F33FD8 /* iOS16 */,
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
+				DECC1C9C28D18F72008C6630 /* TestNoViewGenericTypeInit.swift */,
 				DEAB538628C79B9B00C50151 /* TestChatMessageBoxAlignment.swift */,
 				DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */,
 				DEAB536D28C4AAA500C50151 /* TestInterpolatedStringMarkDown.swift */,
@@ -1100,6 +1103,7 @@
 				DE1B1A46285637AE00FBEE96 /* TestDataDrivenScreenContruction.swift in Sources */,
 				DE4A5E7328A385FD001E472F /* TestDynamicSelectionAlignment.swift in Sources */,
 				DEA0937D283ABC3800AEF697 /* TestAnimationFromActionForEach.swift in Sources */,
+				DECC1C9D28D18F72008C6630 /* TestNoViewGenericTypeInit.swift in Sources */,
 				DEF3CAC32887142200B26796 /* TestTextUpToBoxLimit.swift in Sources */,
 				DEF2A63328A22C8C003FAB67 /* TestMatchInNavigationView.swift in Sources */,
 				DE5706192830CCB9004014F8 /* TestMasonry.swift in Sources */,
