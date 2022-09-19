@@ -182,6 +182,7 @@
 		DEAB536C28C47EBB00C50151 /* TestFocusedOnLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB536B28C47EBB00C50151 /* TestFocusedOnLaunch.swift */; };
 		DEAB536E28C4AAA500C50151 /* TestInterpolatedStringMarkDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB536D28C4AAA500C50151 /* TestInterpolatedStringMarkDown.swift */; };
 		DEAB538728C79B9B00C50151 /* TestChatMessageBoxAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB538628C79B9B00C50151 /* TestChatMessageBoxAlignment.swift */; };
+		DEB5718B28D8B578003D3F50 /* TestCustomButtonHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5718A28D8B578003D3F50 /* TestCustomButtonHighlight.swift */; };
 		DEB68C38283CFBA200507A4F /* document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DEB68C37283CFBA200507A4F /* document.pdf */; };
 		DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */; };
 		DEB68C40283E11A600507A4F /* TestSwitchSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */; };
@@ -438,6 +439,7 @@
 		DEAB536B28C47EBB00C50151 /* TestFocusedOnLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFocusedOnLaunch.swift; sourceTree = "<group>"; };
 		DEAB536D28C4AAA500C50151 /* TestInterpolatedStringMarkDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInterpolatedStringMarkDown.swift; sourceTree = "<group>"; };
 		DEAB538628C79B9B00C50151 /* TestChatMessageBoxAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChatMessageBoxAlignment.swift; sourceTree = "<group>"; };
+		DEB5718A28D8B578003D3F50 /* TestCustomButtonHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomButtonHighlight.swift; sourceTree = "<group>"; };
 		DEB68C37283CFBA200507A4F /* document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = document.pdf; sourceTree = "<group>"; };
 		DEB68C39283CFEDE00507A4F /* TestPDFViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPDFViewNavigation.swift; sourceTree = "<group>"; };
 		DEB68C3F283E11A600507A4F /* TestSwitchSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwitchSecureField.swift; sourceTree = "<group>"; };
@@ -611,6 +613,7 @@
 			children = (
 				8A2A03B12879D79400F33FD8 /* iOS16 */,
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
+				DEB5718A28D8B578003D3F50 /* TestCustomButtonHighlight.swift */,
 				DECC1C9C28D18F72008C6630 /* TestNoViewGenericTypeInit.swift */,
 				DEAB538628C79B9B00C50151 /* TestChatMessageBoxAlignment.swift */,
 				DE5F36ED2803FD840030FE37 /* TestRotatingLineAndLabel.swift */,
@@ -979,6 +982,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF2A5D128A0FF88003FAB67 /* TestNumericFractionByLayout.swift in Sources */,
+				DEB5718B28D8B578003D3F50 /* TestCustomButtonHighlight.swift in Sources */,
 				DE5F379C280545170030FE37 /* TestViewModelTaskBlocking.swift in Sources */,
 				DE1B1A3E2854560500FBEE96 /* TestTestFieldAttributedString.swift in Sources */,
 				DE296630285D9D1F009F7093 /* TestUnlimitedScrollView.swift in Sources */,
