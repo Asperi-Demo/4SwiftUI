@@ -13,6 +13,9 @@
          <FileRef
             location = "group:DeferView.swift">
          </FileRef>
+         <FileRef
+            location = "group:ModalView.swift">
+         </FileRef>
       </Group>
    </Group>
    <FileRef

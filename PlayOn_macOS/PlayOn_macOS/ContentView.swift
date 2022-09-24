@@ -10,7 +10,7 @@ struct ContentView: View {
 	var body: some View {
 		// Replace this with specific Test* module from Findings
 		// to run specific problem demo/solution
-		EmptyView()
+		MainView()
 	}
 }
 
@@ -18,4 +18,21 @@ struct ContentView_Previews: PreviewProvider {
 	static var previews: some View {
 		ContentView()
 	}
+}
+
+struct MainView: View {
+    var body: some View {
+          ChildView()
+        #if os(macOS)
+             .frame(width: 320)
+        #endif
+    }
+}
+
+struct ChildView: View {
+    var body: some View {
+        HStack {
+           Text("Test")
+        }
+    }
 }
