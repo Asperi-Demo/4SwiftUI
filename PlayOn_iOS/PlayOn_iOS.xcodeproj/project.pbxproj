@@ -39,6 +39,7 @@
 		8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E4283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift */; };
 		8AF3D8E728437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E628437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift */; };
 		8AF812F428BA4B8100D9CA3F /* TestDisableBuiltInAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF812F328BA4B8100D9CA3F /* TestDisableBuiltInAnimation.swift */; };
+		DE0D8BAB28E058D50092ABB1 /* TestMenuIgnoreSafeKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D8BAA28E058D50092ABB1 /* TestMenuIgnoreSafeKeyboard.swift */; };
 		DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0F428115E59000FF004 /* TestWays4DynamicMemberLookup.swift */; };
 		DE0DD0F928128735000FF004 /* TestConvenienceInitWithConstrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */; };
 		DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */; };
@@ -291,6 +292,7 @@
 		8AF3D8E4283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldModifierErrors.swift; sourceTree = "<group>"; };
 		8AF3D8E628437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomToolbarItemFitFrame.swift; sourceTree = "<group>"; };
 		8AF812F328BA4B8100D9CA3F /* TestDisableBuiltInAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDisableBuiltInAnimation.swift; sourceTree = "<group>"; };
+		DE0D8BAA28E058D50092ABB1 /* TestMenuIgnoreSafeKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMenuIgnoreSafeKeyboard.swift; sourceTree = "<group>"; };
 		DE0DD0F428115E59000FF004 /* TestWays4DynamicMemberLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWays4DynamicMemberLookup.swift; sourceTree = "<group>"; };
 		DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConvenienceInitWithConstrains.swift; sourceTree = "<group>"; };
 		DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReversingScaleAnimation.swift; sourceTree = "<group>"; };
@@ -613,6 +615,7 @@
 			children = (
 				8A2A03B12879D79400F33FD8 /* iOS16 */,
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
+				DE0D8BAA28E058D50092ABB1 /* TestMenuIgnoreSafeKeyboard.swift */,
 				DEB5718A28D8B578003D3F50 /* TestCustomButtonHighlight.swift */,
 				DECC1C9C28D18F72008C6630 /* TestNoViewGenericTypeInit.swift */,
 				DEAB538628C79B9B00C50151 /* TestChatMessageBoxAlignment.swift */,
@@ -1037,6 +1040,7 @@
 				DE5F55B7286622FF0074A3F0 /* Constants.swift in Sources */,
 				8A2CF1892886035700ED859E /* TestBackgroundTaskWithLegacyOSSupport.swift in Sources */,
 				DE5A18E828341C1B008DF951 /* TestCustomModal.swift in Sources */,
+				DE0D8BAB28E058D50092ABB1 /* TestMenuIgnoreSafeKeyboard.swift in Sources */,
 				DE96BABC286C893B005683AD /* Section+.swift in Sources */,
 				DEB68C3A283CFEDE00507A4F /* TestPDFViewNavigation.swift in Sources */,
 				DE492ECB284333FC009C434F /* TestTapableTextOnAnimate.swift in Sources */,
