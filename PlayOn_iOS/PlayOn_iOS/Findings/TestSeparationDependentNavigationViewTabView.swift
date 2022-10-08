@@ -35,16 +35,24 @@ struct TestSeparationDependentNavigationViewTabView: View {
             .accentColor(.red)
             
             NavigationView {
-                if selection == 1 {
-                    view1
-                } else {
-                    view2
+                Group {
+                   if selection == 1 {
+                     view1
+                   } else {
+                     view2
+                   }
+                }
+                .onAppear {
+                   tabBarVisible = true // << new variant !!
                 }
             }
             .frame(maxHeight: tabBarVisible ? height : .infinity)
             .frame(maxHeight: .infinity, alignment: .top)
             .onChange(of: linkedTag) { tag in
-                tabBarVisible = tag == nil
+                if tag != nil {
+                   tabBarVisible = false  // << new variant !!
+                }
+                // tabBarVisible = tag == nil    // << old variant
             }
         }
     }
