@@ -208,6 +208,7 @@
 		DED3B5F728B3482000469C6A /* TestOuterFrameHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3B5F628B3482000469C6A /* TestOuterFrameHandling.swift */; };
 		DED3B61C28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3B61B28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift */; };
 		DED3B61E28B62CF400469C6A /* TestBadgeCardAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3B61D28B62CF400469C6A /* TestBadgeCardAlignment.swift */; };
+		DED5384528FE6D00000AA92E /* TestContinuousAnimationStartStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5384428FE6D00000AA92E /* TestContinuousAnimationStartStop.swift */; };
 		DEEFAFCA287473810023FC54 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFAFC9287473810023FC54 /* Color+.swift */; };
 		DEEFAFCC28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFAFCB28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift */; };
 		DEEFB059287870DA0023FC54 /* TestValueLabelWithSliderNob.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */; };
@@ -466,6 +467,7 @@
 		DED3B5F628B3482000469C6A /* TestOuterFrameHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOuterFrameHandling.swift; sourceTree = "<group>"; };
 		DED3B61B28B5EEF200469C6A /* TestPersonAnnotationOnMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPersonAnnotationOnMap.swift; sourceTree = "<group>"; };
 		DED3B61D28B62CF400469C6A /* TestBadgeCardAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBadgeCardAlignment.swift; sourceTree = "<group>"; };
+		DED5384428FE6D00000AA92E /* TestContinuousAnimationStartStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContinuousAnimationStartStop.swift; sourceTree = "<group>"; };
 		DEEFAFC9287473810023FC54 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		DEEFAFCB28748FBE0023FC54 /* TestTextFieldWButtonKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWButtonKeyboard.swift; sourceTree = "<group>"; };
 		DEEFB058287870DA0023FC54 /* TestValueLabelWithSliderNob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestValueLabelWithSliderNob.swift; sourceTree = "<group>"; };
@@ -615,6 +617,7 @@
 			children = (
 				8A2A03B12879D79400F33FD8 /* iOS16 */,
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
+				DED5384428FE6D00000AA92E /* TestContinuousAnimationStartStop.swift */,
 				DE0D8BAA28E058D50092ABB1 /* TestMenuIgnoreSafeKeyboard.swift */,
 				DEB5718A28D8B578003D3F50 /* TestCustomButtonHighlight.swift */,
 				DECC1C9C28D18F72008C6630 /* TestNoViewGenericTypeInit.swift */,
@@ -1120,6 +1123,7 @@
 				DEF88212284B06130039F5B1 /* TestInternalTypeModifiers.swift in Sources */,
 				DE570615282F7850004014F8 /* TestTextWithURL.swift in Sources */,
 				DE1A4329282AAA360026319F /* Binding+.swift in Sources */,
+				DED5384528FE6D00000AA92E /* TestContinuousAnimationStartStop.swift in Sources */,
 				DEA73DFB2871B397007E3D30 /* TestAnchorPrefInDictionary.swift in Sources */,
 				8ADA2C4D28B62B2000B8D5BB /* TestLazynessOfLazyVStack.swift in Sources */,
 				DE296632285E4FAB009F7093 /* TestMenuSortOrderChange.swift in Sources */,
