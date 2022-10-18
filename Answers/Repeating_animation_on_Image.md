@@ -30,7 +30,7 @@ struct PeopleList : View {
             if showProgress {
                 Image(systemName: "arrow.2.circlepath")
                     .rotationEffect(Angle(degrees: self.isAnimating ? 360 : 0.0))
-                    .animation(self.isAnimating ? foreverAnimation : .default)
+                    .animation(self.isAnimating ? foreverAnimation : .default, value: self.isAnimating) // << update !!
                     .onAppear { self.isAnimating = true }
                     .onDisappear { self.isAnimating = false }
             } else {
