@@ -39,6 +39,7 @@
 		8AF3D8E5283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E4283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift */; };
 		8AF3D8E728437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3D8E628437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift */; };
 		8AF812F428BA4B8100D9CA3F /* TestDisableBuiltInAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF812F328BA4B8100D9CA3F /* TestDisableBuiltInAnimation.swift */; };
+		DE0A331129054EB0000ABA7F /* TestRasterImageInTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A331029054EB0000ABA7F /* TestRasterImageInTabItem.swift */; };
 		DE0D8BAB28E058D50092ABB1 /* TestMenuIgnoreSafeKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D8BAA28E058D50092ABB1 /* TestMenuIgnoreSafeKeyboard.swift */; };
 		DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0F428115E59000FF004 /* TestWays4DynamicMemberLookup.swift */; };
 		DE0DD0F928128735000FF004 /* TestConvenienceInitWithConstrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */; };
@@ -293,6 +294,7 @@
 		8AF3D8E4283CE6DE00ED89D3 /* TestTextFieldModifierErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldModifierErrors.swift; sourceTree = "<group>"; };
 		8AF3D8E628437A3100ED89D3 /* TestCustomToolbarItemFitFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomToolbarItemFitFrame.swift; sourceTree = "<group>"; };
 		8AF812F328BA4B8100D9CA3F /* TestDisableBuiltInAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDisableBuiltInAnimation.swift; sourceTree = "<group>"; };
+		DE0A331029054EB0000ABA7F /* TestRasterImageInTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRasterImageInTabItem.swift; sourceTree = "<group>"; };
 		DE0D8BAA28E058D50092ABB1 /* TestMenuIgnoreSafeKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMenuIgnoreSafeKeyboard.swift; sourceTree = "<group>"; };
 		DE0DD0F428115E59000FF004 /* TestWays4DynamicMemberLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWays4DynamicMemberLookup.swift; sourceTree = "<group>"; };
 		DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConvenienceInitWithConstrains.swift; sourceTree = "<group>"; };
@@ -617,6 +619,7 @@
 			children = (
 				8A2A03B12879D79400F33FD8 /* iOS16 */,
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
+				DE0A331029054EB0000ABA7F /* TestRasterImageInTabItem.swift */,
 				DED5384428FE6D00000AA92E /* TestContinuousAnimationStartStop.swift */,
 				DE0D8BAA28E058D50092ABB1 /* TestMenuIgnoreSafeKeyboard.swift */,
 				DEB5718A28D8B578003D3F50 /* TestCustomButtonHighlight.swift */,
@@ -1198,6 +1201,7 @@
 				DE5A196C283567CD008DF951 /* TestTextFieldMoveFocus.swift in Sources */,
 				DE240F7A2850DE3900D82EC2 /* TestPanoramaImageView.swift in Sources */,
 				DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */,
+				DE0A331129054EB0000ABA7F /* TestRasterImageInTabItem.swift in Sources */,
 				8A1AF7A328B54F9A0032876B /* TestAssingEnumKeypath.swift in Sources */,
 				DE7DA43F2817BE4F0071472E /* TestPulseColorView.swift in Sources */,
 				DEF3CA9D288071DD00B26796 /* TestForDrawingGroupOnAnimation.swift in Sources */,
