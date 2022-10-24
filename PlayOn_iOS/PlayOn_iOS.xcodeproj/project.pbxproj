@@ -192,6 +192,7 @@
 		DEB68C44283F3CA800507A4F /* TestColorShemeForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C43283F3CA800507A4F /* TestColorShemeForView.swift */; };
 		DEB68C46283F46D400507A4F /* TestDropCancellingIntercept.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C45283F46D400507A4F /* TestDropCancellingIntercept.swift */; };
 		DEB68C4828400D6300507A4F /* TestGradientProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB68C4728400D6300507A4F /* TestGradientProgressView.swift */; };
+		DEB70F70290637E700386A8A /* TestExtraSpaceInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB70F6F290637E700386A8A /* TestExtraSpaceInList.swift */; };
 		DEC69D1328374ABB00E70BB9 /* TestObservableInsideObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */; };
 		DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */; };
 		DEC69D192838FE2900E70BB9 /* TestRoundedSelectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */; };
@@ -452,6 +453,7 @@
 		DEB68C43283F3CA800507A4F /* TestColorShemeForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorShemeForView.swift; sourceTree = "<group>"; };
 		DEB68C45283F46D400507A4F /* TestDropCancellingIntercept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDropCancellingIntercept.swift; sourceTree = "<group>"; };
 		DEB68C4728400D6300507A4F /* TestGradientProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGradientProgressView.swift; sourceTree = "<group>"; };
+		DEB70F6F290637E700386A8A /* TestExtraSpaceInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtraSpaceInList.swift; sourceTree = "<group>"; };
 		DEC69D1228374ABB00E70BB9 /* TestObservableInsideObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObservableInsideObservable.swift; sourceTree = "<group>"; };
 		DEC69D142838A9C900E70BB9 /* TestCenterInputInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCenterInputInForm.swift; sourceTree = "<group>"; };
 		DEC69D182838FE2900E70BB9 /* TestRoundedSelectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoundedSelectionList.swift; sourceTree = "<group>"; };
@@ -619,6 +621,7 @@
 			children = (
 				8A2A03B12879D79400F33FD8 /* iOS16 */,
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
+				DEB70F6F290637E700386A8A /* TestExtraSpaceInList.swift */,
 				DE0A331029054EB0000ABA7F /* TestRasterImageInTabItem.swift */,
 				DED5384428FE6D00000AA92E /* TestContinuousAnimationStartStop.swift */,
 				DE0D8BAA28E058D50092ABB1 /* TestMenuIgnoreSafeKeyboard.swift */,
@@ -1110,6 +1113,7 @@
 				DE4A5E6A28A2B612001E472F /* TestShapeStyleHolder.swift in Sources */,
 				DE0DD0F528115E59000FF004 /* TestWays4DynamicMemberLookup.swift in Sources */,
 				DEAB536C28C47EBB00C50151 /* TestFocusedOnLaunch.swift in Sources */,
+				DEB70F70290637E700386A8A /* TestExtraSpaceInList.swift in Sources */,
 				DEC69D152838A9C900E70BB9 /* TestCenterInputInForm.swift in Sources */,
 				DEF8829F284F1C790039F5B1 /* TestBackgroundInHalfSheet.swift in Sources */,
 				DE76E213280AE709006EDA5A /* View+.swift in Sources */,
