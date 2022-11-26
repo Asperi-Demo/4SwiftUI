@@ -36,6 +36,7 @@ struct TestPositionAtAnchor: View {
 			}
 			.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
 		}
+		.animation(.default, value: anchor)
     }
 }
 
