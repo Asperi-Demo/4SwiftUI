@@ -45,6 +45,7 @@
 		DE0DD0F928128735000FF004 /* TestConvenienceInitWithConstrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */; };
 		DE0DD0FD281326BA000FF004 /* TestReversingScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */; };
 		DE0DD0FF2813BDB5000FF004 /* TestColorFadeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DD0FE2813BDB5000FF004 /* TestColorFadeEffect.swift */; };
+		DE11689C29321DC8007CD340 /* TestPositionAtAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE11689B29321DC8007CD340 /* TestPositionAtAnchor.swift */; };
 		DE1A42C8282A29E20026319F /* TestDragDropInGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A42C7282A29E20026319F /* TestDragDropInGrid.swift */; };
 		DE1A4329282AAA360026319F /* Binding+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A4328282AAA360026319F /* Binding+.swift */; };
 		DE1B19822850F04700FBEE96 /* TestEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B19812850F04700FBEE96 /* TestEmitterView.swift */; };
@@ -301,6 +302,7 @@
 		DE0DD0F828128735000FF004 /* TestConvenienceInitWithConstrains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConvenienceInitWithConstrains.swift; sourceTree = "<group>"; };
 		DE0DD0FC281326BA000FF004 /* TestReversingScaleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReversingScaleAnimation.swift; sourceTree = "<group>"; };
 		DE0DD0FE2813BDB5000FF004 /* TestColorFadeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorFadeEffect.swift; sourceTree = "<group>"; };
+		DE11689B29321DC8007CD340 /* TestPositionAtAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPositionAtAnchor.swift; sourceTree = "<group>"; };
 		DE1A42C7282A29E20026319F /* TestDragDropInGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDragDropInGrid.swift; sourceTree = "<group>"; };
 		DE1A4328282AAA360026319F /* Binding+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+.swift"; sourceTree = "<group>"; };
 		DE1B19812850F04700FBEE96 /* TestEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEmitterView.swift; sourceTree = "<group>"; };
@@ -621,6 +623,7 @@
 			children = (
 				8A2A03B12879D79400F33FD8 /* iOS16 */,
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
+				DE11689B29321DC8007CD340 /* TestPositionAtAnchor.swift */,
 				DEB70F6F290637E700386A8A /* TestExtraSpaceInList.swift */,
 				DE0A331029054EB0000ABA7F /* TestRasterImageInTabItem.swift */,
 				DED5384428FE6D00000AA92E /* TestContinuousAnimationStartStop.swift */,
@@ -1217,6 +1220,7 @@
 				DEA73E3D287401F6007E3D30 /* Swift+.swift in Sources */,
 				DE96BA5628696771005683AD /* TestGeometryEffectOnPickerSelection.swift in Sources */,
 				DE7DA3E42815B2480071472E /* TestCustomButtonInList.swift in Sources */,
+				DE11689C29321DC8007CD340 /* TestPositionAtAnchor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
