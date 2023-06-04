@@ -152,6 +152,7 @@
 		DE88F8D62891B7C3002C2604 /* TestSeparatedTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F8D52891B7C3002C2604 /* TestSeparatedTransitions.swift */; };
 		DE88F96828941615002C2604 /* TestInjectingAlertInPickerChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F96728941615002C2604 /* TestInjectingAlertInPickerChanges.swift */; };
 		DE88F96A28969B65002C2604 /* TestSearchableScrollViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88F96928969B65002C2604 /* TestSearchableScrollViewAnimation.swift */; };
+		DE91A8002A2C7C7600EBC28F /* TestSquareHoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91A7FF2A2C7C7600EBC28F /* TestSquareHoleView.swift */; };
 		DE96BA4E2867855F005683AD /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4D2867855F005683AD /* Builders.swift */; };
 		DE96BA50286818EC005683AD /* TestTextFieldWordsHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */; };
 		DE96BA5228681B61005683AD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96BA5128681B61005683AD /* Functions.swift */; };
@@ -415,6 +416,7 @@
 		DE88F8D52891B7C3002C2604 /* TestSeparatedTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSeparatedTransitions.swift; sourceTree = "<group>"; };
 		DE88F96728941615002C2604 /* TestInjectingAlertInPickerChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInjectingAlertInPickerChanges.swift; sourceTree = "<group>"; };
 		DE88F96928969B65002C2604 /* TestSearchableScrollViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchableScrollViewAnimation.swift; sourceTree = "<group>"; };
+		DE91A7FF2A2C7C7600EBC28F /* TestSquareHoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSquareHoleView.swift; sourceTree = "<group>"; };
 		DE96BA4D2867855F005683AD /* Builders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builders.swift; sourceTree = "<group>"; };
 		DE96BA4F286818EC005683AD /* TestTextFieldWordsHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldWordsHighlight.swift; sourceTree = "<group>"; };
 		DE96BA5128681B61005683AD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -625,6 +627,7 @@
 			children = (
 				8A2A03B12879D79400F33FD8 /* iOS16 */,
 				DE5F36E92802AB930030FE37 /* TestAlignWithCertainVStack.swift */,
+				DE91A7FF2A2C7C7600EBC28F /* TestSquareHoleView.swift */,
 				DE161B512998D2DC008AAD4A /* TestBlendDestinationOutAsMask.swift */,
 				DE11689B29321DC8007CD340 /* TestPositionAtAnchor.swift */,
 				DEB70F6F290637E700386A8A /* TestExtraSpaceInList.swift */,
@@ -1183,6 +1186,7 @@
 				DE76E20D28094B15006EDA5A /* Button+.swift in Sources */,
 				DE328E1C28AA8DC50083BEB3 /* TestFlexibleStickyHeader.swift in Sources */,
 				DE76E21B280BE890006EDA5A /* TestFixedStateButtonStyle.swift in Sources */,
+				DE91A8002A2C7C7600EBC28F /* TestSquareHoleView.swift in Sources */,
 				8AEA7AED2852013A000C3AF5 /* TestGridView.swift in Sources */,
 				DE7DA43D281704020071472E /* TestDragGestureDirection.swift in Sources */,
 				DEA73E3F28745CD4007E3D30 /* TestAnimatableBinding.swift in Sources */,
